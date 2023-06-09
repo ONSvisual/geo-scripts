@@ -1,0 +1,7 @@
+node_modules/
+/input/*
+!/input/boundaries/uk22_buc.json.gz
+/temp/*
+/output/*
+/config/ss/
+/scripts/ss/

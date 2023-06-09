@@ -1,0 +1,27 @@
+{
+  "name": "geo-processing",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download-files": "node ./scripts/download-files.js",
+    "make-lookups": "node ./scripts/make-lookups.js",
+    "make-geos": "node ./scripts/make-geos.js",
+    "make-vtiles": "node ./scripts/make-vtiles.js",
+    "make-oa-vtiles-lookups": "node ./scripts/make-oa-vtiles-lookups.js",
+    "make-oa-vtiles": "node ./scripts/make-oa-vtiles.js",
+    "zip-vtiles": "node ./scripts/zip-vtiles.js"
+  },
+  "author": "Ahmad Barclay",
+  "license": "MIT",
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "d3-dsv": "^3.0.1",
+    "line-by-line": "^0.1.6",
+    "mapshaper": "^0.6.29",
+    "polylabel": "^1.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "type": "module"
+}
