@@ -47,11 +47,13 @@ This script merges together the downloaded lookups, along with auxilliary lookup
 
 This script generates the geography files required for **Census maps** (in the `/output/cm-geos` folder), and a common format shared by **Build a custom area profile** and the **Area hub** pages (in the `/output/geos` folder). It also generates name/code list CSVs for the latter two products in the `/output` folder. The config can be found at `/config/geo-config.js`.
 
+An example geo file for Census maps can be [found here](). And example file for the other products can be [found here]().
+
 *Note: The .json output files are actually gzipped, so cannot be opened directly. If you want to inspect their contents, you need to add .gz to their filename, and then gunzip them.*
 
 ### make-vtiles
 
-This script generates vector tiles for the most commonly used smaller geography types, including local authorities, wards and statistical geographies. The output is in the form of .mbtiles files, written to the `/output/vtiles` folder. The config can be found at `/config/vtiles-config.js`.
+This script generates vector tiles for the most commonly used smaller geography types, including local authorities, wards and statistical geographies. The output is in the form of .mbtiles files, written to the `/output/vtiles` folder. The config can be found at `/config/vtiles-config.js`. ([Example output](https://stevage.github.io/vector-inspector/#?url=https://cdn.ons.gov.uk/maptiles/administrative/2023/authorities-all/v1/boundaries/8/127/83.pbf&loc=9/51.504/-0.1119)).
 
 The vector tiles can be previewed by installing [tileserver-gl-light](https://www.npmjs.com/package/tileserver-gl-light) and running the following command for the specific file you want to preview:
 
@@ -61,7 +63,7 @@ tileserver-gl-light ./output/vtiles/{file}.mbtiles
 
 ### make-oa-vtiles-lookups & make-oa-vtiles
 
-These two scripts are used in sequence to generate vector tiles for output areas suitable for both high and low zoom levels, specifically designed for use in **Build a custom area profile**.
+These two scripts are used in sequence to generate vector tiles for output areas suitable for both high and low zoom levels, specifically designed for use in **Build a custom area profile**. ([Example output](https://stevage.github.io/vector-inspector/#?url=https://cdn.ons.gov.uk/maptiles/administrative/2021/oa/v3/boundaries/8/127/83.pbf&loc=9/51.504/-0.1119)).
 
 Whereas Tippecanoe is capable of merging together small areas to cater to lower zoom levels, these scripts explicitly merge the smallest OAs into their LSOA and MSOA parents, which is preferable both visually and in terms of the functionality of the above product.
 
@@ -81,7 +83,7 @@ All of the config files for these scripts can be found within the `/config` fold
 
 ## Updating the config files
 
-It should be possible to add additional geographies or years by modifying the config files, without the need to edit the script files.
+It should be possible to add additional geographies or years by modifying the config files, without the need to edit the script files. You will typically need to add multiple entries to `/config/source-files.js` (oa/parent lookups, names and boundaries) for each new geography/year, as well as updating the `/config/geo-config.js` and `/config/vtiles-config.js` files.
 
 ## Editing the scripts
 
