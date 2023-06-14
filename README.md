@@ -6,8 +6,8 @@ The scripts generate the following output file types:
 
 - JSON files (per area) with geometry, metadata and parent/child relationships for individual areas.
 - Lookups from Census 2021 Output Areas to larger geographic areas.
+- CSV tables of codes and names for area search/select in the above products.
 - Vector tiles for various geography types.
-- CSV tables of codes and names for .
 
 ## System requirements
 
