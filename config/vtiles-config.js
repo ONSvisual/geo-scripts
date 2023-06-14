@@ -20,6 +20,14 @@ export default [
     minzoom: 4
   },
   {
+    key: "sen",
+    year: 2022,
+    sources: [
+      {key: "sener", layer: "region", year: 2022},
+      {key: "senc", layer: "constituency", year: 2022}
+    ]
+  },
+  {
     key: "wd",
     year: 2022,
     minzoom: 6

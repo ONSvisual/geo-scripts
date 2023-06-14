@@ -1,17 +1,16 @@
-import { readFileSync, writeFileSync, existsSync, mkdirSync, createReadStream, createWriteStream } from "fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, createReadStream, createWriteStream, unlinkSync } from "fs";
 import zlib from "zlib";
 import readline from "line-by-line";
-import { bbox, area } from "@turf/turf";
+import { bbox, area, bboxPolygon, booleanPointInPolygon } from "@turf/turf";
 import polylabel from "polylabel";
-import { csvFormat } from "d3-dsv";
-import { csvParse, run } from "./utils.js";
+import { readGzip, writeGzip, csvParse } from "./utils.js";
 import geos from "../config/geo-config.js";
 import types from "../config//geo-types.js";
 
 const dirs = ["geos", "cm-geos"];
-const lists = {ap: [], cp: []};
 
-let all_areas = true;
+let geo_years;
+let geo_features;
 
 function roundAll(arr, decimals) {
   let newarr = [];
@@ -32,7 +31,15 @@ function round(num, dp) {
   return Math.round(num * multiplier) / multiplier;
 }
 
-function findPolylabel(feature){
+function propsToNames(props) {
+  const newprops = {areacd: props.areacd};
+  for (const key of ["areanm", "areanmw", "hclnm", "hclnmw"]) {
+    if (props.areanm) newprops.areanm = props.areanm;
+  }
+  return newprops;
+}
+
+function findPolylabel(feature) {
   let output = [];
   if (feature.geometry.type === "Polygon"){
     output = polylabel(feature.geometry.coordinates);
@@ -55,14 +62,17 @@ function findPolylabel(feature){
 function getParents(lookup, code, parents = []) {
   let parentcd = lookup[code]?.parentcd;
   if (parentcd) {
-    let parent = {areacd: parentcd, areanm: lookup[parentcd].areanm};
-    if (lookup[parentcd].areanmw) parent.areanmw = lookup[parentcd].areanmw;
-    if (lookup[parentcd].hclnm) parent.hclnm = lookup[parentcd].hclnm;
-    if (lookup[parentcd].hclnmw) parent.hclnmw = lookup[parentcd].hclnmw;
+    let parent = propsToNames(lookup[parentcd]);
     return getParents(lookup, parentcd, [...parents, parent]);
   } else {
     return parents;
   }
+}
+
+function getChildren(lookup_data, code) {
+  let children = lookup_data.filter(d => d.parentcd == code);
+  return children.map(child => propsToNames(child))
+    .sort((a, b) => a.areacd.localeCompare(b.areacd));
 }
 
 function makeNomisParentLookup() {
@@ -71,11 +81,11 @@ function makeNomisParentLookup() {
   const data = csvParse(data_raw);
   const lookup = {};
   const counts = {};
-  for (let d of data) {
+  for (const d of data) {
     lookup[d.oa21cd] = d;
     for (let key of ["lsoa21cd", "msoa21cd", "ltla22cd"]) {
-      if (!counts[d[key]]) counts[d[key]] = 1;
-      else counts[d[key]] ++;
+      if (!counts[d[key]]) counts[d[key]] = 0;
+      counts[d[key]] ++;
     }
   }
   return {lookup, counts};
@@ -86,27 +96,22 @@ function getNomisCodes(oa_lkp, pt_lkp, code) {
   if (["E92", "W92", "E12", "E00", "W00"].includes(code.slice(0, 3))) return [code];
   let oas = oa_lkp.filter(d => d.parentcd === code).map(d => pt_lkp.lookup[d.areacd]);
   const codes = [];
-  for (let i = 0; i < oas.length; i ++) {
-    const oa = oas[i];
+  while (oas.length > 0) {
+    const oa = oas[0];
+    let found = false;
     for (let key of ["ltla22cd", "msoa21cd", "lsoa21cd"]) {
       if (!codes.includes[oa[key]]) {
         if (oas.filter(d => d[key] === oa[key]).length === pt_lkp.counts[oa[key]]) {
           codes.push(oa[key]);
           oas = oas.filter(d => d[key] !== oa[key]);
+          found = true;
           break;
         }
       }
     }
+    if (!found) codes.push(oas.shift().oa21cd);
   }
-  return codes;
-}
-
-function writeGzip(path, data) {
-  var output = createWriteStream(path);
-  var gzip = zlib.createGzip();
-  gzip.pipe(output);
-  gzip.write(data);
-  gzip.end();
+  return codes.sort((a, b) => a.localeCompare(b));
 }
 
 function makeGeo(geo, year, lookup_data, lookup, pt_lookup) {
@@ -129,26 +134,18 @@ function makeGeo(geo, year, lookup_data, lookup, pt_lookup) {
       const typecd = areacd.slice(0, 3);
       const dir = `./output/geos/${typecd}`;
       const path = `${dir}/${areacd}.json`;
+      geo_years[areacd] = year;
+
       if (!existsSync(path) && (!geo.filter || geo.filter.includes(areacd[0]))) {
         // Make simple props
-        const props = {areacd};
         const lkp = lookup[areacd];
-        if (lkp) {
-          ["areanm", "areanmw", "hclnm", "hclnmw"].forEach(key => {
-            if (lkp[key]) props[key] = lkp[key];
-          });
-        } else {
-          props.areanm = feature.properties.areanm;
-          if (feature.properties.areanmw) props.areanmw = feature.properties.areanmw;
-        }
-        
+        const props = propsToNames(lkp);
+
+        // Add additional props
         props.groupcd = geo.key;
         props.groupnm = geo.label;
         props.typecd = typecd;
         props.typenm = types[props.typecd] ? types[props.typecd] : geo.label;
-        if (lkp?.change) props.expired = lkp.change;
-        else if (year !== geo.years[geo.years.length - 1]) props.expired = geo.years[geo.years.indexOf(year) + 1];
-        if (lkp?.successor) props.successor = lkp.successor;
         if (lkp?.km2_extent) props.area_km2 = {
           extent: lkp.km2_extent,
           clipped: lkp.km2_clipped,
@@ -160,18 +157,30 @@ function makeGeo(geo, year, lookup_data, lookup, pt_lookup) {
         props.bounds = bbox(feature.geometry);
         props.centroid = roundAll(findPolylabel(feature), dp);
 
+        if (year !== geo.years[geo.years.length - 1]) {
+          props.end = year;
+          // Find successor geography
+          const point = {type: "Point", coordinates: props.centroid};
+          const candidates = geo_features.filter(f => booleanPointInPolygon(point, f) && f.properties.year > year);
+          for (const candidate of candidates) {
+            const cd = candidate.properties.areacd;
+            const c_path = `./output/geos/${cd.slice(0, 3)}/${cd}.json`;
+            const c_geo = JSON.parse(readGzip(c_path));
+            if (booleanPointInPolygon(point, c_geo)) {
+              props.successor = propsToNames(lookup[cd]);
+              c_geo.properties.replaces = c_geo.properties.replaces ?
+                [...c_geo.properties.replaces, propsToNames(props)] :
+                [propsToNames(props)];
+              writeGzip(c_path, JSON.stringify(c_geo));
+              console.log(`Added superseded codes to ${c_path}`);
+              break;
+            }
+          }
+        };
+
         // Add parents and children
         if (!geo.notree) {
-          let children = lookup_data.filter(d => d.parentcd == areacd);
-          props.children = children.map(d => {
-            const child = {areacd: d.areacd};
-            if (d.areanm) child.areanm = d.areanm;
-            if (d.areanmw) child.areanmw = d.areanmw;
-            if (d.hclnm) child.hclnm = d.hclnm;
-            if (d.hclnmw) child.hclnmw = d.hclnmw;
-            return child;
-          })
-          .sort((a, b) => a.areacd.localeCompare(b.areacd));
+          props.children = getChildren(lookup_data, areacd);
           props.child_typecds = props.children[0] ?
             Array.from(new Set(props.children.map(c => c.areacd.slice(0, 3)))).sort((a, b) => a.localeCompare(b)) :
             [];
@@ -184,15 +193,6 @@ function makeGeo(geo, year, lookup_data, lookup, pt_lookup) {
 
         feature.properties = props;
 
-        // Add feature to lists if necessary
-        if (geo.list && year === geo.years[geo.years.length - 1]) {
-          const row = {areacd, areanm: props.areanm};
-          if (geo.listparents) row.parentcd = lkp?.parentcd;
-          ["ap", "cp"].forEach(cd => {
-            if (geo.list.includes(cd)) lists[cd].push(row);
-          });
-        }
-
         // Create directory if needed
         if (!existsSync(dir)) mkdirSync(dir);
 
@@ -200,9 +200,12 @@ function makeGeo(geo, year, lookup_data, lookup, pt_lookup) {
         writeGzip(path, JSON.stringify(feature));
         console.log(`Wrote ${path}`);
 
+        // Add geo bounds to stack
+        geo_features.push({type: "Feature", properties: {areacd, year}, geometry: bboxPolygon(props.bounds).geometry});
+
         // Create geo file for Census maps, if required
-        if (geo.cmkey) {
-          const cm_path = `./output/cm-geos/${areacd}.geojson`;
+        const cm_path = `./output/cm-geos/${areacd}.geojson`;
+        if (geo.cmkey && ["E", "W"].includes(areacd[0]) && !existsSync(cm_path)) {
           const cm_data = {
             meta: {
               code: areacd,
@@ -247,7 +250,6 @@ function makeGeo(geo, year, lookup_data, lookup, pt_lookup) {
         }
       } else {
         console.log(`Skipped ${areacd}`);
-        all_areas = false;
       }
 
       lineReader.resume();
@@ -257,6 +259,31 @@ function makeGeo(geo, year, lookup_data, lookup, pt_lookup) {
       resolve();
     });
   });
+}
+
+// Add start year and children to new geographies
+async function addStartYear(geo_years, years, lookup_data) {
+  const geos = Object.keys(geo_years)
+    .map(areacd => ({areacd, year: geo_years[areacd]}))
+    .filter(d => d.year !== years[0]);
+  
+  for (const geo of geos) {
+    const areacd = geo.areacd;
+    const path = `./output/geos/${areacd.slice(0, 3)}/${areacd}.json`;
+    const feature = JSON.parse(readGzip(path));
+    feature.properties.start = geo.year;
+    if (Array.isArray(feature.properties.replaces)) {
+      lookup_data.forEach(d => {
+        if (feature.properties.replaces.includes(d.parentcd)) d.parentcd = areacd;
+      });
+      feature.properties.children = getChildren(lookup_data, areacd);
+      feature.properties.child_typecds = feature.properties.children[0] ?
+        Array.from(new Set(feature.properties.children.map(c => c.areacd.slice(0, 3)))).sort((a, b) => a.localeCompare(b)) :
+        [];
+    }
+    writeGzip(path, JSON.stringify(feature));
+    console.log(`Added start year and children to ${path}`);
+  }
 }
 
 // Load source data
@@ -276,16 +303,10 @@ for (let dir of dirs) {
 
 // Generate geo files
 for (let geo of geos) {
+  geo_years = {};
+  geo_features = [];
   for (let year of [...geo.years].reverse()) {
     await makeGeo(geo, year, lookup_data, lookup, pt_lookup);
   }
-}
-
-// Write list files
-if (all_areas) {
-  ["ap", "cp"].forEach(key => {
-    const path = `./output/${key}_places.csv`;
-    writeFileSync(path, csvFormat(lists[key]));
-    console.log(`Wrote ${path}`);
-  });
+  if (geo.years.length > 1) addStartYear(geo_years, geo.years, lookup_data);
 }

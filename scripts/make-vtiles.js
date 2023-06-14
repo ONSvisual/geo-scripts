@@ -30,7 +30,7 @@ async function makeTiles(geo) {
 
     zooms.forEach(z => {
       output = `./temp/${geo.key}${yr}-z${z.min}-${z.max}.mbtiles`;
-      steps.push({cmd: `tippecanoe -o ${output} --read-parallel --detect-shared-borders --coalesce-densest-as-needed -Z ${z.min} -z ${z.max} -l boundaries ${sources.map(s => `./input/boundaries/${s.key}${String(s.year).slice(-2)}_${z.detail}.json.gz`).join(" ")}`, output});
+      steps.push({cmd: `tippecanoe -o ${output} --read-parallel --detect-shared-borders --coalesce-densest-as-needed -Z ${z.min} -z ${z.max} ${sources.map(s => `-L ${s.layer ? s.layer : "boundaries"}:./input/boundaries/${s.key}${String(s.year).slice(-2)}_${z.detail}.json.gz`).join(" ")}`, output});
     });
 
     output = `./temp/${geo.key}${yr}_raw.mbtiles`;

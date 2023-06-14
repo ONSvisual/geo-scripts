@@ -1,5 +1,6 @@
 import https from "https";
-// import fs from "fs";
+import fs from "fs";
+import zlib from "zlib";
 import { exec } from "child_process";
 import * as d3 from "d3-dsv";
 
@@ -56,6 +57,14 @@ export async function clearTemp() {
   catch {
     console.log("No files to delete in /temp");
   }
+}
+
+export function readGzip(path) {
+  return zlib.gunzipSync(fs.readFileSync(path)).toString();
+}
+
+export function writeGzip(path, data) {
+  fs.writeFileSync(path, zlib.gzipSync(data));
 }
 
 // export function run(cmd, opts = {}) {

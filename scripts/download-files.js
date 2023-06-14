@@ -11,17 +11,29 @@ const cacheFetch = async (url) => {
   return cache[url];
 };
 
-const apiUrl = (id, fields, offset) => `https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/${id}/FeatureServer/0/query?where=1%3D1&outFields=${fields.join(",")}&resultOffset=${offset}&outSR=4326&f=geojson`;
+const apiUrl = (id, offset) => `https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/${id}/FeatureServer/0/query?where=1%3D1&outFields=*&resultOffset=${offset}&outSR=4326&f=geojson`;
 
 const downloadGeo = async (file, path) => {
+  const yr = file.name.match(/\d\d/)[0];
+  const uppercase = file.code.toLowerCase() !== file.code;
+  const ext = uppercase ? ["CD", "NM", "NMW"] : ["cd", "nm", "nmw"];
+  const fields = ext.map(e => ({key: `${file.code}${yr}${e}`, label: `area${e.toLowerCase()}`}));
+  
   let complete = false;
   let offset = 0;
   writeFileSync(path, "");
   while (!complete) {
-    let geo = JSON.parse(await fetch(apiUrl(file.id, file.fields, offset)));
+    let geo = JSON.parse(await fetch(apiUrl(file.id, offset)));
     if (geo.features) {
       if (geo.features.length > 0) {
-        appendFileSync(path, `${geo.features.map(f => JSON.stringify(f)).join("\n")}\n`);
+        appendFileSync(path, `${geo.features.map(feature => {
+          const props = {};
+          for (const field of fields) {
+            if (feature.properties[field.key]) props[field.label] = feature.properties[field.key];
+          }
+          feature.properties = props;
+          return JSON.stringify(feature);
+        }).join("\n")}\n`);
       } else {
         complete = true;
       }
@@ -34,12 +46,14 @@ const downloadGeo = async (file, path) => {
       console.log("Bad API response. Trying again...")
     }
   }
-  console.log(`Downloaded ${path}`);
+  console.log(`Downloaded ${path.replace(".jsonl", ".json.gz")}`);
 }
 
-const makeUrl = (id, ref_id = null) => ref_id ?
-  `https://opendata.arcgis.com/api/v3/datasets/${id}/downloads/data?format=csv&spatialRefId=${ref_id}&where=1%3D1` :
-  `https://www.arcgis.com/sharing/rest/content/items/${id}/data`;
+const makeUrl = (id, ref_id) => {
+  return id.slice(-2) === "_0" ?
+    `https://opendata.arcgis.com/api/v3/datasets/${id}/downloads/data?format=csv&spatialRefId=${ref_id ? ref_id : 4326}&where=1%3D1` :
+    `https://www.arcgis.com/sharing/rest/content/items/${id}/data`;
+}
 
 const downloadNames = async (file, path) => {
   const href = makeUrl(file.id, 4326); // 4326 is the default spatial reference id for the API
@@ -94,12 +108,11 @@ const downloadLookup = async (file, files, path) => {
   console.log(`Downloaded ${path}`);
 };
 
-const convertGeo = async (path, name, fields) => {
+const convertGeo = async (path) => {
   const out_path = path.replace(".jsonl", ".json");
   const precision = path.includes("_bf") ? 6 : path.includes("_bu") ? 4 : 5;
-  const field_map = fields.map(f => `${f} AS ${f.toLowerCase().slice(-2) === "cd" ? "areacd" : "areanm"}`).join(", ");
   const opts = {env: {"OGR_GEOJSON_MAX_OBJ_SIZE": 8000}};
-  await run(`ogr2ogr -f GeoJSONSeq -lco COORDINATE_PRECISION=${precision} ${out_path} ${path} -sql "SELECT ${field_map} from ${name}"`, opts);
+  await run(`ogr2ogr -f GeoJSONSeq -lco COORDINATE_PRECISION=${precision} ${out_path} ${path}`, opts);
   unlinkSync(path);
   return await run(`gzip ${out_path}`);
 };
@@ -117,7 +130,7 @@ async function downloadFiles() {
         if (key === "boundaries") {
           // Simplify and gzip json-ld features
           await downloadGeo(file, path);
-          await convertGeo(path, file.name.split(".")[0], file.fields);
+          await convertGeo(path);
         } else if (key === "names") {
           await downloadNames(file, path);
         } else if (["oas", "parents"].includes(key)) {

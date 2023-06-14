@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "download-files": "node ./scripts/download-files.js",
+    "get-names": "node ./scripts/get-names.js",
     "make-lookups": "node ./scripts/make-lookups.js",
     "make-geos": "node ./scripts/make-geos.js",
+    "make-lists": "node ./scripts/make-lists.js",
     "make-vtiles": "node ./scripts/make-vtiles.js",
     "make-oa-vtiles-lookups": "node ./scripts/make-oa-vtiles-lookups.js",
     "make-oa-vtiles": "node ./scripts/make-oa-vtiles.js",
