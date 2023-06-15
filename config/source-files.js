@@ -3,6 +3,7 @@ const uk_map = {E: "K02000001", N: "K02000001", S: "K02000001", W: "K02000001", 
 
 export default {
   oas: [
+    // These are needed for every version (year) of every geography
     {name: "oa21_ctry22.csv", id: "f5d353a7882846ea9fe86f3e224c33ef", fields: ["oa21cd", "ctry22cd"]},
     {name: "oa21_rgn22.csv", id: "efda0d0e14da4badbd8bdf8ae31d2f00", fields: ["oa21cd", "rgn22cd"]},
     {name: "oa21_cauth22.csv", id: "86b7c99d0fe042a2975880ff9ec51c1c_0", fields: ["LAD22CD", "CAUTH22CD"]},
@@ -22,18 +23,21 @@ export default {
     {name: "oa21_lsoa21_msoa21_ltla22.csv", id: "b9ca90c10aaa4b8d9791e9859a38ca67_0", fields: ["OA21CD", "LSOA21CD", "MSOA21CD", "LAD22CD"], names: ["oa21cd", "lsoa21cd", "msoa21cd", "ltla22cd"]},
   ],
   parents: [
+    // THE ORDER HERE IS IMPORTANT
+    // Each new version of a geography needs a lookup to its parents.
+    // The new lookup should come directly AFTER the old lookup.
     {name: "ctry22_uk22.csv", id: "e16c22bd8e6041f0982362e19f753790_0", fields: ["CTRY22CD"], map: uk_map},
     {name: "rgn22_ctry22.csv", id: "645a5783694140e685aa62cab945ce5b_0", fields: ["RGN22CD"], map: ctry_map},
     {name: "ltla22_ctry22.csv", id: "f7cada9ef1fe4e0a879ad2ba867f4a7c_0", fields: ["LAD23CD", "CTRY23CD"], filter: ["N", "S", "W"]},
     {name: "ltla22_rgn22.csv", id: "f1392f9766be400b85613e6a7885bd5b_0", fields: ["LAD22CD", "RGN22CD"], filter: ["E06", "E09"]},
     {name: "ltla23_rgn23.csv", id: "4466088cf22849f3aa030e330fbba0a0_0", fields: ["LAD23CD", "RGN23CD"], filter: ["E06", "E09"]},
     {name: "cty22_rgn22.csv", id: "f1392f9766be400b85613e6a7885bd5b_0", fields: ["CTY22CD", "RGN22CD"], filter: ["E"]},
-    {name: "wpc22_ctry22.csv", id: "1891180eaf9544108b41e7429e2d8ed9_0", fields: ["PCON22CD"], filter: ["N", "S"], map: ctry_map},
-    {name: "wpc22_rgn22.csv", id: "e4f8b4b75a1a4d308cdbd5a6fc0ac86b_0", ref_id: 3857, fields: ["WPC22CD", "RGN22CD"]},
-    {name: "ltla22_cty22.csv", id: "332bba77e8944aee835457214bc2ccf8_0", fields: ["LAD22CD", "CTY22CD"], filter: ["E07"]},
-    {name: "ltla23_cty23.csv", id: "561603518d6b42be9362b747e9b16175_0", fields: ["LAD23CD", "CTY23CD"], filter: ["E07"]},
     {name: "ltla22_cauth22.csv", id: "86b7c99d0fe042a2975880ff9ec51c1c_0", fields: ["LAD22CD", "CAUTH22CD"], filter: ["E06", "E08"]},
     {name: "ltla23_cauth23.csv", id: "99dcf228c2524887b53a5e588c604dc5_0", fields: ["LAD23CD", "CAUTH23CD"], filter: ["E06", "E08"]},
+    {name: "ltla22_cty22.csv", id: "332bba77e8944aee835457214bc2ccf8_0", fields: ["LAD22CD", "CTY22CD"], filter: ["E07"]},
+    {name: "ltla23_cty23.csv", id: "561603518d6b42be9362b747e9b16175_0", fields: ["LAD23CD", "CTY23CD"], filter: ["E07"]},
+    {name: "wpc22_ctry22.csv", id: "1891180eaf9544108b41e7429e2d8ed9_0", fields: ["PCON22CD"], filter: ["N", "S"], map: ctry_map},
+    {name: "wpc22_rgn22.csv", id: "e4f8b4b75a1a4d308cdbd5a6fc0ac86b_0", ref_id: 3857, fields: ["WPC22CD", "RGN22CD"]},
     {name: "sener22_ctry22.csv", id: "5c6605fa2c7746f58dac94d4a277d4dc_0", fields: ["SENER22CD"], map: ctry_map},
     {name: "senc22_sener22.csv", id: "c14dca6e321b4b97a33a70a9a48f9fd8_0", fields: ["SENC22CD", "SENER22CD"], filter: ["W"]},
     {name: "par22_ltla22.csv", id: "98f2e0bb6071464d880223e4865db04b_0", fields: ["PAR22CD", "LAD22CD"], filter: ["E", "W"]},
@@ -43,6 +47,9 @@ export default {
     {name: "oa21_lsoa21.csv", id: "b9ca90c10aaa4b8d9791e9859a38ca67_0", fields: ["OA21CD", "LSOA21CD"]},
   ],
   boundaries: [
+    // These are needed for every version (year) of every geography.
+    // Every detail level is included, for the benefit of creating vector tiles, though not all are used.
+    // BFE files are not currently used. But are useful for creating custom OA lookups, if needed.
     {name: "ctry22_bfe.jsonl", id: "Countries_December_2022_UK_BFE", code: "CTRY"},
     {name: "ctry22_bfc.jsonl", id: "Countries_December_2022_UK_BFC", code: "CTRY"},
     {name: "ctry22_bgc.jsonl", id: "Countries_December_2022_UK_BGC", code: "CTRY"},
@@ -108,6 +115,7 @@ export default {
     {name: "oa21_bfc.jsonl", id: "Output_Areas_Dec_2021_Boundaries_Full_Clipped_EW_BFC_2022", code: "OA"},
     {name: "oa21_bgc.jsonl", id: "Output_Areas_Dec_2021_Boundaries_Generalised_Clipped_EW_BGC_2022", code: "OA"},
   ],
+  // THESE ARE NO LONGER REQUIRED. NAMES ARE READ FROM BOUNDARY FILES
   // names: [
   //   {name: "ctry22.csv", id: "e16c22bd8e6041f0982362e19f753790_0", fields: ["CTRY22CD", "CTRY22NM", "CTRY22NMW"]},
   //   {name: "rgn22.csv", id: "645a5783694140e685aa62cab945ce5b_0", fields: ["RGN22CD", "RGN22NM", "RGN22NMW"]},

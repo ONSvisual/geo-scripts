@@ -5,7 +5,7 @@ import { bbox, area, bboxPolygon, booleanPointInPolygon } from "@turf/turf";
 import polylabel from "polylabel";
 import { readGzip, writeGzip, csvParse } from "./utils.js";
 import geos from "../config/geo-config.js";
-import types from "../config//geo-types.js";
+import types from "../config/geo-types.js";
 
 const dirs = ["geos", "cm-geos"];
 
@@ -34,7 +34,7 @@ function round(num, dp) {
 function propsToNames(props) {
   const newprops = {areacd: props.areacd};
   for (const key of ["areanm", "areanmw", "hclnm", "hclnmw"]) {
-    if (props.areanm) newprops.areanm = props.areanm;
+    if (props[key]) newprops[key] = props[key];
   }
   return newprops;
 }
@@ -273,8 +273,9 @@ async function addStartYear(geo_years, years, lookup_data) {
     const feature = JSON.parse(readGzip(path));
     feature.properties.start = geo.year;
     if (Array.isArray(feature.properties.replaces)) {
+      const cds = feature.properties.replaces.map(d => d.areacd);
       lookup_data.forEach(d => {
-        if (feature.properties.replaces.includes(d.parentcd)) d.parentcd = areacd;
+        if (cds.includes(d.parentcd)) d.parentcd = areacd;
       });
       feature.properties.children = getChildren(lookup_data, areacd);
       feature.properties.child_typecds = feature.properties.children[0] ?
