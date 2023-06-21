@@ -31,9 +31,9 @@ function round(num, dp) {
   return Math.round(num * multiplier) / multiplier;
 }
 
-function propsToNames(props) {
+function propsToNames(props, extraCols = []) {
   const newprops = {areacd: props.areacd};
-  for (const key of ["areanm", "areanmw", "hclnm", "hclnmw"]) {
+  for (const key of ["areanm", "areanmw", "hclnm", "hclnmw", ...extraCols]) {
     if (props[key]) newprops[key] = props[key];
   }
   return newprops;
@@ -62,7 +62,7 @@ function findPolylabel(feature) {
 function getParents(lookup, code, parents = []) {
   let parentcd = lookup[code]?.parentcd;
   if (parentcd) {
-    let parent = propsToNames(lookup[parentcd]);
+    let parent = propsToNames(lookup[parentcd], ["start", "end"]);
     return getParents(lookup, parentcd, [...parents, parent]);
   } else {
     return parents;
@@ -159,6 +159,7 @@ function makeGeo(geo, year, lookup_data, lookup, pt_lookup) {
 
         if (year !== geo.years[geo.years.length - 1]) {
           props.end = year;
+          lkp.end = year;
           // Find successor geography
           const point = {type: "Point", coordinates: props.centroid};
           const candidates = geo_features.filter(f => booleanPointInPolygon(point, f) && f.properties.year > year);
@@ -269,9 +270,11 @@ async function addStartYear(geo_years, years, lookup_data) {
   
   for (const geo of geos) {
     const areacd = geo.areacd;
+    const lkp = lookup[areacd];
     const path = `./output/geos/${areacd.slice(0, 3)}/${areacd}.json`;
     const feature = JSON.parse(readGzip(path));
     feature.properties.start = geo.year;
+    lkp.start = geo.year;
     if (Array.isArray(feature.properties.replaces)) {
       const cds = feature.properties.replaces.map(d => d.areacd);
       lookup_data.forEach(d => {

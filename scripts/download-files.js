@@ -55,20 +55,20 @@ const makeUrl = (id, ref_id) => {
     `https://www.arcgis.com/sharing/rest/content/items/${id}/data`;
 }
 
-const downloadNames = async (file, path) => {
-  const href = makeUrl(file.id, 4326); // 4326 is the default spatial reference id for the API
-  const data_raw = await cacheFetch(href);
-  const names = file.names ? file.names : ["areacd", "areanm", "areanmw"];
-  let data = csvParse(data_raw, (d) => {
-    const row = {};
-    file.fields.forEach((field, i) => {
-      row[names[i]] = d[field];
-    });
-    return row;
-  });
-  writeFileSync(path, csvFormat(data, names));
-  console.log(`Downloaded ${path}`);
-};
+// const downloadNames = async (file, path) => {
+//   const href = makeUrl(file.id, 4326); // 4326 is the default spatial reference id for the API
+//   const data_raw = await cacheFetch(href);
+//   const names = file.names ? file.names : ["areacd", "areanm", "areanmw"];
+//   let data = csvParse(data_raw, (d) => {
+//     const row = {};
+//     file.fields.forEach((field, i) => {
+//       row[names[i]] = d[field];
+//     });
+//     return row;
+//   });
+//   writeFileSync(path, csvFormat(data, names));
+//   console.log(`Downloaded ${path}`);
+// };
 
 const downloadLookup = async (file, files, path) => {
   const href = makeUrl(file.id, file.ref_id);
@@ -131,8 +131,8 @@ async function downloadFiles() {
           // Simplify and gzip json-ld features
           await downloadGeo(file, path);
           await convertGeo(path);
-        } else if (key === "names") {
-          await downloadNames(file, path);
+        // } else if (key === "names") {
+        //   await downloadNames(file, path);
         } else if (["oas", "parents"].includes(key)) {
           await downloadLookup(file, source_files[key], path);
         } else {

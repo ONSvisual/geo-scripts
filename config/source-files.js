@@ -12,8 +12,8 @@ export default {
     {name: "oa21_ltla23.csv", id: "83982ff4a8144038be52be65dd2b8fa0_0", fields: ["OA21CD", "LAD23CD"]},
     {name: "oa21_ltla22.csv", id: "b9ca90c10aaa4b8d9791e9859a38ca67_0", fields: ["OA21CD", "LAD22CD"]},
     {name: "oa21_wpc22.csv", id: "e4f8b4b75a1a4d308cdbd5a6fc0ac86b_0", ref_id: 3857, fields: ["OA21CD", "WPC22CD"]},
-    {name: "oa21_sener22.csv", id: "c14dca6e321b4b97a33a70a9a48f9fd8_0", fields: ["OA21CD", "SENER22CD"]},
-    {name: "oa21_senc22.csv", id: "c14dca6e321b4b97a33a70a9a48f9fd8_0", fields: ["OA21CD", "SENC22CD"]},
+    {name: "oa21_sener22.csv", id: "289aff924aa948eaa90df6eccb4340bf_0", fields: ["OA21CD", "SENER22CD"]},
+    {name: "oa21_senc22.csv", id: "289aff924aa948eaa90df6eccb4340bf_0", fields: ["OA21CD", "SENC22CD"]},
     {name: "oa21_par22.csv", id: "1d628c630e9e49c38ea282b131ac36e7_0", ref_id: 3857, fields: ["OA21CD", "PAR22CD"]},
     {name: "oa21_wd22.csv", id: "7207b51700f7472e88460f3a2e1eb5f9_0", fields: ["OA21CD", "WD22CD"]},
     {name: "oa21_ttwa11.csv", id: "03f3617099564e33a9e4390051f10e4a_0", ref_id: 3857, fields: ["OA21CD", "TTWA11CD"]},
@@ -39,7 +39,7 @@ export default {
     {name: "wpc22_ctry22.csv", id: "1891180eaf9544108b41e7429e2d8ed9_0", fields: ["PCON22CD"], filter: ["N", "S"], map: ctry_map},
     {name: "wpc22_rgn22.csv", id: "e4f8b4b75a1a4d308cdbd5a6fc0ac86b_0", ref_id: 3857, fields: ["WPC22CD", "RGN22CD"]},
     {name: "sener22_ctry22.csv", id: "5c6605fa2c7746f58dac94d4a277d4dc_0", fields: ["SENER22CD"], map: ctry_map},
-    {name: "senc22_sener22.csv", id: "c14dca6e321b4b97a33a70a9a48f9fd8_0", fields: ["SENC22CD", "SENER22CD"], filter: ["W"]},
+    {name: "senc22_sener22.csv", id: "289aff924aa948eaa90df6eccb4340bf_0", fields: ["SENC22CD", "SENER22CD"], filter: ["W"]},
     {name: "par22_ltla22.csv", id: "98f2e0bb6071464d880223e4865db04b_0", fields: ["PAR22CD", "LAD22CD"], filter: ["E", "W"]},
     {name: "wd22_ltla22.csv", id: "f1392f9766be400b85613e6a7885bd5b_0", fields: ["WD22CD", "LAD22CD"], filter: ["E", "W"]},
     {name: "msoa21_ltla22.csv", id: "b9ca90c10aaa4b8d9791e9859a38ca67_0", fields: ["MSOA21CD", "LAD22CD"]},
@@ -115,18 +115,6 @@ export default {
     {name: "oa21_bfc.jsonl", id: "Output_Areas_Dec_2021_Boundaries_Full_Clipped_EW_BFC_2022", code: "OA"},
     {name: "oa21_bgc.jsonl", id: "Output_Areas_Dec_2021_Boundaries_Generalised_Clipped_EW_BGC_2022", code: "OA"},
   ],
-  // THESE ARE NO LONGER REQUIRED. NAMES ARE READ FROM BOUNDARY FILES
-  // names: [
-  //   {name: "ctry22.csv", id: "e16c22bd8e6041f0982362e19f753790_0", fields: ["CTRY22CD", "CTRY22NM", "CTRY22NMW"]},
-  //   {name: "rgn22.csv", id: "645a5783694140e685aa62cab945ce5b_0", fields: ["RGN22CD", "RGN22NM", "RGN22NMW"]},
-  //   {name: "ltla22.csv", id: "42af123c4663466496dafb4c8fcb0c82_0", fields: ["LAD22CD", "LAD22NM", "LAD22NMW"]},
-  //   {name: "ltla23.csv", id: "e8b361ba9e98418ba8ff2f892d00c352_0", fields: ["LAD23CD", "LAD23NM", "LAD23NMW"]},
-  //   {name: "sener22.csv", id: "5c6605fa2c7746f58dac94d4a277d4dc_0", fields: ["SENER22CD", "SENER22NM", "SENER22NMW"]},
-  //   {name: "senc22.csv", id: "193aa7c5b8f44662a9040756946a79b4_0", fields: ["SENC22CD", "SENC22NM", "SENC22NMW"]},
-  //   {name: "par22.csv", id: "16fd75f99ad444b0970c45c01df3ee6e_0", fields: ["PAR22CD", "PAR22NM", "PAR22NMW"]},
-  //   {name: "wd22.csv", id: "6d3a1a1cf24d4543965a9fef1dcf9c9d_0", fields: ["WD22CD", "WD22NM", "WD22NMW"]},
-  //   {name: "bua22.csv", id: "87bc125886b1425c9f9a5ebd44d0a0c8_0", fields: ["BUA22CD", "BUA22NM", "BUA22NMW"]},
-  // ],
   other: [
     {name: "msoa_names.csv", href: "https://houseofcommonslibrary.github.io/msoanames/MSOA-Names-Latest2.csv"},
     {name: "nomis_codes.csv", href: "https://www.nomisweb.co.uk/api/v01/dataset/NM_2028_1.data.csv?date=latest&geography=TYPE499,TYPE480,TYPE155,TYPE154,TYPE152,TYPE151,TYPE150&c_sex=0&measures=20100&select=geography_code,geography&uid=0x3cfb19ead752b37bb90da0eb3a0fe78baa9fa055"}
