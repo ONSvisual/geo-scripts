@@ -134,7 +134,8 @@ function makeGeo(geo, year, lookup_data, lookup, pt_lookup) {
       const typecd = areacd.slice(0, 3);
       const dir = `./output/geos/${typecd}`;
       const path = `${dir}/${areacd}.json`;
-      geo_years[areacd] = year;
+      
+      if (!geo.filter || geo.filter.includes(areacd[0])) geo_years[areacd] = year;
 
       if (!existsSync(path) && (!geo.filter || geo.filter.includes(areacd[0]))) {
         // Make simple props

@@ -43,7 +43,7 @@ export default [
   {
     key: "wd",
     label: "electoral ward",
-    years: [2022],
+    years: [2022, 2023],
     filter: ["E", "W"],
     list: ["ap", "cp"],
     listparents: true

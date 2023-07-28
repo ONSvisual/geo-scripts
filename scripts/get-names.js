@@ -3,6 +3,7 @@ import zlib from "zlib";
 import readline from "line-by-line";
 import { csvFormat } from "d3-dsv";
 import { csvParse } from "./utils.js";
+import geo_config from "../config/geo-config.js";
 
 const geo_dir = "./input/boundaries"
 const msoa_path = "./input/other/msoa_names.csv";
@@ -16,6 +17,7 @@ let typecds = {};
 
 function getGeoNames(geo, latest) {
   return new Promise((resolve) => {
+    const filter = geo_config.find(d => d.key === geo.cd)?.filter;
     const input = `./input/boundaries/${geo.path}`;
 
     console.log(`Getting names from  ${geo.path}`);
@@ -27,15 +29,17 @@ function getGeoNames(geo, latest) {
     lineReader.on('line', (line) => {
       lineReader.pause();
       const feature = JSON.parse(line);
-      const props = {};
-      Object.keys(feature.properties).forEach(key => {
-        // Filter to remove empty props
-        if (feature.properties[key] && feature.properties[key] !== " ") {
-          props[key] = feature.properties[key];
-        }
-      });
-      lookup[feature.properties.areacd] = props;
-      if (!cds.includes(props.areacd.slice(0, 3))) cds.push(props.areacd.slice(0, 3));
+      if (!filter || filter.includes(feature.properties.areacd[0])) {
+        const props = {};
+        Object.keys(feature.properties).forEach(key => {
+          // Filter to remove empty props
+          if (feature.properties[key] && feature.properties[key] !== " ") {
+            props[key] = feature.properties[key];
+          }
+        });
+        lookup[feature.properties.areacd] = props;
+        if (!cds.includes(props.areacd.slice(0, 3))) cds.push(props.areacd.slice(0, 3));
+      }
       lineReader.resume();
     });
 
