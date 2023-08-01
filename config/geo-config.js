@@ -41,6 +41,15 @@ export default [
     list: ["ap", "cp"]
   },
   {
+    key: "wpc",
+    label: "parliamentary constituency",
+    years: [
+      2022,
+      // 2025
+    ],
+    list: ["ap", "cp"]
+  },
+  {
     key: "wd",
     label: "electoral ward",
     years: [2022, 2023],
@@ -55,12 +64,6 @@ export default [
     filter: ["E", "W"],
     list: ["ap", "cp"],
     listparents: true
-  },
-  {
-    key: "wpc",
-    label: "parliamentary constituency",
-    years: [2022],
-    list: ["ap", "cp"]
   },
   {
     key: "sener",
