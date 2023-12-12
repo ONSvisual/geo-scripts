@@ -13,6 +13,8 @@
     "make-vtiles": "node ./scripts/make-vtiles.js",
     "make-oa-vtiles-lookups": "node ./scripts/make-oa-vtiles-lookups.js",
     "make-oa-vtiles": "node ./scripts/make-oa-vtiles.js",
+    "make-lsoa-vtiles-lookups": "node ./scripts/make-lsoa-vtiles-lookups.js",
+    "make-lsoa-vtiles": "node ./scripts/make-lsoa-vtiles.js",
     "zip-vtiles": "node ./scripts/zip-vtiles.js"
   },
   "author": "Ahmad Barclay",

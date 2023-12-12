@@ -45,7 +45,7 @@ export default {
     {name: "wd22_ltla22.csv", id: "f1392f9766be400b85613e6a7885bd5b_0", fields: ["WD22CD", "LAD22CD"], filter: ["E", "W"]},
     {name: "wd23_ltla23.csv", id: "9f1e1abb858d41f09101114f2a624d4a_0", fields: ["WD23CD", "LAD23CD"], filter: ["E", "W"]},
     {name: "msoa21_ltla22.csv", id: "b9ca90c10aaa4b8d9791e9859a38ca67_0", fields: ["MSOA21CD", "LAD22CD"]},
-    {name: "lsoa21_msoa22.csv", id: "b9ca90c10aaa4b8d9791e9859a38ca67_0", fields: ["LSOA21CD", "MSOA21CD"]},
+    {name: "lsoa21_msoa21.csv", id: "b9ca90c10aaa4b8d9791e9859a38ca67_0", fields: ["LSOA21CD", "MSOA21CD"]},
     {name: "oa21_lsoa21.csv", id: "b9ca90c10aaa4b8d9791e9859a38ca67_0", fields: ["OA21CD", "LSOA21CD"]},
   ],
   boundaries: [
