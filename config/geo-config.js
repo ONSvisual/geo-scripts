@@ -37,22 +37,19 @@ export default [
   {
     key: "cauth",
     label: "combined authority",
-    years: [2022],
+    years: [2022, 2024],
     list: ["ap", "cp"]
   },
   {
     key: "wpc",
     label: "parliamentary constituency",
-    years: [
-      2022,
-      // 2025
-    ],
+    years: [2022, 2024],
     list: ["ap", "cp"]
   },
   {
     key: "wd",
     label: "electoral ward",
-    years: [2022, 2023],
+    years: [2022, 2023, 2024],
     filter: ["E", "W"],
     list: ["ap", "cp"],
     listparents: true

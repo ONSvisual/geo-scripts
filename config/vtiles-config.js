@@ -10,15 +10,30 @@ export default [
   //   metadata: "./input/lookups/lookup_cauth.csv"
   // },
   {
-    key: "ltla",
-    year: 2022,
-    minzoom: 3
+    key: "la",
+    year: 2024,
+    sources: [
+      {key: "ltla", year: 2023},
+      {key: "cty", year: 2023},
+      {key: "cauth", year: 2024}
+    ],
+    metadata: "./input/lookups/lookup_cauth.csv"
   },
+  // {
+  //   key: "ltla",
+  //   year: 2022,
+  //   minzoom: 3
+  // },
   // {
   //   key: "wpc",
   //   year: 2022,
   //   minzoom: 4
   // },
+  {
+    key: "wpc",
+    year: 2024,
+    minzoom: 4
+  },
   // {
   //   key: "sen",
   //   year: 2022,
@@ -32,6 +47,11 @@ export default [
   //   year: 2023,
   //   minzoom: 6
   // },
+  {
+    key: "wd",
+    year: 2024,
+    minzoom: 6
+  },
   // {
   //   key: "par",
   //   year: 2022,

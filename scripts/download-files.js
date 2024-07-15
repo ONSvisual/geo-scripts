@@ -11,7 +11,7 @@ const cacheFetch = async (url) => {
   return cache[url];
 };
 
-const apiUrl = (id, offset) => `https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/${id}/FeatureServer/0/query?where=1%3D1&outFields=*&resultOffset=${offset}&outSR=4326&f=geojson`;
+const apiUrl = (file, offset) => file.url || `https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/${file.id}/FeatureServer/0/query?where=1%3D1&outFields=*&resultOffset=${offset}&outSR=4326&f=geojson`;
 
 const downloadGeo = async (file, path) => {
   const yr = file.name.match(/\d\d/)[0];
@@ -23,7 +23,9 @@ const downloadGeo = async (file, path) => {
   let offset = 0;
   writeFileSync(path, "");
   while (!complete) {
-    let geo = JSON.parse(await fetch(apiUrl(file.id, offset)));
+    const url = apiUrl(file, offset);
+    console.log(`Fetching ${url}`);
+    let geo = JSON.parse(await fetch(url));
     if (geo.features) {
       if (geo.features.length > 0) {
         appendFileSync(path, `${geo.features.map(feature => {
@@ -46,7 +48,7 @@ const downloadGeo = async (file, path) => {
       console.log("Bad API response. Trying again...")
     }
   }
-  console.log(`Downloaded ${path.replace(".jsonl", ".json.gz")}`);
+  console.log(`Downloaded and transformed ${path.replace(".jsonl", ".json.gz")}`);
 }
 
 const makeUrl = (id, ref_id) => {
@@ -96,7 +98,8 @@ const downloadLookup = async (file, files, path) => {
   if (path.includes("/oa21") && file.fields[0].toLowerCase() !== "oa21cd") {
     const parent_lookup = {};
     data.forEach(d => parent_lookup[d.areacd] = d.parentcd);
-    const oa_file = files.find(f => f.fields[0].toLowerCase() === "oa21cd" && f.fields[1].toLowerCase() === file.fields[0].toLowerCase());
+    let oa_file = files.find(f => f.fields[0].toLowerCase() === "oa21cd" && f.fields[1].toLowerCase() === file.fields[0].toLowerCase());
+    if (!oa_file) oa_file = files.find(f => f.fields[0].toLowerCase() === "oa21cd" && f.fields[1].replace(/[0-9]/g, '').toLowerCase() === file.fields[0].replace(/[0-9]/g, '').toLowerCase());
     const oa_href = makeUrl(oa_file.id, oa_file.ref_id);
     const oa_raw = await cacheFetch(oa_href);
     data = csvParse(oa_raw, (d) => {
