@@ -69,8 +69,16 @@ function getParents(lookup, code, parents = []) {
   }
 }
 
-function getChildren(lookup_data, code) {
-  let children = lookup_data.filter(d => d.parentcd == code);
+function childYearValid(parent, child) {
+  const year = parent.end;
+  if (!year && child.end) return false;
+  if (year && child.end && child.end < year) return false;
+  if (year && child.start && child.start > year) return false;
+  return true;
+}
+
+function getChildren(lookup, lookup_data, code) {
+  let children = lookup_data.filter(d => d.parentcd == code && childYearValid(lookup[code], d));
   return children.map(child => propsToNames(child))
     .sort((a, b) => a.areacd.localeCompare(b.areacd));
 }
@@ -153,14 +161,14 @@ function makeGeo(geo, year, lookup_data, lookup, pt_lookup) {
           water: lkp.km2_water,
           land: lkp.km2_land
         };
+        if (lkp?.start) props.start = lkp.start;
+        if (lkp?.end) props.end = lkp.end;
 
         // Add bbox and centroid
         props.bounds = bbox(feature.geometry);
         props.centroid = roundAll(findPolylabel(feature), dp);
 
-        if (year !== geo.years[geo.years.length - 1]) {
-          props.end = year;
-          lkp.end = year;
+        if (props.end) {
           // Find successor geography
           const point = {type: "Point", coordinates: props.centroid};
           const candidates = geo_features.filter(f => booleanPointInPolygon(point, f) && f.properties.year > year);
@@ -182,7 +190,7 @@ function makeGeo(geo, year, lookup_data, lookup, pt_lookup) {
 
         // Add parents and children
         if (!geo.notree) {
-          props.children = getChildren(lookup_data, areacd);
+          props.children = getChildren(lookup, lookup_data, areacd);
           props.child_typecds = props.children[0] ?
             Array.from(new Set(props.children.map(c => c.areacd.slice(0, 3)))).sort((a, b) => a.localeCompare(b)) :
             [];
@@ -263,31 +271,28 @@ function makeGeo(geo, year, lookup_data, lookup, pt_lookup) {
   });
 }
 
-// Add start year and children to new geographies
-async function addStartYear(geo_years, years, lookup_data) {
+// Add children to new geographies
+async function addChildren(geo_years, years, lookup_data) {
   const geos = Object.keys(geo_years)
     .map(areacd => ({areacd, year: geo_years[areacd]}))
     .filter(d => d.year !== years[0]);
   
   for (const geo of geos) {
     const areacd = geo.areacd;
-    const lkp = lookup[areacd];
     const path = `./output/geos/${areacd.slice(0, 3)}/${areacd}.json`;
     const feature = JSON.parse(readGzip(path));
-    feature.properties.start = geo.year;
-    lkp.start = geo.year;
     if (Array.isArray(feature.properties.replaces)) {
       const cds = feature.properties.replaces.map(d => d.areacd);
       lookup_data.forEach(d => {
         if (cds.includes(d.parentcd)) d.parentcd = areacd;
       });
-      feature.properties.children = getChildren(lookup_data, areacd);
+      feature.properties.children = getChildren(lookup, lookup_data, areacd);
       feature.properties.child_typecds = feature.properties.children[0] ?
         Array.from(new Set(feature.properties.children.map(c => c.areacd.slice(0, 3)))).sort((a, b) => a.localeCompare(b)) :
         [];
     }
     writeGzip(path, JSON.stringify(feature));
-    console.log(`Added start year and children to ${path}`);
+    console.log(`Added children to ${path}`);
   }
 }
 
@@ -313,5 +318,5 @@ for (let geo of geos) {
   for (let year of [...geo.years].reverse()) {
     await makeGeo(geo, year, lookup_data, lookup, pt_lookup);
   }
-  if (geo.years.length > 1) addStartYear(geo_years, geo.years, lookup_data);
+  if (geo.years.length > 1) addChildren(geo_years, geo.years, lookup_data);
 }

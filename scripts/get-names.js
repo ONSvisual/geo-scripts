@@ -10,17 +10,18 @@ const msoa_path = "./input/other/msoa_names.csv";
 const outpath_names = "./input/lookups/lookup_names.csv";
 const outpath_typecds = "./input/other/typecds.json";
 
-const cols = ["areacd", "areanm", "areanmw", "hclnm", "hclnmw"];
+const cols = ["areacd", "areanm", "areanmw", "hclnm", "hclnmw", "start", "end"];
 
 let lookup = {};
 let typecds = {};
+let typeyrs = {};
 
 function getGeoNames(geo, latest) {
   return new Promise((resolve) => {
     const filter = geo_config.find(d => d.key === geo.cd)?.filter;
     const input = `./input/boundaries/${geo.path}`;
 
-    console.log(`Getting names from  ${geo.path}`);
+    console.log(`Getting names from ${geo.path}`);
     const cds = [];
     writeFileSync(outpath_names, "");
 
@@ -30,21 +31,31 @@ function getGeoNames(geo, latest) {
       lineReader.pause();
       const feature = JSON.parse(line);
       if (!filter || filter.includes(feature.properties.areacd[0])) {
-        const props = {};
-        Object.keys(feature.properties).forEach(key => {
-          // Filter to remove empty props
-          if (feature.properties[key] && feature.properties[key] !== " ") {
-            props[key] = feature.properties[key];
-          }
-        });
-        lookup[feature.properties.areacd] = props;
-        if (!cds.includes(props.areacd.slice(0, 3))) cds.push(props.areacd.slice(0, 3));
+        if (lookup[feature.properties.areacd]) {
+          lookup[feature.properties.areacd].years.push(geo.yr + 2000);
+        } else {
+          const props = {};
+          Object.keys(feature.properties).forEach(key => {
+            // Filter to remove empty props
+            if (feature.properties[key] && feature.properties[key] !== " ") {
+              props[key] = feature.properties[key];
+            }
+          });
+          props.years = [geo.yr + 2000];
+          lookup[feature.properties.areacd] = props;
+        }
+        const cd = feature.properties.areacd.slice(0, 3);
+        if (!cds.includes(cd)) cds.push(cd);
       }
       lineReader.resume();
     });
 
     lineReader.on("end", async () => {
       if (latest) typecds[geo.cd] = cds;
+      for (const cd of cds) {
+        if (!typeyrs[cd]) typeyrs[cd] = [];
+        typeyrs[cd].push(geo.yr + 2000);
+      }
       resolve();
     });
   });
@@ -77,6 +88,17 @@ for (const geo of geos) {
 addMSOANames();
 
 const data = Object.keys(lookup).map(key => lookup[key]);
+for (const d of data) {
+  const typecd = d.areacd.slice(0, 3);
+  if (d.years.length < typeyrs[typecd].length) {
+    if (d.years[0] > typeyrs[typecd][0]) d.start = d.years[0];
+    if (d.years[d.years.length - 1] < typeyrs[typecd][typeyrs[typecd].length - 1]) {
+      const last_valid_index = typeyrs[typecd].indexOf(d.years[d.years.length - 1]);
+      d.end = typeyrs[typecd][last_valid_index + 1] - 1;
+    };
+  }
+}
+
 writeFileSync(outpath_names, csvFormat(data, cols));
 console.log(`Wrote ${outpath_names}`);
 

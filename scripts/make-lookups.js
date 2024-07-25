@@ -16,6 +16,7 @@ const cols = [
   "areacd", "areanm", "areanmw",
   "hclnm", "hclnmw",
   "parentcd", "nomiscd",
+  "start", "end",
   "km2_extent", "km2_clipped", "km2_water", "km2_land"
 ];
 
