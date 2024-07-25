@@ -3,7 +3,7 @@ import { run, clearTemp } from "./utils.js";
 import geos from "../config/vtiles-config.js";
 import zoom_detail from "../config/vtiles-detail.js";
 
-const maxzoom = 12;
+// const maxzoom = 12;
 const dir = "./output/vtiles";
 
 let outputs = [];
@@ -44,6 +44,7 @@ async function makeTiles(geo) {
     }
 
     for (let step of steps) {
+      console.log(`Running ${step.cmd}`);
       if (!existsSync(step.output)) await run(step.cmd);
     }
     console.log(`Wrote ${outpath}`);
