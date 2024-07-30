@@ -53,6 +53,8 @@ This script generates the geography files required for **Census maps** (in the `
 
 An example geo file for Census maps can be [found here](https://cdn.ons.gov.uk/maptiles/cm-geos/v2/E06000001.geojson). And example file for the other products can be [found here](https://cdn.ons.gov.uk/maptiles/ap-geos/v2/E06/E06000001.json).
 
+**Important!** Make sure that the `/output/geos` folder is empty before running this script.
+
 *Note: The .json output files in the output folder are actually gzipped, so cannot be opened directly. If you want to inspect their contents, you need to add .gz to their filename, and then gunzip them.*
 
 ### make-lists
