@@ -78,7 +78,7 @@ function childYearValid(parent, child) {
 }
 
 function getChildren(lookup, lookup_data, code) {
-  let children = lookup_data.filter(d => d.parentcd == code && childYearValid(lookup[code], d));
+  let children = lookup_data.filter(d => d.parentcd === code && childYearValid(lookup[code], d));
   return children.map(child => propsToNames(child))
     .sort((a, b) => a.areacd.localeCompare(b.areacd));
 }
