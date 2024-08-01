@@ -12,13 +12,13 @@ export default [
     years: [2022],
     detail: "buc",
     nolookup: true,
-    list: ["ap"]
+    list: ["ap", "cp"]
   },
   {
     key: "rgn",
     label: "region",
     years: [2022],
-    list: ["ap"]
+    list: ["ap", "cp"]
   },
   {
     key: "cty",

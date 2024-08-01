@@ -3,6 +3,9 @@ import { csvFormat } from "d3-dsv";
 import { readGzip } from "./utils.js";
 import geos from "../config/geo-config.js";
 
+const filter = {cp: ["E", "W"]};
+const extra = {cp: [{areacd: "K04000001", areanm: "England and Wales"}]};
+
 let lists = [];
 geos.forEach(g => {
   if (g.list) lists = [...lists, ...g.list];
@@ -12,7 +15,7 @@ lists = Array.from(new Set(lists));
 const typecds = JSON.parse(readFileSync("./input/other/typecds.json", {encoding: 'utf8', flag: 'r'}));
 
 for (const list of lists) {
-  let rows = [];
+  let rows =  extra[list] || [];
   let cds = [];
   let pt_cds = [];
   geos.forEach(g => {
@@ -24,7 +27,9 @@ for (const list of lists) {
   });
   for (const cd of cds) {
     const dir = `./output/geos/${cd}`;
-    const files = readdirSync(dir).filter(f => f.slice(-5) === ".json");
+    const files = readdirSync(dir)
+      .filter(f => f.slice(-5) === ".json")
+      .filter(f => !filter[list] || filter[list].includes(f[0]));
     for (const file of files) {
       const feature = JSON.parse(readGzip(`${dir}/${file}`));
       const props = feature.properties;
