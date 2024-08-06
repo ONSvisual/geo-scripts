@@ -99,7 +99,19 @@ const downloadLookup = async (file, files, path) => {
     const parent_lookup = {};
     data.forEach(d => parent_lookup[d.areacd] = d.parentcd);
     let oa_file = files.find(f => f.fields[0].toLowerCase() === "oa21cd" && f.fields[1].toLowerCase() === file.fields[0].toLowerCase());
-    if (!oa_file) oa_file = files.find(f => f.fields[0].toLowerCase() === "oa21cd" && f.fields[1].replace(/[0-9]/g, '').toLowerCase() === file.fields[0].replace(/[0-9]/g, '').toLowerCase());
+    if (!oa_file) {
+      let candidates = files.filter(f => f.fields[0].toLowerCase() === "oa21cd" && f.fields[1].replace(/[0-9]/g, '').toLowerCase() === file.fields[0].replace(/[0-9]/g, '').toLowerCase());
+      if (candidates.length === 1) {
+        oa_file = candidates[0];
+      } else {
+        const yr = +file.fields[0].slice(-4, -2);
+        oa_file = candidates
+          .map(c => ({...c, diff: yr - +c.fields[1].slice(-4, -2)}))
+          .sort((a, b) => a.diff - b.diff)
+          .filter(c => c.diff >= 0)[0];
+      }
+      console.log("oa_file", candidates, oa_file);
+    }
     const oa_href = makeUrl(oa_file.id, oa_file.ref_id);
     const oa_raw = await cacheFetch(oa_href);
     data = csvParse(oa_raw, (d) => {
