@@ -33,7 +33,7 @@ You can then run each of the scripts below using the following command:
 npm run {script-name}
 ```
 
-It is important that the first two scripts are run in order before running the rest of the scripts, because they download and pre-process the necessary source files.
+It is important that the first three scripts are run in order before running the rest of the scripts, because they download and pre-process the necessary source files.
 
 ### download-files
 
