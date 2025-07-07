@@ -1,3 +1,7 @@
+// This script generates an OA vector map tileset where the smallest areas are
+// merged into their parents at lower zooms levels, retaining the area code of
+// the largest merged area along with the parent area code.
+
 import { readFileSync, writeFileSync, appendFileSync, existsSync, createReadStream } from "fs";
 import zlib from "zlib";
 import readline from "line-by-line";

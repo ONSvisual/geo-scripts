@@ -1,6 +1,8 @@
 import https from "https";
 import fs from "fs";
 import zlib from "zlib";
+import { area } from "@turf/turf";
+import polylabel from "polylabel";
 import { exec } from "child_process";
 import * as d3 from "d3-dsv";
 
@@ -65,6 +67,45 @@ export function readGzip(path) {
 
 export function writeGzip(path, data) {
   fs.writeFileSync(path, zlib.gzipSync(data));
+}
+
+export function round(num, dp = 6) {
+  let multiplier = Math.pow(10, dp);
+  return Math.round(num * multiplier) / multiplier;
+}
+
+export function roundAll(arr, decimals = 6) {
+  let newarr = [];
+  arr.forEach(d => {
+    if (typeof d == "number") {
+      newarr.push(round(d, decimals));
+    } else if (Array.isArray(d)) {
+      newarr.push(roundAll(d, decimals));
+    } else {
+      newarr.push(d);
+    }
+  });
+  return newarr;
+}
+
+export function findPolylabel(feature) {
+  let output = [];
+  if (feature.geometry.type === "Polygon"){
+    output = polylabel(feature.geometry.coordinates);
+  }
+  else {
+    let maxArea = 0, maxPolygon = [];
+    for (let i = 0, l = feature.geometry.coordinates.length; i < l; i++){
+      const p = feature.geometry.coordinates[i];
+      const _area = area({type: "Polygon", coordinates: p})
+      if (_area > maxArea){
+        maxPolygon = p;
+        maxArea = _area;
+      }
+    }
+    output = polylabel(maxPolygon);
+  }
+  return output;
 }
 
 // export function run(cmd, opts = {}) {

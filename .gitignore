@@ -4,6 +4,7 @@ node_modules/
 /input/oas/*
 /input/other/*
 /input/parents/*
+!/input/boundaries/uk22_bfe.json.gz
 !/input/boundaries/uk22_buc.json.gz
 /temp/*
 /output/*
