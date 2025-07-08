@@ -3,7 +3,7 @@ import zlib from "zlib";
 import readline from "line-by-line";
 import { booleanPointInPolygon, intersect, area, booleanContains, booleanIntersects } from "@turf/turf";
 import { csvFormat } from "d3-dsv";
-import { csvParse } from "./utils.js";
+import { csvParse, getValidBoundariesPath } from "./utils.js";
 import geo_config from "../config/geo-config.js";
 
 const startTime = new Date();
@@ -41,16 +41,8 @@ function isNextYear(newer, older) {
   return older.end && newer.start && older.end === newer.start - 1;
 }
 
-function getValidPath(key, yr) {
-  for (const detail of ["bfe", "bfc"]) {
-    const path = `./input/boundaries/${key}${yr}_${detail}.json.gz`;
-    if (existsSync(path)) return path;
-  }
-  console.log(`Valid file path not found for ${key} and ${yr}!`);
-}
-
 function getChildren(geo, yr, data_indexed, parents, poss_children) {
-  const input = getValidPath(geo.key, yr);  
+  const input = getValidBoundariesPath(geo.key, yr);  
 
   return new Promise((resolve) => {
     console.log(`Finding matches in ${input}`);
@@ -122,7 +114,7 @@ async function getParentByPolygon(data_indexed, childcd, parentcds) {
   const year = !child_data.end ?
     child_geo.years[child_geo.years.length - 1] :
     child_geo.years[child_geo.years.indexOf(child_data.end + 1) - 1];
-  const path = getValidPath(child_geo.key, `${year}`.slice(-2));
+  const path = getValidBoundariesPath(child_geo.key, `${year}`.slice(-2));
   const child = await getFeatureFromFile(childcd, path);
 
   // Looks for the possible parent that has the biggest intersection with the child
@@ -134,7 +126,7 @@ async function getParentByPolygon(data_indexed, childcd, parentcds) {
     const year = !data.end ?
       geo.years[geo.years.length - 1] :
       geo.years[geo.years.indexOf(data.end + 1) - 1];
-    const path = getValidPath(geo.key, `${year}`.slice(-2));
+    const path = getValidBoundariesPath(geo.key, `${year}`.slice(-2));
     const parent = await getFeatureFromFile(cd, path);
     const intersection = intersect(child, parent);
     const overlap = intersection ? area(intersection) : null;

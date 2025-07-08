@@ -2,7 +2,7 @@ import { existsSync, readFileSync, createReadStream, writeFileSync } from "fs";
 import zlib from "zlib";
 import readline from "line-by-line";
 import { bbox, bboxPolygon, booleanPointInPolygon } from "@turf/turf";
-import { csvParse } from "./utils.js";
+import { csvParse, getValidBoundariesPath } from "./utils.js";
 import geo_config from "../config/geo-config.js";
 
 const startTime = new Date();
@@ -31,14 +31,6 @@ async function getGeoJSON(path) {
       resolve(geojson);
     });
   });
-}
-
-function getValidPath(key, yr) {
-  for (const detail of ["bfe", "bfc"]) {
-    const path = `./input/boundaries/${key}${yr}_${detail}.json.gz`;
-    if (existsSync(path)) return path;
-  }
-  console.log(`Valid file path not found for ${key} and ${yr}!`);
 }
 
 // "Frozen" lookup for Census 2021 geographies
@@ -149,7 +141,7 @@ for (const key of geo_keys) {
   const centroids = await getGeoJSON(centroids_path);
   for (const geo of geo_config.filter(g => ![...geo_keys, ...skip_keys].includes(g.key))) {
     for (const year of geo.years) {
-      const path = getValidPath(geo.key, `${year}`.slice(-2));
+      const path = getValidBoundariesPath(geo.key, `${year}`.slice(-2));
       await getBestFits(path, geo, centroids, census_lookup[key], best_fits, key);
     }
   }

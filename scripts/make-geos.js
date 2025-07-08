@@ -124,7 +124,6 @@ function makeMergedGeo(props, childcds) {
       geojson.features.push(feature);
     }
 
-    console.log(geojson);
     mapshaper.applyCommands("-i input.geojson -dissolve2 fields=areacd -o output.geojson", {"input.geojson": geojson}, (err, output) => {
       const merged = JSON.parse(output["output.geojson"]).features[0];
       

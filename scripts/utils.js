@@ -39,7 +39,7 @@ export async function download(url, dest) {
   return;
 }
 
-export function run(cmd, opts = {}) {
+export function run(cmd, opts) {
   return new Promise((resolve, reject) => {
     exec(cmd, opts, (error, stdout, stderr) => {
       if (error) {
@@ -106,6 +106,14 @@ export function findPolylabel(feature) {
     output = polylabel(maxPolygon);
   }
   return output;
+}
+
+export function getValidBoundariesPath(key, yr, detail = ["bfe", "bfc"]) {
+  for (const det of detail) {
+    const path = `./input/boundaries/${key}${yr}_${det}.json.gz`;
+    if (fs.existsSync(path)) return path;
+  }
+  console.log(`Valid file path not found for ${key} and ${yr}!`);
 }
 
 // export function run(cmd, opts = {}) {

@@ -103,9 +103,19 @@ These ZIP files are suitable for uploading and unzipping to serve from a static 
 
 *Note: Serving from the .mbtiles files directly would require a vector tiles server.*
 
+### make-search-tiles
+
+This script generates a directory of tiled GeoJSON files that can be used for point-in-polygon lookup. The directory structure follows a **{x}/{y}.json** pattern, equivalent to zoom level 12 [web map tile coordinates](https://en.wikipedia.org/wiki/Tiled_web_map#Defining_a_tiled_web_map).
+
 ## Config files
 
-All of the config files for these scripts can be found within the `/config` folder. This includes some lookup files in the `/config/lookups` folder which provide additional metadata which is either not available on the ONS Open Geography Portal (`lookup_parent.csv`), or where the data on the portal comes in an inconsistent format which cannot easily be processed in an automated way (`lookup_area.ods`);
+All of the config files for these scripts can be found within the `/config` folder. The files that need to be updated with each geography update are:
+
+- **source-files.js** - Defines the files to download from the ONS Geoportal.
+- **geo-config.js** - Defines the geography types and which years they cover.
+- **vtiles-config.js** - Defines the vector tiles outputs.
+
+At the moment, the best way to create partial outputs from the scripts is to comment out lines in geo-config.js and/or vtiles-config.js (eg. to generate vector tiles for only one geography type).
 
 ## Updating the config files
 
