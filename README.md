@@ -2,7 +2,7 @@
 
 ***IMPORTANT NOTE: This repo relies on loading data from the ONS Open Geography Portal. Changes to that service may break these scripts.***
 
-This repository contains a number of scripts and source files for processing geographic data files for [Census maps](https://www.ons.gov.uk/census/maps), [Build a custom area profile](https://www.ons.gov.uk/visualisations/customprofiles/), and [Explore local statistics](https://www.ons.gov.uk/explore-local-statistics/). The scripts also generate vector map tiles that are used across a number of other products.
+This repository contains a number of scripts and source files for processing geographic data files for [Census maps](https://www.ons.gov.uk/census/maps), [Build a custom area profile](https://www.ons.gov.uk/visualisations/customprofiles/), [Explore local statistics](https://www.ons.gov.uk/explore-local-statistics/) and other products maintained by the ONS Data Visualisation team. The scripts also generate vector map tiles that are used across a number of other products.
 
 The scripts generate the following output file types:
 
