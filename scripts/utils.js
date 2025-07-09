@@ -34,7 +34,7 @@ export function fetch(url) {
 }
 
 export async function download(url, dest) {
-  await run(`curl -o "${dest}" "${url}"`);
+  await run(`curl -L -o "${dest}" "${url}"`);
   console.log(`Downloaded ${dest}`);
   return;
 }
@@ -53,7 +53,7 @@ export function run(cmd, opts) {
 
 export async function clearTemp() {
   try {
-    await run("rm ./temp/*");
+    await run("rm -r ./temp/*");
     console.log("Emptied /temp folder");
   }
   catch {
@@ -116,16 +116,12 @@ export function getValidBoundariesPath(key, yr, detail = ["bfe", "bfc"]) {
   console.log(`Valid file path not found for ${key} and ${yr}!`);
 }
 
-// export function run(cmd, opts = {}) {
-//   return new Promise((resolve, reject) => {
-//     const child = spawn(cmd, opts);
-//     child.stdout.on('data', (data) => {
-//       console.log('stdout: ' + data);
-//     });
-//     child.stderr.on('data', (data) => {
-//       console.log('stderr: ' + data);
-//       resolve();
-//     });
-//     child.on('close', resolve);
-//   });
-// }
+export async function unzip(path, dest) {
+  await run(`unzip "${path}" -d "${dest}"`);
+  console.log(`Unzipped ${path}`);
+  return;
+}
+
+export function mkdir(path) {
+  if (!fs.existsSync(path)) fs.mkdirSync(path, { recursive: true });
+}

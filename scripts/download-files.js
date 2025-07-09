@@ -1,6 +1,6 @@
-import { writeFileSync, appendFileSync, existsSync, mkdirSync, unlinkSync } from "fs";
+import { writeFileSync, appendFileSync, existsSync, unlinkSync } from "fs";
 import { csvFormat } from "d3-dsv";
-import { download, fetch, run, csvParse } from "./utils.js";
+import { download, fetch, run, csvParse, mkdir } from "./utils.js";
 import source_files from "../config/source-files.js";
 
 const keys = Object.keys(source_files);
@@ -85,7 +85,7 @@ const convertGeo = async (path) => {
 async function downloadFiles() {
   for (const key of keys) {
     const dir = `./input/${key}`;
-    if (!existsSync(dir)) mkdirSync(dir);
+    mkdir(dir);
     for (const file of source_files[key]) {
       const path = `${dir}/${file.name}${file.name.includes(".") ? "" : ".jsonl"}`;
       const out_path = path.replace(".jsonl", ".json.gz");

@@ -1,9 +1,9 @@
-import { readFileSync, existsSync, mkdirSync, createReadStream } from "fs";
+import { readFileSync, existsSync, createReadStream } from "fs";
 import zlib from "zlib";
 import readline from "line-by-line";
 import mapshaper from "mapshaper";
 import { bbox } from "@turf/turf";
-import { readGzip, writeGzip, csvParse, findPolylabel, roundAll } from "./utils.js";
+import { readGzip, writeGzip, csvParse, findPolylabel, roundAll, mkdir } from "./utils.js";
 import geos from "../config/geo-config.js";
 import types from "../config/geo-types.js";
 
@@ -95,7 +95,7 @@ function makeGeo(geo, year, lookup_data, lookup, census_lookup) {
         feature.properties = props;
 
         // Create directory if needed
-        if (!existsSync(dir)) mkdirSync(dir);
+        mkdir(dir);
 
         // Write gzipped file
         writeGzip(path, JSON.stringify(feature));
@@ -140,7 +140,7 @@ function makeMergedGeo(props, childcds) {
       props.parents = ft[0].parents;
 
       const outdir = `./output/geos/${props.areacd.slice(0, 3)}`;
-      if (!existsSync(outdir)) mkdirSync(outdir);
+      mkdir(outdir);
 
       const outpath = `${outdir}/${props.areacd}.json`;
       const feature = {type: "Feature", properties: props, geometry: merged.geometry};
@@ -174,7 +174,7 @@ for (const key of ["oa", "lsoa", "msoa"]) {
 // Make directories if needed
 for (const dir of dirs) {
   const path = `./output/${dir}`;
-  if (!existsSync(path)) mkdirSync(path);
+  mkdir(path);
 }
 
 // Generate geo files

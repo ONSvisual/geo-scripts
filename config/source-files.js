@@ -106,6 +106,7 @@ export default {
     {name: "oa21_lsoa21_msoa21_ltla22.csv", id: "b9ca90c10aaa4b8d9791e9859a38ca67_0", fields: ["OA21CD", "LSOA21CD", "MSOA21CD", "LAD22CD"], names: ["oa21cd", "lsoa21cd", "msoa21cd", "ltla22cd"]},
   ],
   other: [
-    {name: "msoa_names.csv", href: "https://houseofcommonslibrary.github.io/msoanames/MSOA-Names-Latest2.csv"}
+    {name: "msoa_names.csv", href: "https://houseofcommonslibrary.github.io/msoanames/MSOA-Names-Latest2.csv"},
+    {name: "nspl.zip", href: "https://www.arcgis.com/sharing/rest/content/items/077631e063eb4e1ab43575d01381ec33/data"}
   ],
 };

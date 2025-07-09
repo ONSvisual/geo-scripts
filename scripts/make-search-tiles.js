@@ -1,7 +1,6 @@
-import { existsSync, mkdirSync } from "fs";
 import readline from "line-by-line";
 import geos from "../config/geo-config.js";
-import { run, getValidBoundariesPath, writeGzip, clearTemp } from "./utils.js";
+import { run, getValidBoundariesPath, writeGzip, clearTemp, mkdir } from "./utils.js";
 
 const sources = geos
   .filter(g => g.key !== "uk")
@@ -23,7 +22,7 @@ function makeGeoJSONTiles(path, yr) {
       
       if (line.startsWith('{ "type": "FeatureCollection", "properties": { "zoom":')) {
         if (currentTile && currentTile.json.features.length > 0) {
-          if (!existsSync(currentTile.dir)) mkdirSync(currentTile.dir, { recursive: true });
+          mkdir(currentTile.dir);
           writeGzip(currentTile.path, JSON.stringify(currentTile.json));
           console.log(`Wrote ${currentTile.path}`);
         }

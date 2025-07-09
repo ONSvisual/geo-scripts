@@ -1,5 +1,5 @@
-import { existsSync, mkdirSync } from "fs";
-import { run, clearTemp } from "./utils.js";
+import { existsSync } from "fs";
+import { run, clearTemp, mkdir } from "./utils.js";
 import geos from "../config/vtiles-config.js";
 import zoom_detail from "../config/vtiles-detail.js";
 
@@ -53,7 +53,7 @@ async function makeTiles(geo) {
   }
 }
 
-if (!existsSync(dir)) mkdirSync(dir);
+mkdir(dir);
 for (let geo of geos) {
   await makeTiles(geo);
 }

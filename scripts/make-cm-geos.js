@@ -1,6 +1,6 @@
-import { existsSync, mkdirSync, readdirSync } from "fs";
+import { readdirSync } from "fs";
 import geos from "../config/geo-config.js";
-import { readGzip, writeGzip } from "./utils.js";
+import { readGzip, writeGzip, mkdir } from "./utils.js";
 
 const geoCodes = {};
 for (const geo of geos) {
@@ -58,7 +58,7 @@ function makeCmGeo(feature, geo) {
 const outdir = "./output/cm-geos";
 
 // Create directory if needed
-if (!existsSync(outdir)) mkdirSync(outdir);
+mkdir(outdir);
 
 for (const cd of Object.keys(geoCodes)) {
   const dir = `./output/geos/${cd}`;

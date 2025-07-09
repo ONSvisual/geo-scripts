@@ -103,6 +103,12 @@ These ZIP files are suitable for uploading and unzipping to serve from a static 
 
 *Note: Serving from the .mbtiles files directly would require a vector tiles server.*
 
+### make-postcodes
+
+This script takes the [National Statistic Postcode Lookup](https://www.ons.gov.uk/methodology/geography/geographicalproducts/postcodeproducts) as an input and generates a series of JSON files in the form **/P.json**, **/PO.json**, **/PO1.json**, **/PO14.json** etc that can be used for autocomplete postcode searches. The files contain postcodes with those prefixes and their lng/lat centroid coordinates.
+
+The 4-digit files contain all postcodes with that prefix. The 1, 2 and 3-digit files contain only the first 10 postcodes that match, which are provided for the purposes of autocomplete while typing.
+
 ### make-search-tiles
 
 This script generates a directory of tiled GeoJSON files that can be used for point-in-polygon lookup. The directory structure follows a **{x}/{y}.json** pattern, equivalent to zoom level 12 [web map tile coordinates](https://en.wikipedia.org/wiki/Tiled_web_map#Defining_a_tiled_web_map).

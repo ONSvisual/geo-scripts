@@ -16,6 +16,7 @@
     "make-vtiles": "node ./scripts/make-vtiles.js",
     "make-oa-vtiles-lookups": "node ./scripts/make-oa-vtiles-lookups.js",
     "make-oa-vtiles": "node ./scripts/make-oa-vtiles.js",
+    "make-postcodes": "node ./scripts/make-postcodes.js",
     "make-search-tiles": "node ./scripts/make-search-tiles.js",
     "zip-vtiles": "node ./scripts/zip-vtiles.js"
   },
