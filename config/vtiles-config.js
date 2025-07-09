@@ -9,13 +9,23 @@ export default [
   //   ],
   //   metadata: "./input/lookups/lookup_cauth.csv"
   // },
+  // {
+  //   key: "la",
+  //   year: 2024,
+  //   sources: [
+  //     {key: "ltla", year: 2023},
+  //     {key: "cty", year: 2023},
+  //     {key: "cauth", year: 2024}
+  //   ],
+  //   metadata: "./input/lookups/lookup_cauth.csv"
+  // },
   {
     key: "la",
-    year: 2024,
+    year: 2025,
     sources: [
-      {key: "ltla", year: 2023},
+      {key: "ltla", year: 2025},
       {key: "cty", year: 2023},
-      {key: "cauth", year: 2024}
+      {key: "cauth", year: 2025}
     ],
     metadata: "./input/lookups/lookup_cauth.csv"
   },
@@ -29,11 +39,11 @@ export default [
   //   year: 2022,
   //   minzoom: 4
   // },
-  {
-    key: "wpc",
-    year: 2024,
-    minzoom: 4
-  },
+  // {
+  //   key: "wpc",
+  //   year: 2024,
+  //   minzoom: 4
+  // },
   // {
   //   key: "sen",
   //   year: 2022,
@@ -47,9 +57,14 @@ export default [
   //   year: 2023,
   //   minzoom: 6
   // },
+  // {
+  //   key: "wd",
+  //   year: 2024,
+  //   minzoom: 6
+  // },
   {
     key: "wd",
-    year: 2024,
+    year: 2025,
     minzoom: 6
   },
   // {

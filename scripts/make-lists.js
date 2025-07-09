@@ -1,46 +1,36 @@
-import { readFileSync, readdirSync, writeFileSync } from "fs";
+import { readFileSync, writeFileSync } from "fs";
 import { csvFormat } from "d3-dsv";
-import { readGzip } from "./utils.js";
+import { csvParse } from "./utils.js";
 import geos from "../config/geo-config.js";
 
 const filter = {cp: ["E", "W"]};
 const extra = {cp: [{areacd: "K04000001", areanm: "England and Wales"}]};
+const lists = Array.from(new Set(geos.map(g => g.list).flat().filter(l => l)));
 
-let lists = [];
-geos.forEach(g => {
-  if (g.list) lists = [...lists, ...g.list];
-});
-lists = Array.from(new Set(lists));
+const inpath = "./input/lookups/lookup.csv";
+const data = csvParse(readFileSync(inpath, {encoding: 'utf8', flag: 'r'}));
 
-const typecds = JSON.parse(readFileSync("./input/other/typecds.json", {encoding: 'utf8', flag: 'r'}));
+const typecds = {};
+for (const geo of geos) typecds[geo.key] = geo.codes;
 
 for (const list of lists) {
-  let rows =  extra[list] || [];
-  let cds = [];
-  let pt_cds = [];
-  geos.forEach(g => {
-    if (g.list && g.list.includes(list)) {
-      const newcds = typecds[g.key].filter(cd => !g.filter || g.filter.includes(cd[0]));
-      cds = [...cds, ...newcds];
-      if (g.listparents) pt_cds = [...pt_cds, ...newcds];
-    }
-  });
-  for (const cd of cds) {
-    const dir = `./output/geos/${cd}`;
-    const files = readdirSync(dir)
-      .filter(f => f.slice(-5) === ".json")
-      .filter(f => !filter[list] || filter[list].includes(f[0]));
-    for (const file of files) {
-      const feature = JSON.parse(readGzip(`${dir}/${file}`));
-      const props = feature.properties;
-      if (!props.end) rows.push({
-        areacd: props.areacd,
-        areanm: props.areanm,
-        parentcd: pt_cds.includes(cd) ? props.parents[0]?.areacd : null
-      });
+  const include = {};
+  for (const g of geos) {
+    for (const c of g.codes) {
+      if (g?.list?.includes(list) && (!filter[list] || filter[list].includes(c[0]))) include[c] = g;
     }
   }
-  rows.sort((a, b) => a.areanm.localeCompare(b.areanm));
+
+  const rows =  extra[list] || [];
+  for (const d of data) {
+    const incl = include[d.areacd.slice(0, 3)];
+    if (incl && !d.end) {
+      const row = {areacd: d.areacd, areanm: d.hclnm || d.areanm};
+      if (incl.listparents) row.parentcd = d.parentcd;
+      rows.push(row);
+    }
+  }
+  
   const path = `./output/${list}_places.csv`;
   writeFileSync(path, csvFormat(rows));
   console.log(`Wrote ${path}`);

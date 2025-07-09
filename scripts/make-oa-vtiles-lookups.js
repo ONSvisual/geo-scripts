@@ -1,10 +1,11 @@
-import { readFileSync, write, writeFileSync } from "fs";
+// This script generates a OA -> LSOA -> MSOA lookup that allows the creation of
+// an OA vector map tileset where the smallest areas are merged into their parents
+// at lower zooms levels, with the smallest areas merged first.
+// You must run this script before make-oa-vtiles.js
+
+import { readFileSync, writeFileSync } from "fs";
 import { csvFormat } from "d3-dsv";
 import { csvParse, makeLookup } from "./utils.js";
-
-// Set target feature count per zoom level
-// Sort LSOAs and MSOAs by size, in ascending order (with total child counts for each)
-// For each zoom level, 
 
 const areas = csvParse(readFileSync("./input/lookups/lookup.csv", {encoding: 'utf8', flag: 'r'}));
 const areas_lookup = makeLookup(areas);

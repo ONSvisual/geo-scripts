@@ -1,6 +1,8 @@
 import https from "https";
 import fs from "fs";
 import zlib from "zlib";
+import { area } from "@turf/turf";
+import polylabel from "polylabel";
 import { exec } from "child_process";
 import * as d3 from "d3-dsv";
 
@@ -32,12 +34,12 @@ export function fetch(url) {
 }
 
 export async function download(url, dest) {
-  await run(`curl -o "${dest}" "${url}"`);
+  await run(`curl -L -o "${dest}" "${url}"`);
   console.log(`Downloaded ${dest}`);
   return;
 }
 
-export function run(cmd, opts = {}) {
+export function run(cmd, opts) {
   return new Promise((resolve, reject) => {
     exec(cmd, opts, (error, stdout, stderr) => {
       if (error) {
@@ -51,7 +53,7 @@ export function run(cmd, opts = {}) {
 
 export async function clearTemp() {
   try {
-    await run("rm ./temp/*");
+    await run("rm -r ./temp/*");
     console.log("Emptied /temp folder");
   }
   catch {
@@ -67,16 +69,59 @@ export function writeGzip(path, data) {
   fs.writeFileSync(path, zlib.gzipSync(data));
 }
 
-// export function run(cmd, opts = {}) {
-//   return new Promise((resolve, reject) => {
-//     const child = spawn(cmd, opts);
-//     child.stdout.on('data', (data) => {
-//       console.log('stdout: ' + data);
-//     });
-//     child.stderr.on('data', (data) => {
-//       console.log('stderr: ' + data);
-//       resolve();
-//     });
-//     child.on('close', resolve);
-//   });
-// }
+export function round(num, dp = 6) {
+  let multiplier = Math.pow(10, dp);
+  return Math.round(num * multiplier) / multiplier;
+}
+
+export function roundAll(arr, decimals = 6) {
+  let newarr = [];
+  arr.forEach(d => {
+    if (typeof d == "number") {
+      newarr.push(round(d, decimals));
+    } else if (Array.isArray(d)) {
+      newarr.push(roundAll(d, decimals));
+    } else {
+      newarr.push(d);
+    }
+  });
+  return newarr;
+}
+
+export function findPolylabel(feature) {
+  let output = [];
+  if (feature.geometry.type === "Polygon"){
+    output = polylabel(feature.geometry.coordinates);
+  }
+  else {
+    let maxArea = 0, maxPolygon = [];
+    for (let i = 0, l = feature.geometry.coordinates.length; i < l; i++){
+      const p = feature.geometry.coordinates[i];
+      const _area = area({type: "Polygon", coordinates: p})
+      if (_area > maxArea){
+        maxPolygon = p;
+        maxArea = _area;
+      }
+    }
+    output = polylabel(maxPolygon);
+  }
+  return output;
+}
+
+export function getValidBoundariesPath(key, yr, detail = ["bfe", "bfc"]) {
+  for (const det of detail) {
+    const path = `./input/boundaries/${key}${yr}_${det}.json.gz`;
+    if (fs.existsSync(path)) return path;
+  }
+  console.log(`Valid file path not found for ${key} and ${yr}!`);
+}
+
+export async function unzip(path, dest) {
+  await run(`unzip "${path}" -d "${dest}"`);
+  console.log(`Unzipped ${path}`);
+  return;
+}
+
+export function mkdir(path) {
+  if (!fs.existsSync(path)) fs.mkdirSync(path, { recursive: true });
+}
