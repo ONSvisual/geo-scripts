@@ -101,7 +101,7 @@ export default [
   {
     key: "ttwa",
 		codes: ["E30", "K01", "W22"],
-		parents: ["E92", "W92"],
+		parents: ["E12", "W92"],
     label: "travel to work area",
     years: [2011],
     notree: true,
@@ -110,7 +110,7 @@ export default [
   {
     key: "bua",
 		codes: ["E63", "K08", "W45"],
-		parents: ["E12", "W92"],
+		parents: ["E06", "E07", "E08", "E09", "W06"],
     label: "built up area",
     years: [2022],
     detail: "bfc",
