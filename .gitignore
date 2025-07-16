@@ -11,8 +11,10 @@ node_modules/
 !/input/boundaries/uk22_bfc.json.gz
 !/input/boundaries/uk22_bgc.json.gz
 !/input/boundaries/uk22_buc.json.gz
+!/input/lookups/lookup.csv
 /temp/*
 /output/*
+!/output/lists
 /config/ss/
 /scripts/ss/
 .DS_Store

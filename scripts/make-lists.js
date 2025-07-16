@@ -1,14 +1,18 @@
 import { readFileSync, writeFileSync } from "fs";
 import { csvFormat } from "d3-dsv";
-import { csvParse } from "./utils.js";
+import { csvParse, mkdir } from "./utils.js";
 import geos from "../config/geo-config.js";
 
+// Make lists for ELS and BaCAP
 const filter = {cp: ["E", "W"]};
 const extra = {cp: [{areacd: "K04000001", areanm: "England and Wales"}]};
 const lists = Array.from(new Set(geos.map(g => g.list).flat().filter(l => l)));
 
 const inpath = "./input/lookups/lookup.csv";
 const data = csvParse(readFileSync(inpath, {encoding: 'utf8', flag: 'r'}));
+
+const outdir = "./output/lists";
+mkdir(outdir);
 
 const typecds = {};
 for (const geo of geos) typecds[geo.key] = geo.codes;
@@ -31,7 +35,25 @@ for (const list of lists) {
     }
   }
   
-  const path = `./output/${list}_places.csv`;
+  const path = `${outdir}/${list}_places.csv`;
   writeFileSync(path, csvFormat(rows));
   console.log(`Wrote ${path}`);
+}
+
+// Make name/code lists for all area types
+const columns = ["areacd", "areanm"];
+
+for (const geo of geos.filter(g => g.key !== "uk")) {
+  for (const year of geo.years) {
+    const codes = typecds[geo.key];
+    const rows = data.filter(d =>
+      codes.includes(d.areacd.slice(0, 3)) &&
+      (d.start || year) <= year &&
+      (d.end || year) >= year
+    );
+
+    const path = `${outdir}/${geo.key}${`${year}`.slice(-2)}.csv`;
+    writeFileSync(path, csvFormat(rows, columns.filter(c => rows[0][c])));
+    console.log(`Wrote ${path}`);
+  }
 }

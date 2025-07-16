@@ -1,0 +1,7724 @@
+areacd,areanm
+E63000001,Berwick-upon-Tweed
+E63000002,Loanend
+E63000003,Norham
+E63000004,Haggerston
+E63000005,Lowick
+E63000006,Cornhill on Tweed
+E63000007,Bamburgh
+E63000008,Belford
+E63000009,Seahouses and North Sunderland
+E63000010,Beadnell
+E63000011,Wooler
+E63000012,Brunton
+E63000013,Embleton
+E63000014,Longhoughton
+E63000015,Alnwick
+E63000016,Whittingham
+E63000017,Lesbury
+E63000018,Hipsburn
+E63000019,Shilbottle
+E63000020,Warkworth
+E63000021,Amble
+E63000022,Swarland
+E63000023,Thropton
+E63000024,Acklington
+E63000025,Rothbury
+E63000026,Longframlington
+E63000027,Felton (Northumberland)
+E63000028,South Broomhill
+E63000029,Hadston
+E63000030,West Thirston
+E63000031,Longhorsley
+E63000032,Widdrington Station
+E63000033,Otterburn
+E63000034,Ellington (Northumberland)
+E63000035,Lynemouth
+E63000036,Woodhorn
+E63000037,Newbiggin-by-the-Sea
+E63000038,Fair Moor
+E63000039,Pegswood
+E63000040,Ashington (Northumberland)
+E63000041,Morpeth
+E63000042,Stakeford
+E63000043,Bomarsund
+E63000044,Choppington
+E63000045,Hepscott
+E63000046,Cambois
+E63000047,Bellingham
+E63000048,Bedlington
+E63000049,Tranwell Woods
+E63000050,Blyth (Northumberland)
+E63000051,Stannington
+E63000052,Ogle
+E63000053,Cramlington
+E63000054,New Hartley
+E63000055,Seaton Sluice
+E63000056,Seaton Delaval
+E63000057,Seghill
+E63000058,Dudley (North Tyneside)
+E63000059,Seaton Burn
+E63000060,Dinnington (Newcastle upon Tyne)
+E63000061,Whitley Bay
+E63000062,Wideopen
+E63000063,Backworth
+E63000064,Ponteland
+E63000065,Stamfordham
+E63000066,Killingworth
+E63000067,Shiremoor
+E63000068,Humshaugh
+E63000069,Woolsington
+E63000070,Medburn
+E63000071,Ouston
+E63000072,Longbenton
+E63000073,Tynemouth
+E63000074,Longtown
+E63000075,Callerton
+E63000076,Wallsend
+E63000077,Newcastle upon Tyne
+E63000078,Throckley
+E63000079,Heddon-on-the-Wall
+E63000080,Blackbank
+E63000081,Gilsland
+E63000082,Acomb
+E63000083,Walbottle
+E63000084,Horsley (Northumberland)
+E63000085,Newburn
+E63000086,Newton Hall
+E63000087,South Shields
+E63000088,Wylam
+E63000089,Corbridge
+E63000090,Hebburn
+E63000091,Redburn
+E63000092,Haydon Bridge
+E63000093,Ryton
+E63000094,Jarrow
+E63000095,Ovingham
+E63000096,Haltwhistle
+E63000097,Hexham
+E63000098,Prudhoe
+E63000099,Blaydon
+E63000100,Crawcrook and Greenside
+E63000101,Cleadon
+E63000102,Whitburn (South Tyneside)
+E63000103,Boldon Colliery
+E63000104,East Boldon and West Boldon
+E63000105,Riding Mill
+E63000106,Whickham
+E63000107,Harker
+E63000108,South Bents
+E63000109,Brampton (Carlisle)
+E63000110,Oldwall
+E63000111,Gateshead
+E63000112,Stocksfield
+E63000113,Follingsby
+E63000114,High Spen
+E63000115,Cargo
+E63000116,Burgh by Sands
+E63000117,Sunniside
+E63000118,Houghton (Carlisle)
+E63000119,Springwell
+E63000120,Rowlands Gill
+E63000121,Chopwell
+E63000122,Hayton (Carlisle)
+E63000123,Warwick Bridge
+E63000124,Washington
+E63000125,Sunderland
+E63000126,Burnopfield
+E63000127,Kibblesworth
+E63000128,Blackhall Mill
+E63000129,Hamsterley Mill
+E63000130,Birtley
+E63000131,Allendale Town
+E63000132,Hobson
+E63000133,Carlisle
+E63000134,Skinburness
+E63000135,Scotby
+E63000136,Heads Nook
+E63000137,Ebchester
+E63000138,Kirkbride
+E63000139,Tantobie
+E63000140,Wetheral
+E63000141,Urpeth
+E63000142,Beamish
+E63000143,Medomsley
+E63000144,Dipton
+E63000145,Tanfield Lea
+E63000146,Silloth
+E63000147,Penshaw
+E63000148,Pelton and Ouston
+E63000149,West Pelton
+E63000150,Cumwhinton
+E63000151,Shiney Row and Penshaw
+E63000152,Newfield
+E63000153,Stanley (County Durham)
+E63000154,Blackwell (Carlisle)
+E63000155,Annfield Plain
+E63000156,Leadgate
+E63000157,Whitehill (County Durham)
+E63000158,Chester-le-Street
+E63000159,Bournmoor
+E63000160,Craghead
+E63000161,Consett
+E63000162,Abbeytown
+E63000163,Dalston
+E63000164,Thursby
+E63000165,Fence Houses
+E63000166,Houghton-le-Spring
+E63000167,Great Lumley
+E63000168,Seaham
+E63000169,Castleside
+E63000170,Wigton
+E63000171,Burnhope
+E63000172,East Rainton
+E63000173,Nettlesworth and Kimblesworth
+E63000174,Lanchester
+E63000175,Sacriston
+E63000176,Hetton-le-Hole
+E63000177,Murton (County Durham)
+E63000178,West Rainton
+E63000179,Alston
+E63000180,Easington Lane
+E63000181,Witton Gilbert
+E63000182,Mellguards
+E63000183,South Hetton
+E63000184,Langley Park
+E63000185,Hetton le Hill
+E63000186,High Pittington
+E63000187,Easington (County Durham)
+E63000188,Haswell
+E63000189,Allonby
+E63000190,Durham
+E63000191,Ushaw Moor and Bearpark
+E63000192,Sherburn (County Durham)
+E63000193,Sherburn Hill
+E63000194,Aspatria
+E63000195,Esh Winning
+E63000196,New Brancepeth
+E63000197,Horden
+E63000198,Shadforth
+E63000199,Peterlee
+E63000200,Shotton Colliery
+E63000201,High Shincliffe
+E63000202,Caldbeck
+E63000203,Brandon (County Durham)
+E63000204,Thornley
+E63000205,Lazonby
+E63000206,Stanhope
+E63000207,Tow Law
+E63000208,Blackhall Colliery
+E63000209,Bothel
+E63000210,Wheatley Hill
+E63000211,Crosby (Allerdale)
+E63000212,Bowburn
+E63000213,Blackhall Rocks
+E63000214,Wingate
+E63000215,Billy Row
+E63000216,Wolsingham
+E63000217,Croxdale
+E63000218,Frosterley
+E63000219,Eastgate
+E63000220,Howbeck
+E63000221,Maryport
+E63000222,Kelloe
+E63000223,Trimdon Colliery
+E63000224,Coxhoe
+E63000225,Trimdon Grange
+E63000226,Dearham
+E63000227,Skelton (Eden)
+E63000228,Crook
+E63000229,Tallentire
+E63000230,Hart
+E63000231,Willington (County Durham)
+E63000232,Spennymoor
+E63000233,Redmain
+E63000234,Cornforth
+E63000235,Byers Green
+E63000236,Trimdon
+E63000237,Langwathby
+E63000238,Broughton Moor
+E63000239,Flimby
+E63000240,Dovenby
+E63000241,Hunwick
+E63000242,Hartlepool
+E63000243,Elwick
+E63000244,Ferryhill
+E63000245,Fishburn
+E63000246,Bishop Middleham
+E63000247,Great Broughton and Little Broughton
+E63000248,Witton-le-Wear
+E63000249,Siddick
+E63000250,Kirk Merrington
+E63000251,Newton Rigg
+E63000252,Greystoke
+E63000253,Hamsterley
+E63000254,Seaton (Allerdale)
+E63000255,Cockermouth
+E63000256,Brigham
+E63000257,Penrith
+E63000258,Witton Park
+E63000259,Culgaith
+E63000260,Coundon and Leeholme
+E63000261,Great Clifton
+E63000262,Chilton (County Durham)
+E63000263,Greysouthen
+E63000264,Stainburn
+E63000265,Sedgefield
+E63000266,Toft Hill and High Etherley
+E63000267,Bishop Auckland
+E63000268,Workington
+E63000269,Stainton (Eden)
+E63000270,Eldon Lane and Coundon Grange
+E63000271,Greatham (Hartlepool)
+E63000272,Temple Sowerby
+E63000273,Cliburn
+E63000274,Wynyard
+E63000275,Sockbridge
+E63000276,Clifton (Eden)
+E63000277,West Auckland
+E63000278,Shildon
+E63000279,Kirkby Thore
+E63000280,Wolviston
+E63000281,High Harrington
+E63000282,Middleton-in-Teesdale
+E63000283,Newton Aycliffe
+E63000284,Evenwood
+E63000285,Winscales
+E63000286,Long Marton
+E63000287,Cockfield
+E63000288,Redcar
+E63000289,Mickleton (County Durham)
+E63000290,Braithwaite
+E63000291,School Aycliffe
+E63000292,Distington
+E63000293,Stillington (Stockton-on-Tees)
+E63000294,Portinscale
+E63000295,Keswick
+E63000296,Bolton (Eden)
+E63000297,Grangetown
+E63000298,Billingham
+E63000299,Hilton (Eden)
+E63000300,Marske-by-the-Sea
+E63000301,Kirkleatham
+E63000302,Heighington
+E63000303,Carlton (Stockton-on-Tees)
+E63000304,Lowca
+E63000305,Lazenby
+E63000306,Saltburn-by-the-Sea
+E63000307,New Marske
+E63000308,Parton
+E63000309,Staindrop
+E63000310,Appleby-in-Westmorland
+E63000311,Stockton-on-Tees
+E63000312,Brotton
+E63000313,Cotherstone
+E63000314,Carlin How
+E63000315,Moresby Parks
+E63000316,Eston
+E63000317,Skelton (Redcar and Cleveland)
+E63000318,Arlecdon
+E63000319,Staithes
+E63000320,Beaumont Hill
+E63000321,Loftus
+E63000322,Easington (Redcar and Cleveland)
+E63000323,Thornaby-on-Tees
+E63000324,Middlesbrough
+E63000325,Frizington
+E63000326,Whitehaven
+E63000327,Gainford
+E63000328,Boosbeck
+E63000329,Barnard Castle
+E63000330,Sadberge
+E63000331,Hinderwell
+E63000332,Rheda Park
+E63000333,Longnewton
+E63000334,Lingdale
+E63000335,Startforth
+E63000336,Guisborough
+E63000337,Shap
+E63000338,Cleator Moor
+E63000339,Darlington
+E63000340,Merrybent
+E63000341,Brough (Eden)
+E63000342,Stainton (Middlesbrough)
+E63000343,Egglescliffe
+E63000344,Moor Row
+E63000345,Moorsholm
+E63000346,Ingleby Barwick
+E63000347,Bigrigg
+E63000348,Middleton St George
+E63000349,Yarm
+E63000350,St Bees
+E63000351,Hilton (Stockton-on-Tees)
+E63000352,Great Ayton
+E63000353,Egremont
+E63000354,Hurworth-on-Tees
+E63000355,Seamer (Hambleton)
+E63000356,Whitby
+E63000357,Low Worsall
+E63000358,Kirklevington
+E63000359,Barton (Richmondshire)
+E63000360,Thornhill (Copeland)
+E63000361,Stokesley
+E63000362,Kirkby Stephen
+E63000363,Melsonby
+E63000364,Castleton (Scarborough)
+E63000365,Grasmere
+E63000366,Sleights
+E63000367,Dalton-on-Tees
+E63000368,Beckermet
+E63000369,Great Broughton
+E63000370,Hutton Rudby
+E63000371,Middleton Tyas
+E63000372,Robin Hood's Bay
+E63000373,Sneatonthorpe
+E63000374,Fylingthorpe
+E63000375,Ambleside
+E63000376,Sellafield
+E63000377,Gosforth
+E63000378,East Cowton
+E63000379,Swainby
+E63000380,Goathland
+E63000381,Seascale
+E63000382,Richmond
+E63000383,Scorton
+E63000384,Brompton-on-Swale
+E63000385,Staveley (South Lakeland)
+E63000386,Windermere
+E63000387,Hawkshead
+E63000388,Coniston
+E63000389,Catterick
+E63000390,Catterick Garrison
+E63000391,Osmotherley
+E63000392,Bowness-on-Windermere
+E63000393,Brompton
+E63000394,Burneside
+E63000395,Storrs
+E63000396,Northallerton
+E63000397,Cloughton
+E63000398,Burniston
+E63000399,Romanby
+E63000400,Kendal
+E63000401,Scruton
+E63000402,Morton-on-Swale
+E63000403,Sedbergh
+E63000404,Scalby
+E63000405,Leyburn
+E63000406,Leeming Bar
+E63000407,Oxenholme
+E63000408,Harmby
+E63000409,Hawes and Gayle
+E63000410,Borrowby
+E63000411,Natland
+E63000412,Leeming
+E63000413,Aiskew
+E63000414,West Witton
+E63000415,Bootle (Copeland)
+E63000416,Thornton-le-Moor
+E63000417,Bedale
+E63000418,Knayton
+E63000419,Finsthwaite
+E63000420,Middleham
+E63000421,Broughton in Furness
+E63000422,Kirkbymoorside
+E63000423,Summerlands
+E63000424,Levens
+E63000425,Scarborough
+E63000426,Sinnington
+E63000427,Firby
+E63000428,Middleton (Ryedale)
+E63000429,Endmoor
+E63000430,East Ayton and West Ayton
+E63000431,Nawton and Beadlam
+E63000432,Backbarrow
+E63000433,Hutton Buscel
+E63000434,Snape (Hambleton)
+E63000435,Helmsley
+E63000436,Pickering
+E63000437,Seamer (Scarborough)
+E63000438,Carthorpe
+E63000439,Heversham
+E63000440,Pickhill
+E63000441,Gristhorpe
+E63000442,Thornton-le-Dale
+E63000443,Penny Bridge and Greenodd
+E63000444,Ebberston
+E63000445,Kirkby-in-Furness
+E63000446,Wombleton
+E63000447,Snainton
+E63000448,Brompton-by-Sawdon
+E63000449,Thirsk
+E63000450,Milnthorpe
+E63000451,Carlton Miniott
+E63000452,Sowerby
+E63000453,Masham
+E63000454,Filey
+E63000455,Bagby
+E63000456,Lindale
+E63000457,Storth and Sandside
+E63000458,Millom
+E63000459,Kirby Misperton
+E63000460,Muston (Scarborough)
+E63000461,Flixton Ings
+E63000462,Casterton
+E63000463,Staxton
+E63000464,Thorpefield
+E63000465,Oswaldkirk
+E63000466,West Tanfield
+E63000467,Holme (South Lakeland)
+E63000468,Haverigg
+E63000469,Cartmel
+E63000470,Kirkby Lonsdale
+E63000471,Ampleforth
+E63000472,Arnside
+E63000473,Primrose Valley
+E63000474,Ulverston
+E63000475,Grange-over-Sands
+E63000476,Askam in Furness
+E63000477,Hunmanby
+E63000478,Sherburn (Ryedale)
+E63000479,Swarthmoor
+E63000480,Allithwaite
+E63000481,Burton-in-Kendal
+E63000482,Grewelthorpe
+E63000483,Topcliffe
+E63000484,Reighton Sands
+E63000485,Lindal in Furness
+E63000486,Dalton
+E63000487,Melmerby
+E63000488,North Stainley
+E63000489,Hovingham
+E63000490,Rainton
+E63000491,Silverdale
+E63000492,Husthwaite
+E63000493,Slingsby
+E63000494,Flookburgh
+E63000495,Great Urswick
+E63000496,Rillington
+E63000497,Kirkby Malzeard
+E63000498,Dalton-in-Furness
+E63000499,Amotherby
+E63000500,Swinton (Ryedale)
+E63000501,Ingleton
+E63000502,Tewitfield
+E63000503,Warton (Lancaster)
+E63000504,Dishforth
+E63000505,Bempton
+E63000506,Burton in Lonsdale
+E63000507,Burton Fleming
+E63000508,Malton
+E63000509,Sharow
+E63000510,Ripon
+E63000511,Raskelf
+E63000512,Norton-on-Derwent
+E63000513,Weaverthorpe
+E63000514,Flamborough
+E63000515,Terrington
+E63000516,Settrington
+E63000517,Carnforth
+E63000518,Helperby and Brafferton
+E63000519,Over Kellet
+E63000520,Easingwold
+E63000521,Barrow-in-Furness
+E63000522,Low Bentham
+E63000523,High Bentham
+E63000524,Hornby
+E63000525,Austwick
+E63000526,Kirby Hill
+E63000527,Nether Kellet
+E63000528,Stillington (Hambleton)
+E63000529,Rudston
+E63000530,Bridlington
+E63000531,Langthorpe
+E63000532,Langtoft (East Riding of Yorkshire)
+E63000533,Sheriff Hutton
+E63000534,Boroughbridge
+E63000535,Bishop Monkton
+E63000536,Bolton-le-Sands
+E63000537,Rampside
+E63000538,Roecliffe
+E63000539,Pateley Bridge
+E63000540,Alne
+E63000541,Huby (Hambleton)
+E63000542,Halton (Lancaster)
+E63000543,Sutton-on-the-Forest
+E63000544,Carnaby
+E63000545,Wilsthorpe
+E63000546,Caton
+E63000547,Kilham
+E63000548,Tollerton (Hambleton)
+E63000549,Giggleswick
+E63000550,Grassington
+E63000551,Morecambe
+E63000552,Burton Leonard
+E63000553,Threshfield
+E63000554,Settle
+E63000555,Burton Agnes
+E63000556,Staveley (Harrogate)
+E63000557,Summerbridge
+E63000558,Heysham
+E63000559,Flaxton
+E63000560,Lancaster
+E63000561,Great Ouseburn
+E63000562,Linton-on-Ouse
+E63000563,Strensall
+E63000564,Newton-on-Ouse
+E63000565,Darley
+E63000566,Garton-on-the-Wolds
+E63000567,Birstwith
+E63000568,Thorpe Underwood
+E63000569,Scotton (Harrogate)
+E63000570,Fridaythorpe
+E63000571,Nafferton
+E63000572,Wetwang
+E63000573,Middleton (Lancaster)
+E63000574,Stodday
+E63000575,Shipton (Hambleton)
+E63000576,Hampsthwaite
+E63000577,Killinghall
+E63000578,Wigginton (York)
+E63000579,Long Preston
+E63000580,Overton (Lancaster)
+E63000581,Haxby
+E63000582,Driffield
+E63000583,Whixley
+E63000584,Earswick
+E63000585,Bailrigg
+E63000586,Knaresborough
+E63000587,Green Hammerton
+E63000588,Ulrome
+E63000589,Hellifield
+E63000590,Kelleythorpe
+E63000591,Skelton (York)
+E63000592,Goldsborough
+E63000593,Stockton on the Forest
+E63000594,Warthill
+E63000595,Foston on the Wolds
+E63000596,Galgate
+E63000597,Stamford Bridge
+E63000598,Huntington (York)
+E63000599,Bishop Wilton
+E63000600,Skipsea
+E63000601,Harrogate
+E63000602,Full Sutton
+E63000603,Gargrave
+E63000604,Beeford
+E63000605,Upper Poppleton
+E63000606,Nether Poppleton
+E63000607,Embsay
+E63000608,North Frodingham
+E63000609,Follifoot
+E63000610,Hutton Cranswick
+E63000611,Dunnington
+E63000612,Tockwith
+E63000613,Murton
+E63000614,Osbaldwick
+E63000615,York
+E63000616,Pannal
+E63000617,Skipton
+E63000618,Long Marston (Harrogate)
+E63000619,Spofforth
+E63000620,Wilberfoss
+E63000621,Rufforth
+E63000622,Heslington
+E63000623,Forton
+E63000624,Addingham
+E63000625,Carleton-in-Craven
+E63000626,Middleton-on-the-Wolds
+E63000627,Kirkby Overblow
+E63000628,Barmby Moor
+E63000629,Pocklington
+E63000630,Gisburn
+E63000631,Wetherby
+E63000632,Nunkeeling
+E63000633,Low Bradley
+E63000634,Thornton-in-Craven
+E63000635,Pilling
+E63000636,Lund
+E63000637,Preesall and Knott End-on-Sea
+E63000638,Elvington
+E63000639,Ilkley
+E63000640,Askham Bryan
+E63000641,Huby (Harrogate)
+E63000642,Hornsea
+E63000643,Bishopthorpe
+E63000644,Brandesburton
+E63000645,Linton (Leeds)
+E63000646,Lockington
+E63000647,Sutton upon Derwent
+E63000648,Copmanthorpe
+E63000649,Barnoldswick
+E63000650,Cononley
+E63000651,Fleetwood
+E63000652,Earby
+E63000653,Thorp Arch
+E63000654,Bilbrough
+E63000655,Silsden
+E63000656,Farnhill
+E63000657,Burley in Wharfedale
+E63000658,Collingham (Leeds)
+E63000659,Sigglesthorne
+E63000660,Garstang
+E63000661,Otley (Leeds)
+E63000662,Hayton (East Riding of Yorkshire)
+E63000663,Acaster Malbis
+E63000664,Grindleton
+E63000665,Stalmine
+E63000666,Cross Hills
+E63000667,Boston Spa
+E63000668,Harewood
+E63000669,Leven (East Riding of Yorkshire)
+E63000670,Wheldrake
+E63000671,Pool-in-Wharfedale
+E63000672,Sough
+E63000673,Bonds
+E63000674,West Bradford
+E63000675,Steeton
+E63000676,East Keswick
+E63000677,Chatburn
+E63000678,Melbourne (East Riding of Yorkshire)
+E63000679,Sutton-in-Craven
+E63000680,Bowgreave
+E63000681,Menston
+E63000682,Sower Carr
+E63000683,Waddington (Ribble Valley)
+E63000684,Routh
+E63000685,Bardsey
+E63000686,Shiptonthorpe
+E63000687,Cleveleys
+E63000688,Leconfield
+E63000689,Chipping
+E63000690,Bramhope
+E63000691,Goodmanham
+E63000692,Cowling
+E63000693,Bramham
+E63000694,Tadcaster
+E63000695,Great Cowden
+E63000696,Escrick
+E63000697,Catterall
+E63000698,Hambleton (Wyre)
+E63000699,Thornton (Wyre)
+E63000700,Appleton Roebuck
+E63000701,Foulridge
+E63000702,Guiseley
+E63000703,Long Riston
+E63000704,East Morton
+E63000705,Seaton Ross
+E63000706,Tickton
+E63000707,Market Weighton
+E63000708,Clitheroe
+E63000709,Hull Bridge
+E63000710,Yeadon
+E63000711,St Michael's on Wyre
+E63000712,Scarcroft
+E63000713,Keighley
+E63000714,Stillingfleet
+E63000715,Bishop Burton and Cherry Burton
+E63000716,Thorner
+E63000717,Withernwick
+E63000718,Bilsborrow
+E63000719,Colne
+E63000720,Great Eccleston
+E63000721,Carleton
+E63000722,Ulleskelf
+E63000723,Shadwell
+E63000724,Poulton-le-Fylde
+E63000725,Barrowford
+E63000726,Beverley
+E63000727,Bingley
+E63000728,Skirlaugh
+E63000729,Little Singleton
+E63000730,Sancton
+E63000731,Rawdon
+E63000732,Esholt
+E63000733,Baildon
+E63000734,Trawden
+E63000735,Oakworth
+E63000736,Aldbrough
+E63000737,Hurst Green (Ribble Valley)
+E63000738,Holme upon Spalding Moor
+E63000739,Elswick
+E63000740,Harden
+E63000741,Barrow (Ribble Valley)
+E63000742,Aberford
+E63000743,Church Fenton
+E63000744,Riccall
+E63000745,Inskip
+E63000746,Nelson (Pendle)
+E63000747,Cawood
+E63000748,Haworth
+E63000749,Fence
+E63000750,Sabden
+E63000751,Shipley (Bradford)
+E63000752,Longridge (Ribble Valley)
+E63000753,Barwick in Elmet
+E63000754,North Duffield
+E63000755,Walkington
+E63000756,Scholes (Leeds)
+E63000757,Wawne
+E63000758,Woodmansey
+E63000759,Calverley
+E63000760,Saxton
+E63000761,Barton (Preston)
+E63000762,Cullingworth
+E63000763,Whalley
+E63000764,North Newbald
+E63000765,Goosnargh
+E63000766,Higham (Pendle)
+E63000767,Old Langho
+E63000768,Brierfield
+E63000769,Weeton
+E63000770,Staining
+E63000771,Bubwith
+E63000772,Barkston Ash
+E63000773,Wilsden
+E63000774,Wistow (Selby)
+E63000775,Billington (Ribble Valley)
+E63000776,High Garth
+E63000777,Ribchester
+E63000778,Dunswell
+E63000779,Woodplumpton
+E63000780,Oxenhope
+E63000781,Read
+E63000782,Breighton
+E63000783,Sproatley
+E63000784,Leeds
+E63000785,Broughton (Preston)
+E63000786,Hotham
+E63000787,Grimsargh
+E63000788,Barlby
+E63000789,Pudsey
+E63000790,Denholme
+E63000791,Langho
+E63000792,Blackpool
+E63000793,Padiham
+E63000794,Osgodby (Selby)
+E63000795,Skidby
+E63000796,Little Weighton
+E63000797,Simonstone
+E63000798,Wesham
+E63000799,Cottingham
+E63000800,Burnley
+E63000801,Garforth
+E63000802,Micklefield
+E63000803,Bradford
+E63000804,Sherburn in Elmet
+E63000805,Bilton
+E63000806,Thornton (Bradford)
+E63000807,Fulwood
+E63000808,Altham
+E63000809,Worsthorne
+E63000810,North Cave
+E63000811,Great Harwood
+E63000812,Cliffe (Selby)
+E63000813,Cottam (Preston)
+E63000814,Selby
+E63000815,Osbaldeston
+E63000816,Ribby
+E63000817,Kirkham
+E63000818,South Milford
+E63000819,Hapton
+E63000820,Lea Town
+E63000821,Wrea Green
+E63000822,Tunstall (East Riding of Yorkshire)
+E63000823,Burton Pidsea
+E63000824,Clayton-le-Moors
+E63000825,Kingston upon Hull
+E63000826,Myerscough Smithy
+E63000827,Thorpe Willoughby
+E63000828,Newton-with-Scales
+E63000829,Newport (East Riding of Yorkshire)
+E63000830,Preston (Preston)
+E63000831,Huncoat
+E63000832,Hambleton (Selby)
+E63000833,South Cave
+E63000834,Hemingbrough
+E63000835,Brayton
+E63000836,Preston (East Riding of Yorkshire)
+E63000837,Kippax
+E63000838,Roos
+E63000839,Clifton (Fylde)
+E63000840,Swillington
+E63000841,Rishton
+E63000842,Eastrington
+E63000843,Queensbury
+E63000844,Samlesbury
+E63000845,Monk Fryston and Hillam
+E63000846,Willerby and Anlaby
+E63000847,Ellerker
+E63000848,Gilberdyke
+E63000849,Freckleton
+E63000850,Cliviger
+E63000851,Allerton Bywater
+E63000852,Church
+E63000853,Gildersome
+E63000854,Drighlington
+E63000855,Lytham St Anne's
+E63000856,Hedon
+E63000857,Gomersal and Birkenshaw
+E63000858,Barmby on the Marsh
+E63000859,Rothwell (Leeds)
+E63000860,Howden
+E63000861,Burstwick
+E63000862,Bottom of Hutton
+E63000863,Burn
+E63000864,Accrington
+E63000865,Warton (Fylde)
+E63000866,Heptonstall
+E63000867,Withernsea
+E63000868,Oakenshaw
+E63000869,Blackburn (Blackburn with Darwen)
+E63000870,Swanland
+E63000871,Fairburn
+E63000872,Barlow
+E63000873,Morley (Leeds)
+E63000874,Penwortham
+E63000875,Hebden Bridge
+E63000876,Coup Green
+E63000877,Higher Walton
+E63000878,Oswaldtwistle
+E63000879,Shelf and Northowram
+E63000880,Carlton (Leeds)
+E63000881,Booth
+E63000882,Hoghton
+E63000883,Mickletown
+E63000884,Norwood Green
+E63000885,Hutton (South Ribble)
+E63000886,Thorpe on the Hill (Leeds)
+E63000887,Hessle
+E63000888,Gregson Lane
+E63000889,Drax
+E63000890,Thorngumbald
+E63000891,Brough (East Riding of Yorkshire)
+E63000892,Lofthouse and Robin Hood
+E63000893,Bamber Bridge
+E63000894,Paull
+E63000895,North Ferriby
+E63000896,Camblesforth
+E63000897,Brotherton
+E63000898,Methley
+E63000899,Mytholmroyd
+E63000900,Halifax
+E63000901,Scholes (near Cleckheaton)
+E63000902,Weir
+E63000903,Luddenden Foot
+E63000904,East Ardsley
+E63000905,Byram
+E63000906,Cleckheaton
+E63000907,Keyingham
+E63000908,Airmyn
+E63000909,Beal
+E63000910,Castleford
+E63000911,New Gate
+E63000912,Hook (East Riding of Yorkshire)
+E63000913,Hollym
+E63000914,Rising Bridge
+E63000915,Bottom Boat
+E63000916,Batley
+E63000917,Kellington
+E63000918,Longton
+E63000919,Holmfield
+E63000920,Little Hoole Moss Houses
+E63000921,Farington Moss
+E63000922,Hensall
+E63000923,Hirst Courtney
+E63000924,Carlton (Selby)
+E63000925,Ottringham
+E63000926,Todmorden
+E63000927,Heckmondwike
+E63000928,New Holland
+E63000929,Kellingley
+E63000930,Goole
+E63000931,Holmpton
+E63000932,Liversedge
+E63000933,Cragg Vale
+E63000934,Normanton (Wakefield)
+E63000935,Eggborough
+E63000936,Rawtenstall
+E63000937,Brighouse
+E63000938,Sowerby Bridge
+E63000939,Knottingley
+E63000940,Reedness
+E63000941,Midge Hall
+E63000942,Rawcliffe
+E63000943,Kirkhamgate
+E63000944,Patrington
+E63000945,Darwen
+E63000946,Higher Wheelton
+E63000947,Leyland
+E63000948,Bacup
+E63000949,Tarleton and Hesketh Bank
+E63000950,Gowdall
+E63000951,Winteringham
+E63000952,Hoddlesden
+E63000953,Swinefleet
+E63000954,Withnell
+E63000955,Hundred End
+E63000956,Barton-upon-Humber
+E63000957,Pontefract
+E63000958,Snaith
+E63000959,Haslingden
+E63000960,Moor Top
+E63000961,Alkborough
+E63000962,Brinscall
+E63000963,Rawcliffe Bridge
+E63000964,Goxhill
+E63000965,Barrow upon Humber
+E63000966,Patrington Haven
+E63000967,Elland
+E63000968,Whittle-le-Woods
+E63000969,Wheelton
+E63000970,Dewsbury
+E63000971,Wakefield
+E63000972,South Ferriby
+E63000973,Ferriby Sluice
+E63000974,Whitley (Selby)
+E63000975,Featherstone (Wakefield)
+E63000976,Bretherton
+E63000977,Wymott
+E63000978,Banks
+E63000979,Ossett
+E63000980,Mirfield
+E63000981,Streethouse
+E63000982,Darrington
+E63000983,Barkisland
+E63000984,Euxton
+E63000985,Pollington
+E63000986,East Halton
+E63000987,Holywell Green and Stainland
+E63000988,Easington (East Riding of Yorkshire)
+E63000989,Mere Brow
+E63000990,Womersley
+E63000991,Sharlston
+E63000992,Edenfield
+E63000993,Garthorpe
+E63000994,Winterton
+E63000995,Croston
+E63000996,Ripponden
+E63000997,Ulnes Walton
+E63000998,Crofton
+E63000999,Stubbins
+E63001000,Horbury
+E63001001,Summit
+E63001002,Kirkheaton
+E63001003,High Ackworth
+E63001004,Burton upon Stather
+E63001005,North Killingholme
+E63001006,Outlane
+E63001007,Whitworth
+E63001008,Chorley
+E63001009,Coxley (Wakefield)
+E63001010,Low Ackworth
+E63001011,Middlestown and Overton
+E63001012,Walton (Wakefield)
+E63001013,Edgworth
+E63001014,Eccleston
+E63001015,Saxby All Saints
+E63001016,Holmeswood
+E63001017,Huddersfield
+E63001018,Wardle (Rochdale)
+E63001019,Kirk Smeaton and Little Smeaton
+E63001020,Crigglestone and Durkar
+E63001021,Netherton (Wakefield)
+E63001022,Littleborough
+E63001023,Scapegoat Hill
+E63001024,Ackworth Moor Top
+E63001025,South Killingholme
+E63001026,Eastoft
+E63001027,Thorpe Audlin
+E63001028,Wootton (North Lincolnshire)
+E63001029,Southport
+E63001030,Chapeltown
+E63001031,Grange Moor
+E63001032,Rufford (West Lancashire)
+E63001033,Moorends
+E63001034,Bolster Moor
+E63001035,Charnock Richard
+E63001036,Bonby
+E63001037,Ramsbottom
+E63001038,Heath Charnock
+E63001039,Hall Green
+E63001040,Immingham
+E63001041,Norton (Doncaster)
+E63001042,Flockton
+E63001043,Lepton
+E63001044,Heskin Green
+E63001045,Badsworth
+E63001046,Ulceby
+E63001047,Towngate
+E63001048,Appleby
+E63001049,Fitzwilliam and Kinsley
+E63001050,Amcotts
+E63001051,Mawdesley
+E63001052,Moss
+E63001053,Havercroft and Ryhill
+E63001054,Campsall
+E63001055,Linthwaite and Slaithwaite
+E63001056,Worlaby
+E63001057,Coppull
+E63001058,West Bretton
+E63001059,Habrough
+E63001060,Adlington (Chorley)
+E63001061,Upton (Wakefield)
+E63001062,Askern
+E63001063,Thorne
+E63001064,Fishlake
+E63001065,Scarisbrick
+E63001066,Bescar
+E63001067,Elsham
+E63001068,Woolley
+E63001069,Rochdale
+E63001070,Emley
+E63001071,Netherton (Kirklees)
+E63001072,Notton (Wakefield)
+E63001073,Hemsworth
+E63001074,Crowle (North Lincolnshire)
+E63001075,Kirkburton
+E63001076,Mossy Lea
+E63001077,Milnrow
+E63001078,Drummersdale
+E63001079,South Hiendley
+E63001080,Hill Dale
+E63001081,Gunness
+E63001082,Burscough
+E63001083,Stallingborough
+E63001084,Newhey
+E63001085,Royston (Barnsley)
+E63001086,Stainforth
+E63001087,Keadby
+E63001088,South Elmsall
+E63001089,Marsden
+E63001090,Hunger Hill (West Lancashire)
+E63001091,Ealand
+E63001092,Bottom o' th' Moor
+E63001093,Clayton West and Scissett
+E63001094,Brierley
+E63001095,Horwich
+E63001096,South Kirkby
+E63001097,Shelley (Kirklees)
+E63001098,Bury (Bury)
+E63001099,Shevington Moor
+E63001100,Parbold
+E63001101,Meltham
+E63001102,Ring o' Bells
+E63001103,Skelmanthorpe
+E63001104,Newburgh (West Lancashire)
+E63001105,Kirmington
+E63001106,Blackrod
+E63001107,Denshaw
+E63001108,Healing
+E63001109,Bolton (Bolton)
+E63001110,Darton
+E63001111,Ainsworth
+E63001112,Scunthorpe
+E63001113,Worthington
+E63001114,Standish
+E63001115,Keelby
+E63001116,Cudworth and Shafton
+E63001117,Honley
+E63001118,Heywood
+E63001119,Carlton (Barnsley)
+E63001120,Althorpe
+E63001121,Barnetby le Wold
+E63001122,Barnby Dun
+E63001123,Shepley
+E63001124,Appley Bridge
+E63001125,Trub
+E63001126,Shaw (Oldham)
+E63001127,Burringham
+E63001128,Grimsby
+E63001129,Dunscroft and Hatfield
+E63001130,Grimethorpe
+E63001131,Wrawby
+E63001132,Upper Cumberworth
+E63001133,Broughton (North Lincolnshire)
+E63001134,Adwick le Street
+E63001135,Denby Dale
+E63001136,Shevington
+E63001137,Aspull
+E63001138,Upperthong
+E63001139,Toll Bar
+E63001140,Haskayne
+E63001141,Slattocks
+E63001142,Royton
+E63001143,Delph
+E63001144,Cawthorne
+E63001145,Belton (North Lincolnshire)
+E63001146,Holmfirth
+E63001147,Birch
+E63001148,Barugh Green and Redbrook
+E63001149,Cleethorpes
+E63001150,Chew Moor
+E63001151,Radcliffe
+E63001152,Ormskirk
+E63001153,Little Lever
+E63001154,Brigg
+E63001155,Formby
+E63001156,Scholes (near Hade Edge)
+E63001157,Kirk Sandall and Edenthorpe
+E63001158,Upper Denby
+E63001159,Wingates
+E63001160,Barnsley
+E63001161,Scawby Brook
+E63001162,Hunger Hill (Bolton)
+E63001163,Arksey
+E63001164,Holmbridge
+E63001165,Dobcross
+E63001166,Laceby
+E63001167,Skelmersdale
+E63001168,Middleton (Rochdale)
+E63001169,Great Houghton (Barnsley)
+E63001170,West Butterwick
+E63001171,Hatfield Woodhouse
+E63001172,Farnworth
+E63001173,Whitefield
+E63001174,Ingbirchworth
+E63001175,Simister
+E63001176,Silkstone
+E63001177,Wigan
+E63001178,Thurnscoe
+E63001179,Westhoughton
+E63001180,Humberston and New Waltham
+E63001181,Dodworth
+E63001182,Uppermill
+E63001183,Hade Edge
+E63001184,Scawthorpe and Cusworth
+E63001185,Scawby
+E63001186,Rhodes
+E63001187,Kearsley
+E63001188,Aughton
+E63001189,Hoylandswaine
+E63001190,Bentley (Doncaster)
+E63001191,Armthorpe
+E63001192,Oldham
+E63001193,Grasby
+E63001194,Lees
+E63001195,Ince-in-Makerfield
+E63001196,Crow Edge
+E63001197,Darfield
+E63001198,Hindley
+E63001199,Orrell
+E63001200,Silkstone Common
+E63001201,Messingham
+E63001202,Howsham
+E63001203,Chadderton
+E63001204,Worsbrough
+E63001205,Goldthorpe
+E63001206,Epworth
+E63001207,Little Hulton
+E63001208,Hightown (Sefton)
+E63001209,Lydiate
+E63001210,Prestwich
+E63001211,Wroot
+E63001212,Ince Blundell
+E63001213,Atherton
+E63001214,Waltham
+E63001215,Thurlstone
+E63001216,Millhouse Green
+E63001217,Barnoldby le Beck
+E63001218,Penistone
+E63001219,Wombwell
+E63001220,Barnburgh and Harlington
+E63001221,Bolton upon Dearne
+E63001222,Walkden
+E63001223,Holton le Clay
+E63001224,Platt Bridge and Abram
+E63001225,Wardley
+E63001226,Mossley
+E63001227,Clifton (Salford)
+E63001228,Sprotbrough
+E63001229,Doncaster
+E63001230,Oxspring
+E63001231,Bickershaw
+E63001232,Maghull
+E63001233,High Melton
+E63001234,Brigsley
+E63001235,Land Gate
+E63001236,North Kelsey
+E63001237,Tyldesley
+E63001238,Hemingfield
+E63001239,Branton
+E63001240,Tetney
+E63001241,Swinton (Salford)
+E63001242,Pendlebury
+E63001243,Hibaldstow
+E63001244,Bamfurlong (Wigan)
+E63001245,Jump
+E63001246,Brampton (Rotherham)
+E63001247,Caistor
+E63001248,Upper Hoyland
+E63001249,Auckley
+E63001250,Rainford
+E63001251,Thurgoland
+E63001252,Higher Folds
+E63001253,Birdwell
+E63001254,Failsworth
+E63001255,Scotter
+E63001256,Worsley
+E63001257,Woodhouses
+E63001258,Wath upon Dearne
+E63001259,Hoyland
+E63001260,Leigh (Wigan)
+E63001261,Blaxton
+E63001262,Billinge
+E63001263,Mexborough
+E63001264,Astley
+E63001265,Owston Ferry
+E63001266,Redbourne
+E63001267,Nettleton
+E63001268,Ashton-under-Lyne
+E63001269,Ashton-in-Makerfield
+E63001270,Upper Tankersley
+E63001271,Westwoodside
+E63001272,Haxey
+E63001273,Crosby (Sefton)
+E63001274,Salford
+E63001275,Marshchapel
+E63001276,Denaby Main
+E63001277,Scotton (West Lindsey)
+E63001278,Stalybridge
+E63001279,Finningley
+E63001280,Swinton (Rotherham)
+E63001281,Eccles (Salford)
+E63001282,Aintree
+E63001283,Conisbrough
+E63001284,Kirkby
+E63001285,Droylsden
+E63001286,Warmsworth
+E63001287,North Thoresby
+E63001288,Kirton in Lindsey
+E63001289,South Kelsey
+E63001290,Stocksbridge
+E63001291,Litherland
+E63001292,Wentworth (Rotherham)
+E63001293,Deepcar
+E63001294,Golborne
+E63001295,Manchester
+E63001296,Glazebury
+E63001297,Dukinfield
+E63001298,New Rossington and Rossington
+E63001299,Audenshaw
+E63001300,Fulstow
+E63001301,Haydock
+E63001302,Wadworth
+E63001303,North Somercotes
+E63001304,Grainthorpe
+E63001305,Old Trafford
+E63001306,Chapeltown and High Green
+E63001307,Rawmarsh
+E63001308,Padfield
+E63001309,Waddingham
+E63001310,Bootle (Sefton)
+E63001311,Thorpe Hesley
+E63001312,Fowley Common
+E63001313,Hadfield
+E63001314,Culcheth
+E63001315,Brookenby
+E63001316,Ludborough
+E63001317,Knowsley
+E63001318,Newton-le-Willows
+E63001319,Greasbrough
+E63001320,Hyde (Tameside)
+E63001321,Urmston
+E63001322,Misson
+E63001323,Denton (Tameside)
+E63001324,Thrybergh and Dalton
+E63001325,St Helens (St. Helens)
+E63001326,Stretford
+E63001327,Blyton
+E63001328,Hattersley
+E63001329,Braithwell
+E63001330,Gamesley
+E63001331,Austerfield
+E63001332,Misterton (Bassetlaw)
+E63001333,Covenham St Mary
+E63001334,Irlam
+E63001335,Wharncliffe Side
+E63001336,Ecclesfield and Grenoside
+E63001337,Glossop
+E63001338,Stainton (Doncaster)
+E63001339,Reddish
+E63001340,Binbrook
+E63001341,Saltfleet
+E63001342,Broadbottom
+E63001343,Bawtry
+E63001344,Croft (Warrington)
+E63001345,Utterby
+E63001346,Tickhill
+E63001347,Oughtibridge
+E63001348,Willoughton
+E63001349,Burtonwood
+E63001350,Rotherham
+E63001351,Charlesworth
+E63001352,Winwick
+E63001353,Carrington
+E63001354,Osgodby (West Lindsey)
+E63001355,Walkeringham
+E63001356,Hellaby
+E63001357,Wickersley and Bramley
+E63001358,Maltby
+E63001359,Worrall
+E63001360,Bredbury and Woodley
+E63001361,Harworth and Bircotes
+E63001362,Wallasey
+E63001363,Sale
+E63001364,Partington
+E63001365,Prescot
+E63001366,Corringham
+E63001367,Huyton with Roby
+E63001368,Alvingham
+E63001369,Everton (Bassetlaw)
+E63001370,Romiley
+E63001371,Hemswell
+E63001372,Hollinfare
+E63001373,Gringley on the Hill
+E63001374,Liverpool
+E63001375,Scrooby
+E63001376,Harworth
+E63001377,Tealby
+E63001378,Stockport
+E63001379,Whiston
+E63001380,Glentham
+E63001381,Hemswell Cliff
+E63001382,Beckingham
+E63001383,Meols
+E63001384,Gainsborough
+E63001385,Brinsworth
+E63001386,Marple Bridge
+E63001387,Mattersey
+E63001388,Middle Rasen
+E63001389,Market Rasen
+E63001390,Ludford
+E63001391,Thurcroft
+E63001392,Saltfleetby St Peter
+E63001393,Marple
+E63001394,Wythenshawe
+E63001395,Altrincham
+E63001396,Oldcotes
+E63001397,Hoylake
+E63001398,Cronton
+E63001399,Clayworth
+E63001400,Warrington
+E63001401,Heapham
+E63001402,Gatley
+E63001403,Birkenhead
+E63001404,Cheadle (Stockport)
+E63001405,Normanby-by-Spital
+E63001406,Waverley and Catcliffe
+E63001407,Ranskill
+E63001408,Laughton en le Morthen
+E63001409,Treeton
+E63001410,Manby
+E63001411,Louth
+E63001412,Langold
+E63001413,Blyth (Bassetlaw)
+E63001414,Marpleridge
+E63001415,Greasby
+E63001416,Hayfield
+E63001417,Upton (West Lindsey)
+E63001418,Lymm
+E63001419,Birch Vale
+E63001420,Lea (West Lindsey)
+E63001421,Bowdon
+E63001422,West Kirby
+E63001423,Hazel Grove
+E63001424,Sheffield
+E63001425,Widnes
+E63001426,Dinnington (Rotherham)
+E63001427,Bole
+E63001428,Lound
+E63001429,Cheadle Hulme
+E63001430,Kexby
+E63001431,North Wheatley
+E63001432,New Mills
+E63001433,High Lane
+E63001434,Swallownest and Aston
+E63001435,Bramhall
+E63001436,Caldy
+E63001437,Mablethorpe
+E63001438,North Anston
+E63001439,Carlton in Lindrick
+E63001440,Hale (Trafford)
+E63001441,Faldingworth
+E63001442,Sutton cum Lound
+E63001443,Barnby Moor
+E63001444,Disley
+E63001445,Legbourne
+E63001446,Willingham by Stow
+E63001447,Todwick
+E63001448,Moore
+E63001449,Sturton le Steeple
+E63001450,Hale Bank
+E63001451,Barnston (Wirral)
+E63001452,High Legh
+E63001453,Clarborough
+E63001454,Appleton Thorn
+E63001455,Hope (High Peak)
+E63001456,Styal
+E63001457,Furness Vale
+E63001458,South Anston
+E63001459,Higher Poynton
+E63001460,Poynton
+E63001461,Ingham (West Lindsey)
+E63001462,Woodsetts
+E63001463,Bamford
+E63001464,Bebington
+E63001465,Castleton (High Peak)
+E63001466,Kiveton Park
+E63001467,Bucklow Hill
+E63001468,Heswall
+E63001469,Woodford (Stockport)
+E63001470,Chinley
+E63001471,Hale (Halton)
+E63001472,Withern
+E63001473,Carlton Forest
+E63001474,Daresbury
+E63001475,Bradwell (Derbyshire Dales)
+E63001476,Highlane
+E63001477,North Leverton with Habblesthorpe
+E63001478,Maltby le Marsh
+E63001479,Stow (West Lindsey)
+E63001480,Marton (West Lindsey)
+E63001481,Runcorn
+E63001482,Dean Row
+E63001483,East Barkwith
+E63001484,Mere (Cheshire East)
+E63001485,Hathersage
+E63001486,Wickenby
+E63001487,Retford
+E63001488,Shireoaks
+E63001489,Wilmslow
+E63001490,Ridgeway
+E63001491,Whaley Bridge
+E63001492,South Leverton
+E63001493,Thorpe Salvin
+E63001494,Ranby
+E63001495,Aisthorpe and Brattleby
+E63001496,Killamarsh
+E63001497,Chapel-en-le-Frith
+E63001498,Sutton on Sea and Trusthorpe
+E63001499,Harthill (Rotherham)
+E63001500,Sturton by Stow
+E63001501,Adlington (Cheshire East)
+E63001502,Welton (West Lindsey)
+E63001503,Rhodesia
+E63001504,Scampton
+E63001505,Mobberley
+E63001506,Worksop
+E63001507,Cottam (Bassetlaw)
+E63001508,Treswell
+E63001509,Dunholme
+E63001510,Goulceby
+E63001511,Knolls Green
+E63001512,Marsh Lane
+E63001513,Eckington (North East Derbyshire)
+E63001514,Spinkhill
+E63001515,Darfoulds
+E63001516,Scamblesby
+E63001517,Dronfield
+E63001518,Knutsford
+E63001519,Grindleford
+E63001520,Rampton (Bassetlaw)
+E63001521,Mottram St Andrew
+E63001522,Hooton
+E63001523,Alderley Edge
+E63001524,Neston (Cheshire West and Chester)
+E63001525,Childer Thornton
+E63001526,Dove Holes
+E63001527,Wragby
+E63001528,Torksey Lock
+E63001529,Willaston (Cheshire West and Chester)
+E63001530,Woodbeck
+E63001531,Renishaw
+E63001532,Windle Hill
+E63001533,Holmesfield
+E63001534,Comberbach
+E63001535,Frodsham
+E63001536,Bollington
+E63001537,Scothern
+E63001538,Pickmere
+E63001539,Prestbury (Cheshire East)
+E63001540,Great Warford
+E63001541,Barlborough
+E63001542,Whitwell (Bolsover)
+E63001543,Unstone Green
+E63001544,Bilsby
+E63001545,Eyam
+E63001546,Huttoft
+E63001547,Langworth
+E63001548,Gamston (Bassetlaw)
+E63001549,Froggatt
+E63001550,Elkesley
+E63001551,Anderby Creek
+E63001552,Tideswell
+E63001553,Elton (Cheshire West and Chester)
+E63001554,Ellesmere Port
+E63001555,Rainow
+E63001556,Alford (East Lindsey)
+E63001557,Laughterton
+E63001558,Sudbrooke
+E63001559,Clowne
+E63001560,Barrow Hill
+E63001561,Riseholme
+E63001562,Saxilby
+E63001563,Nether Alderley
+E63001564,Belchford
+E63001565,Nettleham
+E63001566,Batham Gate
+E63001567,Plumley
+E63001568,Barnton
+E63001569,Wincham and Marston
+E63001570,Acton Bridge
+E63001571,East Drayton
+E63001572,Chelford
+E63001573,Lostock Gralam
+E63001574,Helsby
+E63001575,Over Peover
+E63001576,Calver
+E63001577,Woodthorpe
+E63001578,Burton-by-Lincoln
+E63001579,Burton (Cheshire West and Chester)
+E63001580,Kingsley (Cheshire West and Chester)
+E63001581,Tunstead
+E63001582,Tetford
+E63001583,Creswell
+E63001584,Newton on Trent
+E63001585,Mumby
+E63001586,Capenhurst
+E63001587,Lower Peover
+E63001588,Staveley (Chesterfield)
+E63001589,Weaverham
+E63001590,Markham Moor
+E63001591,Macclesfield
+E63001592,Northwich
+E63001593,Reepham (West Lindsey)
+E63001594,North Greetwell
+E63001595,Cutthorpe
+E63001596,Brimington
+E63001597,Burton Waters
+E63001598,East Markham
+E63001599,Buxton (High Peak)
+E63001600,Rudheath
+E63001601,Shuttlewood
+E63001602,Dunham-on-the-Hill
+E63001603,Baslow
+E63001604,Norley
+E63001605,Cherry Willingham
+E63001606,Hogsthorpe
+E63001607,Hartford
+E63001608,Chapel St Leonards
+E63001609,Duckmanton
+E63001610,Lach Dennis
+E63001611,Fiskerton (West Lindsey)
+E63001612,Markham Vale
+E63001613,Willoughby (East Lindsey)
+E63001614,Skellingthorpe
+E63001615,Great Longstone
+E63001616,Chesterfield
+E63001617,Langley (Cheshire East)
+E63001618,Cuddington (Cheshire West and Chester)
+E63001619,Mouldsworth
+E63001620,Withington Green
+E63001621,Sutton Lane Ends
+E63001622,Davenham
+E63001623,Allostock
+E63001624,Bardney
+E63001625,Taddington
+E63001626,Tuxford
+E63001627,High Marnham
+E63001628,Mollington (Cheshire West and Chester)
+E63001629,Bolsover
+E63001630,Walesby
+E63001631,Langwith
+E63001632,Harpur Hill
+E63001633,Gawsworth
+E63001634,Byley
+E63001635,South Clifton
+E63001636,Rudheath Woods
+E63001637,Moston
+E63001638,Meden Vale
+E63001639,Saughall
+E63001640,Goostrey
+E63001641,Washingborough and Heighington
+E63001642,Horncastle
+E63001643,Mickle Trafford
+E63001644,Canwick
+E63001645,Hagworthingham
+E63001646,Whitegate
+E63001647,Ashton Hayes
+E63001648,Delamere
+E63001649,Holymoorside
+E63001650,Lincoln
+E63001651,Church Warsop
+E63001652,Egmanton
+E63001653,Normanton on Trent
+E63001654,Scarcliffe
+E63001655,Kirton (Newark and Sherwood)
+E63001656,Ingoldmells
+E63001657,Great Barrow
+E63001658,Bakewell
+E63001659,Kelsall
+E63001660,Guilden Sutton
+E63001661,Cranage
+E63001662,New Ollerton and Ollerton
+E63001663,Market Warsop
+E63001664,Branston
+E63001665,Bracebridge Heath
+E63001666,Shirebrook
+E63001667,Wingerworth
+E63001668,Eagle
+E63001669,Holmes Chapel
+E63001670,Grassmoor
+E63001671,North Scarle
+E63001672,Laxton
+E63001673,Heath
+E63001674,Boothsdale
+E63001675,Littleton (Cheshire West and Chester)
+E63001676,Tarvin
+E63001677,North Hykeham
+E63001678,Hardwick Wood
+E63001679,Potterhanworth
+E63001680,Wellow (Newark and Sherwood)
+E63001681,Edwinstowe
+E63001682,Spilsby
+E63001683,Rowsley
+E63001684,Glapwell
+E63001685,Winsford
+E63001686,North Wingfield and Holmewood
+E63001687,Sutton on Trent
+E63001688,Middlewich
+E63001689,Cotebrook
+E63001690,South Hykeham
+E63001691,Old Tupton
+E63001692,Thorpe on the Hill (North Kesteven)
+E63001693,Utkinton
+E63001694,New Houghton
+E63001695,Halton Holegate
+E63001696,Burgh le Marsh
+E63001697,Old Bolingbroke
+E63001698,Christleton and Waverton
+E63001699,Somerford and Brereton Heath
+E63001700,Duddon
+E63001701,Rufford (Newark and Sherwood)
+E63001702,Waddington (North Kesteven)
+E63001703,Nocton
+E63001704,Youlgreave
+E63001705,Pleasley
+E63001706,Morton Hall
+E63001707,Toynton All Saints
+E63001708,Mansfield Woodhouse
+E63001709,East Keal
+E63001710,Clotton
+E63001711,Clay Cross
+E63001712,West Keal
+E63001713,Darley Dale
+E63001714,Ashover
+E63001715,Congleton
+E63001716,Woodhall Spa
+E63001717,Skegness
+E63001718,Swinderby
+E63001719,Dunston
+E63001720,Pilsley and Lower Pilsley
+E63001721,Witham St Hughs
+E63001722,Kirkby on Bain
+E63001723,Forest Town
+E63001724,Tarporley
+E63001725,Harmston
+E63001726,Hagnaby
+E63001727,Eakring
+E63001728,Collingham (Newark and Sherwood)
+E63001729,Cromwell
+E63001730,Stretton (North East Derbyshire)
+E63001731,Metheringham
+E63001732,Norwell
+E63001733,Tibshelf
+E63001734,Mareham le Fen
+E63001735,Elworth
+E63001736,Dodleston
+E63001737,Stanton Hill and Skegby
+E63001738,Sandbach
+E63001739,Matlock
+E63001740,Mansfield
+E63001741,Bilsthorpe
+E63001742,Coleby
+E63001743,Winster
+E63001744,Hartington
+E63001745,Mickley
+E63001746,Morton (North East Derbyshire)
+E63001747,Caunton
+E63001748,Martin (North Kesteven)
+E63001749,Stickford
+E63001750,Bassingham
+E63001751,Tansley
+E63001752,North Muskham
+E63001753,Alpraham
+E63001754,Sutton in Ashfield
+E63001755,Wheelock
+E63001756,Wainfleet All Saints
+E63001757,Huthwaite
+E63001758,Shirland and Stonebroom
+E63001759,Tattenhall
+E63001760,Rainworth
+E63001761,Newton and Blackwell
+E63001762,Timberland
+E63001763,Wainfleet St Mary
+E63001764,Biddulph Moor
+E63001765,Matlock Bath
+E63001766,Bonsall
+E63001767,Rudyard
+E63001768,Scopwick
+E63001769,Carlton-le-Moorland
+E63001770,Bunbury
+E63001771,Wessington
+E63001772,The Bank
+E63001773,Navenby
+E63001774,Wardle (Cheshire East)
+E63001775,Rode Heath
+E63001776,Winterley
+E63001777,Kirklington
+E63001778,Scholar Green
+E63001779,Coningsby and Tattershall
+E63001780,Biddulph
+E63001781,Tattershall
+E63001782,Harlow Wood
+E63001783,"Harriseahead, Mow Cop and Newchapel"
+E63001784,Ashby de la Launde
+E63001785,Cromford
+E63001786,Farnsfield
+E63001787,Walcott (North Kesteven)
+E63001788,Stickney
+E63001789,Churton
+E63001790,Winthorpe
+E63001791,Blidworth
+E63001792,Leek
+E63001793,Holloway (Amber Valley)
+E63001794,Middleton (Derbyshire Dales)
+E63001795,Kirkby-in-Ashfield
+E63001796,Haslington
+E63001797,South Normanton and Pinxton
+E63001798,Friskney Eaudyke
+E63001799,Edingley
+E63001800,South Wingfield
+E63001801,Alfreton
+E63001802,Friskney
+E63001803,Alsager
+E63001804,Crewe
+E63001805,Billinghay
+E63001806,Digby
+E63001807,Birchall
+E63001808,Ravenshead
+E63001809,Halam
+E63001810,Parwich
+E63001811,Coddington
+E63001812,Farndon (Cheshire West and Chester)
+E63001813,Kidsgrove
+E63001814,Upton (Newark and Sherwood)
+E63001815,Whatstandwell
+E63001816,Radway Green
+E63001817,Welbourn
+E63001818,Rease Heath
+E63001819,Crich
+E63001820,Brassington
+E63001821,Brant Broughton
+E63001822,Longsdon
+E63001823,Wirksworth
+E63001824,Brown Knowl
+E63001825,Newark-on-Trent
+E63001826,Leekbrook
+E63001827,Staythorpe
+E63001828,Annesley Woodhouse
+E63001829,Southwell (Newark and Sherwood)
+E63001830,Somercotes and Swanwick
+E63001831,Brown Edge
+E63001832,Selston
+E63001833,Endon
+E63001834,Fritchley
+E63001835,Pye Bridge
+E63001836,Newstead
+E63001837,Talke and Talke Pits
+E63001838,Dorrington (North Kesteven)
+E63001839,North Kyme
+E63001840,Rolleston
+E63001841,Willaston (Cheshire East)
+E63001842,Cheddleton
+E63001843,Weston (Cheshire East)
+E63001844,Leake Commonside
+E63001845,Nantwich
+E63001846,Leadenham
+E63001847,Stanley (Staffordshire Moorlands)
+E63001848,Farndon (Newark and Sherwood)
+E63001849,Ambergate
+E63001850,Jacksdale and Westwood
+E63001851,Ironville
+E63001852,Shavington
+E63001853,Balderton
+E63001854,Butt Green
+E63001855,Oxton
+E63001856,Fiskerton (Newark and Sherwood)
+E63001857,Tilston
+E63001858,Papplewick
+E63001859,Linby
+E63001860,Wrangle
+E63001861,Sibsey
+E63001862,Ruskington
+E63001863,Hough
+E63001864,Brauncewell
+E63001865,Audley
+E63001866,Ravensmoor
+E63001867,Bignall End
+E63001868,Brinsley and Underwood
+E63001869,Kniveton
+E63001870,Anwick
+E63001871,Heage
+E63001872,Old Leake
+E63001873,Fulbeck
+E63001874,Waterhouses
+E63001875,Kirk Ireton
+E63001876,Ipstones
+E63001877,Miles Green
+E63001878,Cranwell
+E63001879,Wybunbury
+E63001880,Calverton
+E63001881,South Kyme
+E63001882,Ripley (Amber Valley)
+E63001883,Bleasby
+E63001884,Wetley Rocks
+E63001885,Thurgarton
+E63001886,Byard's Leap
+E63001887,Claypole
+E63001888,Leasingham
+E63001889,Hucknall
+E63001890,Betley
+E63001891,Halmer End and Alsagers Bank
+E63001892,Epperstone
+E63001893,Elston
+E63001894,Caythorpe
+E63001895,No Man's Heath
+E63001896,Syerston
+E63001897,Woodborough (Gedling)
+E63001898,Bestwood Village
+E63001899,Belper
+E63001900,Leverton
+E63001901,Werrington
+E63001902,Wrenbury-cum-Frith
+E63001903,Denby Common
+E63001904,Ewerby
+E63001905,Malpas
+E63001906,Ravenshall
+E63001907,Hulland Ward
+E63001908,Newcastle-under-Lyme
+E63001909,Kingsley (Staffordshire Moorlands)
+E63001910,Eastwood
+E63001911,Heanor
+E63001912,Denby Bottles
+E63001913,Aston (Cheshire East)
+E63001914,Turnditch
+E63001915,Ashbourne
+E63001916,Kingsley Holt
+E63001917,Lowdham
+E63001918,Sleaford
+E63001919,Mayfield (East Staffordshire)
+E63001920,Hulland Village
+E63001921,Holbrook (Amber Valley)
+E63001922,Hankelow
+E63001923,Lambley
+E63001924,Kilburn and Horsley Woodhouse
+E63001925,Madeley
+E63001926,Milford (Amber Valley)
+E63001927,Arnold
+E63001928,Kimberley
+E63001929,Haltoft End
+E63001930,Keele
+E63001931,Butterwick
+E63001932,Long Bennington
+E63001933,Smalley
+E63001934,Horsley (Amber Valley)
+E63001935,Shipley (Amber Valley)
+E63001936,Brancaster Staithe
+E63001937,Gunthorpe
+E63001938,Burnham Overy Staithe
+E63001939,Awsworth
+E63001940,Ancaster
+E63001941,Swingate
+E63001942,Freiston
+E63001943,Heckington
+E63001944,Greylees
+E63001945,Brancaster
+E63001946,Claydike Bank
+E63001947,Blakeney (North Norfolk)
+E63001948,Wells-next-the-Sea
+E63001949,Dilhorne
+E63001950,Cley next the Sea
+E63001951,Nuthall and Watnall
+E63001952,Boston
+E63001953,Salthouse
+E63001954,Audlem
+E63001955,Hubbert's Bridge
+E63001956,Holme next the Sea
+E63001957,Marston
+E63001958,Stoke-on-Trent
+E63001959,Farley
+E63001960,Makeney
+E63001961,East Bridgford
+E63001962,Cookshill
+E63001963,Wiveton
+E63001964,Thornham
+E63001965,Morley (Amber Valley)
+E63001966,Cheadle (Staffordshire Moorlands)
+E63001967,Wilsford
+E63001968,Weybourne (North Norfolk)
+E63001969,Great Hale
+E63001970,Silk Willoughby
+E63001971,Ellastone
+E63001972,Foston (South Kesteven)
+E63001973,West Runton and Beeston Regis
+E63001974,Sheringham
+E63001975,Fishtoft
+E63001976,Old Hunstanton
+E63001977,Woore
+E63001978,East Runton
+E63001979,Edlaston
+E63001980,Alton (Staffordshire Moorlands)
+E63001981,Burnham Market
+E63001982,Carlton (Gedling)
+E63001983,Little Eaton
+E63001984,Barkston
+E63001985,West Willoughby
+E63001986,Whitchurch (Shropshire)
+E63001987,West Hallam
+E63001988,Brailsford
+E63001989,Normanton (South Kesteven)
+E63001990,Langham (North Norfolk)
+E63001991,Newton (Rushcliffe)
+E63001992,Nottingham
+E63001993,Cromer
+E63001994,Madeley Park
+E63001995,Blythe Bridge and Forsbrook
+E63001996,Quarndon
+E63001997,Ilkeston
+E63001998,Orston
+E63001999,Aylmerton
+E63002000,Overstrand
+E63002001,Helpringham
+E63002002,Denstone
+E63002003,Stanley (Erewash)
+E63002004,Baldwin's Gate
+E63002005,Ringstead (King's Lynn and West Norfolk)
+E63002006,Swineshead
+E63002007,Allington
+E63002008,Morley (Erewash)
+E63002009,Kirton End
+E63002010,Bingham
+E63002011,High Kelling
+E63002012,Aslockton
+E63002013,Upper Tean
+E63002014,Breadsall
+E63002015,Binham
+E63002016,Trowell
+E63002017,Scrane End
+E63002018,Hunstanton
+E63002019,Rocester
+E63002020,Radcliffe on Trent
+E63002021,Whatton-in-the-Vale
+E63002022,Cresswell
+E63002023,Upper Saxondale
+E63002024,Bottesford
+E63002025,Stanton-by-Dale
+E63002026,Holt (North Norfolk)
+E63002027,Kirton (Boston)
+E63002028,Bicker Gauntlet
+E63002029,Norton in Hales
+E63002030,Great Gonerby
+E63002031,Trimingham
+E63002032,Gresham
+E63002033,Barlaston
+E63002034,Tittensor
+E63002035,Osbournby
+E63002036,North Creake
+E63002037,Muston (Melton)
+E63002038,Sedgebrook
+E63002039,Fulford
+E63002040,Tilstock
+E63002041,Bicker
+E63002042,Stapleford
+E63002043,Northorpe
+E63002044,Docking
+E63002045,Roughton
+E63002046,Gamston (Rushcliffe)
+E63002047,Heacham
+E63002048,Cropwell Butler
+E63002049,Stanhoe
+E63002050,Chirk Bank
+E63002051,West Bridgford
+E63002052,St Martins
+E63002053,Dudleston Heath
+E63002054,Little Walsingham
+E63002055,Sedgeford
+E63002056,Southrepps
+E63002057,Beeston (Broxtowe)
+E63002058,Mundesley
+E63002059,Ashley (Newcastle-under-Lyme)
+E63002060,Weston Rhyn
+E63002061,Bassingfield
+E63002062,Sandiacre
+E63002063,Prees Higher Heath
+E63002064,Wilford
+E63002065,Barrowby
+E63002066,Loggerheads
+E63002067,Cropwell Bishop
+E63002068,Risley
+E63002069,Grantham
+E63002070,Rhoswiel
+E63002071,Sutterton
+E63002072,Swynnerton
+E63002073,Oulton
+E63002074,Donington
+E63002075,Beamhurst
+E63002076,Horbling
+E63002077,Cotgrave
+E63002078,Derby
+E63002079,Edwalton
+E63002080,Welshampton
+E63002081,Ellesmere
+E63002082,Borrowash
+E63002083,Trunch
+E63002084,Hilderstone
+E63002085,Edgefield
+E63002086,Paston
+E63002087,Market Drayton
+E63002088,Thursford Green
+E63002089,Aldborough
+E63002090,Ropsley
+E63002091,Tollerton (Rushcliffe)
+E63002092,Clifton (Nottingham)
+E63002093,Billingborough
+E63002094,Bircham Newton
+E63002095,Knapton
+E63002096,Doveridge
+E63002097,Snettisham
+E63002098,Breaston and Draycott
+E63002099,Bacton
+E63002100,Uttoxeter
+E63002101,Folkingham
+E63002102,Prees
+E63002103,Tetchill
+E63002104,Bramshall
+E63002105,Langar
+E63002106,Shepherd's Port
+E63002107,Quadring
+E63002108,Fosdyke
+E63002109,Stone (Stafford)
+E63002110,Oaks Green
+E63002111,Ruddington
+E63002112,Normanton-on-the-Wolds
+E63002113,Melton Constable
+E63002114,Gobowen
+E63002115,Long Eaton
+E63002116,Ingoldisthorpe
+E63002117,Harlaxton
+E63002118,Yarnfield
+E63002119,Coldmeece
+E63002120,Briston
+E63002121,Denton (South Kesteven)
+E63002122,Great Bircham
+E63002123,Walcott (North Norfolk)
+E63002124,Foston (South Derbyshire)
+E63002125,Cold Norton (Stafford)
+E63002126,Croxton
+E63002127,Pointon
+E63002128,Erpingham
+E63002129,Sculthorpe
+E63002130,Gosberton
+E63002131,Etwall
+E63002132,Kettlestone
+E63002133,Wicken Green Village
+E63002134,Whittington (Shropshire)
+E63002135,Harby
+E63002136,Keyworth
+E63002137,Stathern
+E63002138,Ternhill
+E63002139,Kinoulton
+E63002140,Chipnall
+E63002141,Stanton-on-the-Wolds
+E63002142,Happisburgh
+E63002143,Findern
+E63002144,Dersingham
+E63002145,Marchington
+E63002146,Hilton (South Derbyshire)
+E63002147,Shardlow
+E63002148,Aslackby
+E63002149,North Walsham
+E63002150,Hatton (South Derbyshire)
+E63002151,Gotham
+E63002152,Fakenham
+E63002153,Ratcliffe on Soar
+E63002154,Risegate
+E63002155,Corpusty
+E63002156,Cheswardine
+E63002157,Kingstone (East Staffordshire)
+E63002158,Rosehill
+E63002159,Eccles on Sea
+E63002160,Hose
+E63002161,Aston-on-Trent
+E63002162,Hindolveston
+E63002163,Gedney Drove End
+E63002164,Oswestry
+E63002165,Cockshutt
+E63002166,Croxton Kerrial
+E63002167,Wem
+E63002168,Eccleshall
+E63002169,Hickling (Rushcliffe)
+E63002170,Hempton
+E63002171,Tutbury
+E63002172,Barrow upon Trent
+E63002173,Surfleet
+E63002174,Willington (South Derbyshire)
+E63002175,Draycott in the Clay
+E63002176,Stibbard
+E63002177,East Rudham
+E63002178,Egginton
+E63002179,Hodnet
+E63002180,Widmerpool
+E63002181,Weston-on-Trent
+E63002182,Rippingale
+E63002183,Castle Donington
+E63002184,Morda
+E63002185,Rednal
+E63002186,Rolleston on Dove
+E63002187,Great Ryburgh
+E63002188,Moulton Seas End
+E63002189,Wysall
+E63002190,Saracen's Head
+E63002191,Stanton by Bridge
+E63002192,Sea Palling
+E63002193,Long Clawson
+E63002194,Kegworth
+E63002195,Weston (Stafford)
+E63002196,Great Bridgeford
+E63002197,Trefonen
+E63002198,Aylsham
+E63002199,Repton
+E63002200,Foremark
+E63002201,Sleap
+E63002202,Colkirk
+E63002203,Stretton (East Staffordshire)
+E63002204,Hinstock
+E63002205,Costock
+E63002206,East Leake
+E63002207,Ellenhall
+E63002208,Northgate
+E63002209,Hixon
+E63002210,Nether Broughton
+E63002211,Newton Solney
+E63002212,Melbourne (South Derbyshire)
+E63002213,Diseworth
+E63002214,Sutton Bonington
+E63002215,West Felton
+E63002216,Pinchbeck
+E63002217,Woodseaves
+E63002218,Lutton
+E63002219,Hillington
+E63002220,Willoughby-on-the-Wolds
+E63002221,Child's Ercall
+E63002222,Holbeach
+E63002223,Stalham
+E63002224,Corby Glen
+E63002225,West Raynham
+E63002226,Fleet Hargate
+E63002227,Weston (South Holland)
+E63002228,Waltham on the Wolds
+E63002229,Foulsham
+E63002230,Abbots Bromley
+E63002231,Moulton (South Holland)
+E63002232,Newchurch (East Staffordshire)
+E63002233,Gedney
+E63002234,Clive
+E63002235,Morton (South Kesteven)
+E63002236,Rempstone
+E63002237,Marsham
+E63002238,Whaplode
+E63002239,Colsterworth
+E63002240,Old Dalby
+E63002241,Cawston (Broadland)
+E63002242,Sutton (North Norfolk)
+E63002243,Myddle
+E63002244,Ticknall
+E63002245,Wymeswold
+E63002246,Normanton on Soar
+E63002247,Whissonsett
+E63002248,Roydon (King's Lynn and West Norfolk)
+E63002249,Badersfield
+E63002250,Hickling (North Norfolk)
+E63002251,Long Whatton
+E63002252,Reepham (Broadland)
+E63002253,Great Massingham
+E63002254,Breedon on the Hill
+E63002255,Long Sutton (South Holland)
+E63002256,Burton upon Trent
+E63002257,Swayfield
+E63002258,Derrington
+E63002259,Stafford
+E63002260,Grimston
+E63002261,Buxton (Broadland)
+E63002262,Ruyton-XI-Towns
+E63002263,Little Sutton
+E63002264,Pant
+E63002265,Harmer Hill
+E63002266,Hathern
+E63002267,Low Fulney
+E63002268,Pode Hole
+E63002269,Burton on the Wolds
+E63002270,Pott Row
+E63002271,Lobthorpe
+E63002272,Great Haywood
+E63002273,Baschurch
+E63002274,Catfield
+E63002275,Spalding
+E63002276,Little Haywood
+E63002277,Foxley
+E63002278,Shawbury
+E63002279,Sutton Bridge
+E63002280,Neatishead
+E63002281,Hartshorne
+E63002282,Hevingham
+E63002283,Milford (Stafford)
+E63002284,King's Lynn
+E63002285,North Elmham
+E63002286,Gnosall
+E63002287,Bawdeswell
+E63002288,Belton (North West Leicestershire)
+E63002289,Colton (Lichfield)
+E63002290,Walford
+E63002291,Clenchwarton
+E63002292,Haughton
+E63002293,Tibberton (Telford and Wrekin)
+E63002294,Terrington St Clement
+E63002295,Bourne
+E63002296,Butcher's Common
+E63002297,Edgmond
+E63002298,Weston Hills
+E63002299,Walpole Cross Keys
+E63002300,Swadlincote
+E63002301,Coltishall and Horstead
+E63002302,Asfordby Hill
+E63002303,Hadnall
+E63002304,Melton Mowbray
+E63002305,Bomere Heath
+E63002306,Hyde Lea and Coppenhall
+E63002307,Haveringland
+E63002308,Osgathorpe
+E63002309,Brocton
+E63002310,Potter Heigham
+E63002311,Little Ness
+E63002312,South Witham
+E63002313,Yoxall
+E63002314,Gayton (King's Lynn and West Norfolk)
+E63002315,Woodville
+E63002316,Waterloo
+E63002317,Loughborough
+E63002318,Mileham
+E63002319,Asfordby
+E63002320,Newport (Telford and Wrekin)
+E63002321,Newbold
+E63002322,Wymondham (Melton)
+E63002323,Shepshed
+E63002324,Griffydam
+E63002325,Wilcott
+E63002326,Ashwicken
+E63002327,Castle Bytham
+E63002328,Hainford
+E63002329,Tydd St Mary
+E63002330,Lenwade
+E63002331,Moulton Chapel
+E63002332,Ludham
+E63002333,Sutton St James
+E63002334,Barton-under-Needwood
+E63002335,Acton Trussell
+E63002336,Rugeley
+E63002337,Walton-on-Trent
+E63002338,Martham
+E63002339,Cowbit
+E63002340,Tydd Gote
+E63002341,Lyng
+E63002342,Blackfordby
+E63002343,Thringstone
+E63002344,Bradley (Stafford)
+E63002345,Barton Turn
+E63002346,Coleorton
+E63002347,Felthorpe
+E63002348,Hill Ridware
+E63002349,Hoveton and Wroxham
+E63002350,Seagrave
+E63002351,Hemsby
+E63002352,Litcham
+E63002353,Frisby on the Wreake
+E63002354,Clipsham
+E63002355,Morton (Broadland)
+E63002356,Frettenham
+E63002357,Barrow upon Soar
+E63002358,Beetley
+E63002359,High Ercall
+E63002360,Horning
+E63002361,Moreton (Stafford)
+E63002362,Thurlby
+E63002363,Newton St Faith
+E63002364,Burton Lazars
+E63002365,Gressenhall
+E63002366,Ashby-de-la-Zouch
+E63002367,Walpole Marsh
+E63002368,King's Bromley
+E63002369,Walpole St Peter and Walpole St Andrew
+E63002370,Linton (South Derbyshire)
+E63002371,Swanton Morley
+E63002372,Rosliston
+E63002373,Witham on the Hill
+E63002374,Quorndon
+E63002375,Market Overton
+E63002376,East Winch
+E63002377,Horsford
+E63002378,Middleton (King's Lynn and West Norfolk)
+E63002379,Tydd St Giles
+E63002380,Deeping St Nicholas
+E63002381,Thrussington
+E63002382,Brooksby
+E63002383,North Runcton
+E63002384,Handsacre and Armitage
+E63002385,Swannington
+E63002386,Whitwick
+E63002387,Rollesby
+E63002388,Overseal and Castle Gresley
+E63002389,Greetham
+E63002390,Lilleshall
+E63002391,Woodhouse
+E63002392,Beeston (Breckland)
+E63002393,Moira
+E63002394,Castle Acre
+E63002395,Sileby
+E63002396,Coton in the Elms
+E63002397,West Winch
+E63002398,Horsham St Faith
+E63002399,Ormesby St Margaret
+E63002400,Spixworth
+E63002401,Alrewas
+E63002402,Ratcliffe on the Wreake
+E63002403,Weston Green
+E63002404,Blackborough End
+E63002405,Packington
+E63002406,Newton-in-the-Isle
+E63002407,Upper Longdon
+E63002408,Coalville
+E63002409,Rearsby
+E63002410,Longdon
+E63002411,Great Dalby
+E63002412,Whissendine
+E63002413,Taverham and Drayton
+E63002414,Woodhouse Eaves
+E63002415,Mountsorrel
+E63002416,Burgh St Margaret
+E63002417,Donisthorpe
+E63002418,Carlby
+E63002419,Baston
+E63002420,Rileyhill
+E63002421,Wiggenhall St Germans
+E63002422,Setchey
+E63002423,Salhouse
+E63002424,Tilney St Lawrence
+E63002425,Penkridge
+E63002426,Walpole Highway
+E63002427,Cottesmore
+E63002428,Ford
+E63002429,Cossington (Charnwood)
+E63002430,East Goscote
+E63002431,Ravenstone
+E63002432,Sutton St Edmund
+E63002433,West Walton
+E63002434,Filby
+E63002435,Whaplode Drove
+E63002436,Walton Highway
+E63002437,Netherseal
+E63002438,Hockering
+E63002439,Gaddesby
+E63002440,Swithland
+E63002441,Oakthorpe
+E63002442,South Walsham
+E63002443,Fradley
+E63002444,Shrewsbury
+E63002445,Dereham
+E63002446,Hugglescote
+E63002447,Wheaton Aston
+E63002448,Rackheath
+E63002449,Huntington (South Staffordshire)
+E63002450,Allscott
+E63002451,Narborough
+E63002452,Rothley
+E63002453,Upton (Broadland)
+E63002454,Rawnsley
+E63002455,Langtoft (South Kesteven)
+E63002456,Essendine
+E63002457,Queen's Hills
+E63002458,Queniborough
+E63002459,Edingale
+E63002460,Cannock Wood
+E63002461,Holbeach Drove
+E63002462,Sheriffhales
+E63002463,Costessey
+E63002464,Greatford
+E63002465,Caister-on-Sea
+E63002466,Measham
+E63002467,Gorefield
+E63002468,Honingham
+E63002469,Rodbaston
+E63002470,Wanlip
+E63002471,Bardon
+E63002472,Syston
+E63002473,Ellistown
+E63002474,Gedney Hill
+E63002475,Blofield Heath
+E63002476,Marshland St James
+E63002477,Cannock
+E63002478,Langham (Rutland)
+E63002479,Thorpe End
+E63002480,Leverington
+E63002481,Exton (Rutland)
+E63002482,Sporle
+E63002483,Cropston
+E63002484,Little Plumstead
+E63002485,Mattishall
+E63002486,Clint Green
+E63002487,Clifton Campville
+E63002488,Ryhall
+E63002489,Watlington (King's Lynn and West Norfolk)
+E63002490,Heather
+E63002491,Thurcaston
+E63002492,Ibstock
+E63002493,Wiggenhall St Mary Magdalen
+E63002494,Acle
+E63002495,Yaxham
+E63002496,Market Deeping
+E63002497,Elford
+E63002498,Somerby
+E63002499,Easton (Broadland)
+E63002500,Streethay
+E63002501,Stanton under Bardon
+E63002502,South Croxton
+E63002503,Hanwood
+E63002504,Twyford (Melton)
+E63002505,Telford
+E63002506,Appleby Magna
+E63002507,Norwich
+E63002508,Barleythorpe
+E63002509,Wisbech
+E63002510,Colton (South Norfolk)
+E63002511,Deeping St James
+E63002512,Newtown Linford
+E63002513,Damgate
+E63002514,Crowland
+E63002515,Markfield
+E63002516,Birstall
+E63002517,Necton
+E63002518,Blofield
+E63002519,Four Crosses (South Staffordshire)
+E63002520,Westbury (Shropshire)
+E63002521,Bishops Wood
+E63002522,Lichfield
+E63002523,Great Casterton
+E63002524,Thurmaston
+E63002525,Paradise
+E63002526,Burntwood
+E63002527,Oakham
+E63002528,West Deeping
+E63002529,Shouldham
+E63002530,Bagworth
+E63002531,Runcton Holme
+E63002532,Anstey
+E63002533,Battram
+E63002534,Bayston Hill
+E63002535,Brewood
+E63002536,Calf Heath
+E63002537,Swaffham
+E63002538,Marham
+E63002539,Bradenham
+E63002540,Parson Drove
+E63002541,Brundall
+E63002542,Empingham
+E63002543,Four Ashes
+E63002544,Wisbech St Mary
+E63002545,Lingwood
+E63002546,Maxey
+E63002547,Northborough
+E63002548,Tallington
+E63002549,Whittington (Lichfield)
+E63002550,Norton Canes
+E63002551,Shifnal
+E63002552,Postwick
+E63002553,Uffington (South Kesteven)
+E63002554,Strumpshaw
+E63002555,Colney
+E63002556,Hammerwich
+E63002557,Stamford
+E63002558,Barford (South Norfolk)
+E63002559,Garvestone
+E63002560,Thornton (Hinckley and Bosworth)
+E63002561,Letton Green
+E63002562,Cross Houses
+E63002563,Shipdham
+E63002564,Nailstone
+E63002565,Groby
+E63002566,Coven
+E63002567,Stow Bridge
+E63002568,Elm and Emneth
+E63002569,Halvergate
+E63002570,Little Melton
+E63002571,Lythbank
+E63002572,North Pickenham
+E63002573,Great Wyrley and Cheslyn Hay
+E63002574,Great Yarmouth
+E63002575,Braunston-in-Rutland
+E63002576,Trowse Newton
+E63002577,Murrow
+E63002578,Surlingham
+E63002579,Austrey
+E63002580,Shareshill
+E63002581,Fincham
+E63002582,Longden
+E63002583,Merry Lees
+E63002584,Condover
+E63002585,Wothorpe
+E63002586,Newborough (Peterborough)
+E63002587,Ratby
+E63002588,Pontesbury
+E63002589,Glinton
+E63002590,Cringleford
+E63002591,Tilton on the Hill
+E63002592,Barlestone
+E63002593,Weeford
+E63002594,Featherstone (South Staffordshire)
+E63002595,Beachamwell
+E63002596,Helpston
+E63002597,Hethersett
+E63002598,Brownhills
+E63002599,Carlton (Hinckley and Bosworth)
+E63002600,Wimbotsham
+E63002601,Friday Bridge
+E63002602,Barnack
+E63002603,Minsterley
+E63002604,Freethorpe
+E63002605,Twycross
+E63002606,Hopwas
+E63002607,Edith Weston
+E63002608,Clayhanger
+E63002609,Worthen
+E63002610,Albrighton
+E63002611,Ashill
+E63002612,Manton (Rutland)
+E63002613,Burgh Castle
+E63002614,Shenstone
+E63002615,Newtown Unthank
+E63002616,Ketton
+E63002617,Springhill
+E63002618,Thorney
+E63002619,Easton on the Hill
+E63002620,Ufford (Peterborough)
+E63002621,Bradwell (Great Yarmouth)
+E63002622,Leicester
+E63002623,Cantley
+E63002624,Cressage
+E63002625,Rockland St Mary
+E63002626,Newbold Verdon
+E63002627,Barroway Drove
+E63002628,Pelsall
+E63002629,Guyhirn
+E63002630,Houghton on the Hill
+E63002631,Warton (North Warwickshire)
+E63002632,Stonnall
+E63002633,Desford
+E63002634,North Luffenham
+E63002635,Essington
+E63002636,Downham Market
+E63002637,Gorleston-on-Sea
+E63002638,Codsall
+E63002639,Leicester Forest East and Kirby Muxloe
+E63002640,Market Bosworth
+E63002641,Dorrington (Shropshire)
+E63002642,Eye (Peterborough)
+E63002643,Wing (Rutland)
+E63002644,Tamworth
+E63002645,Collyweston
+E63002646,Billesdon
+E63002647,Polesworth
+E63002648,Belton (Great Yarmouth)
+E63002649,Upwell and Outwell
+E63002650,Wittering
+E63002651,Poringland
+E63002652,Swardeston
+E63002653,Wicklewood
+E63002654,Cadeby
+E63002655,Saham Toney
+E63002656,Broseley
+E63002657,Snailbeach
+E63002658,Acton Burnell
+E63002659,Gooderstone
+E63002660,Carbrooke
+E63002661,Boughton (King's Lynn and West Norfolk)
+E63002662,Alpington and Yelverton
+E63002663,Hingham
+E63002664,Reedham
+E63002665,South Luffenham
+E63002666,Fazeley
+E63002667,Stoke Holy Cross
+E63002668,Peckleton Common
+E63002669,Wymondham (South Norfolk)
+E63002670,Denver
+E63002671,Hints
+E63002672,Bloxwich
+E63002673,Wereham
+E63002674,Sheepy Magna
+E63002675,Rushall and Shelfield
+E63002676,Great Stretton
+E63002677,Belton-in-Rutland
+E63002678,Thurton
+E63002679,Swainsthorpe
+E63002680,Tugby
+E63002681,Aldridge
+E63002682,Morcott
+E63002683,Watton
+E63002684,Oadby
+E63002685,Mulbarton
+E63002686,Chedgrave
+E63002687,Kirkby Mallory
+E63002688,Polesworth and Dordon
+E63002689,Drayton Bassett
+E63002690,Barrowden
+E63002691,Hopton on Sea
+E63002692,Stoke Ferry
+E63002693,Wretton
+E63002694,Much Wenlock
+E63002695,Uppingham
+E63002696,Perton
+E63002697,Bracon Ash
+E63002698,Wansford
+E63002699,Willenhall
+E63002700,St Olaves
+E63002701,Wreningham
+E63002702,Whittington (King's Lynn and West Norfolk)
+E63002703,Foulden
+E63002704,Grendon (North Warwickshire)
+E63002705,Brooke
+E63002706,Thurlaston (Blaby)
+E63002707,Old Perton
+E63002708,Shotesham
+E63002709,Griston
+E63002710,Enderby and Narborough
+E63002711,Wigston
+E63002712,Bourne Vale
+E63002713,Wolverhampton
+E63002714,Pattingham
+E63002715,Ackleton
+E63002716,Middleton (North Warwickshire)
+E63002717,Piccadilly
+E63002718,Stapleton
+E63002719,Castor and Ailsworth
+E63002720,Peterborough
+E63002721,Loddon
+E63002722,Morley St Botolph
+E63002723,Thurlton
+E63002724,Wood End (North Warwickshire)
+E63002725,West Dereham
+E63002726,Newton Flotman
+E63002727,Hilgay
+E63002728,Burton Overy
+E63002729,Baddesley Ensor
+E63002730,Great Glen
+E63002731,Streetly
+E63002732,Seething
+E63002733,Atherstone
+E63002734,Walsall
+E63002735,Yarwell
+E63002736,Coates and Eastrea
+E63002737,Caston
+E63002738,Huncote
+E63002739,Ashwellthorpe
+E63002740,Earl Shilton
+E63002741,Saxlingham Nethergate
+E63002742,Hales
+E63002743,Blundeston
+E63002744,King's Cliffe
+E63002745,King's Dyke
+E63002746,Morley St Peter
+E63002747,Stoke Golding
+E63002748,March
+E63002749,Corton
+E63002750,Barwell
+E63002751,Blaby and Whetstone
+E63002752,Baxterley
+E63002753,Whittlesey
+E63002754,Lyddington
+E63002755,Haddiscoe
+E63002756,Northwold
+E63002757,Darlaston
+E63002758,Great Ellingham
+E63002759,Mancetter and Witherley
+E63002760,Royal Sutton Coldfield
+E63002761,Littlethorpe
+E63002762,Kingsbury
+E63002763,Fenny Drayton
+E63002764,Rockland All Saints
+E63002765,Thompson
+E63002766,Hallaton
+E63002767,Christchurch (Fenland)
+E63002768,Brookville
+E63002769,Nassington
+E63002770,Elmesthorpe
+E63002771,Higham on the Hill
+E63002772,Bilston (Wolverhampton)
+E63002773,Besthorpe
+E63002774,Hurley (North Warwickshire)
+E63002775,Croft (Blaby)
+E63002776,Worfield
+E63002777,Tasburgh
+E63002778,Pheasey
+E63002779,All Stretton
+E63002780,Countesthorpe
+E63002781,Hilton (Shropshire)
+E63002782,Wednesbury
+E63002783,Cosby
+E63002784,Seisdon
+E63002785,Methwold
+E63002786,Southery
+E63002787,Attleborough
+E63002788,Workhouse Common
+E63002789,Ickburgh
+E63002790,Stoney Stanton
+E63002791,Farcet
+E63002792,Easthope
+E63002793,Hempnall
+E63002794,Woodnewton
+E63002795,Welney
+E63002796,Trysull
+E63002797,Kibworth Beauchamp and Kibworth Harcourt
+E63002798,Gretton (North Northamptonshire)
+E63002799,Hartshill
+E63002800,Woodton
+E63002801,Hinckley
+E63002802,Bunwell
+E63002803,Tacolneston
+E63002804,Mundford
+E63002805,Elton (Huntingdonshire)
+E63002806,Church Stretton
+E63002807,Gospel End
+E63002808,Sapcote
+E63002809,Burgh St Peter
+E63002810,Hempnall Green
+E63002811,Claverley
+E63002812,Tipton
+E63002813,Fleckney
+E63002814,Bridgnorth
+E63002815,Coseley
+E63002816,Medbourne
+E63002817,Great Easton (Harborough)
+E63002818,Shropham
+E63002819,Curdworth
+E63002820,Stanmore
+E63002821,Wombourne
+E63002822,Long Stratton
+E63002823,Broughton Astley
+E63002824,Whitacre Heath
+E63002825,Ellingham and Kirby Cane
+E63002826,Great Hockham
+E63002827,Lowestoft
+E63002828,West Bromwich
+E63002829,Yaxley (Huntingdonshire)
+E63002830,Sedgley
+E63002831,Coleshill (North Warwickshire)
+E63002832,Geldeston
+E63002833,Nuneaton
+E63002834,Oldbury (Shropshire)
+E63002835,Sharnford
+E63002836,Gillingham (South Norfolk)
+E63002837,Wacton
+E63002838,Old Buckenham
+E63002839,Ansley
+E63002840,Himley
+E63002841,Doddington and Wimblington
+E63002842,Warmington (North Northamptonshire)
+E63002843,Ditchingham
+E63002844,Gospel Ash
+E63002845,Ashley (North Northamptonshire)
+E63002846,Dunton Bassett
+E63002847,Water Orton
+E63002848,Swindon (South Staffordshire)
+E63002849,Benwick
+E63002850,Old Arley
+E63002851,Feltwell
+E63002852,Quatford
+E63002853,Glapthorn
+E63002854,Leire
+E63002855,Cottingham and Middleton
+E63002856,Eccles Road
+E63002857,Foxton (Harborough)
+E63002858,Over Whitacre
+E63002859,Great Moulton
+E63002860,Folksworth
+E63002861,Barnby and North Cove
+E63002862,Dudley (Dudley)
+E63002863,New Arley
+E63002864,Beccles
+E63002865,Weldon
+E63002866,Stilton
+E63002867,Manea
+E63002868,Worlingham
+E63002869,Sneath Common
+E63002870,Bermuda
+E63002871,Bungay
+E63002872,Ramsey Mereside
+E63002873,Ditton Priors
+E63002874,Earsham
+E63002875,Gartree
+E63002876,Corby
+E63002877,Great Bowden
+E63002878,Upper Bruntingthorpe
+E63002879,Tibenham
+E63002880,Oldbury (Sandwell)
+E63002881,Claybrooke Magna
+E63002882,Oundle
+E63002883,Bishop's Castle
+E63002884,Kingswinford
+E63002885,Ramsey St Mary's
+E63002886,Weeting
+E63002887,Rowley Regis
+E63002888,Bramcote
+E63002889,Smethwick
+E63002890,Wilbarston
+E63002891,Hockwold cum Wilton
+E63002892,Ramsey Forty Foot
+E63002893,Gilmorton
+E63002894,Holme (Huntingdonshire)
+E63002895,Wolvey
+E63002896,Harling Road
+E63002897,Ullesthorpe
+E63002898,Banham
+E63002899,Lubenham
+E63002900,Alburgh Street
+E63002901,Market Harborough
+E63002902,Polebrook
+E63002903,Bulkington
+E63002904,Birmingham
+E63002905,Stanion
+E63002906,Littleport
+E63002907,Blackheath
+E63002908,Fillongley
+E63002909,Brandon (West Suffolk)
+E63002910,Kessingland
+E63002911,Tivetshall St Mary and Tivetshall St Margaret
+E63002912,Pymoor
+E63002913,Brierley Hill
+E63002914,East Harling
+E63002915,Bedworth
+E63002916,Pulham Market
+E63002917,Glatton
+E63002918,Chatteris
+E63002919,Cradley Heath
+E63002920,Kenninghall
+E63002921,Bitteswell
+E63002922,Brigstock
+E63002923,New Wood
+E63002924,Pulham St Mary
+E63002925,Corley
+E63002926,East Farndon
+E63002927,Ramsey
+E63002928,Wortwell
+E63002929,Lutterworth
+E63002930,Barnwell
+E63002931,Stourton
+E63002932,Corley Moor
+E63002933,Hawkesbury
+E63002934,Ash Green (Nuneaton and Bedworth)
+E63002935,Alveley
+E63002936,Braybrooke
+E63002937,Shilton
+E63002938,Keresley Newlands
+E63002939,Husbands Bosworth
+E63002940,Wardy Hill
+E63002941,Halesowen
+E63002942,Barnacle
+E63002943,Little Downham
+E63002944,Stourbridge
+E63002945,Wenny Severals
+E63002946,Highley
+E63002947,Bury (Huntingdonshire)
+E63002948,Shelfanger
+E63002949,North Kilworth
+E63002950,Kinver
+E63002951,Desborough
+E63002952,Sawtry
+E63002953,North Lopham
+E63002954,Burston
+E63002955,Monks Kirby
+E63002956,Harleston
+E63002957,Great Gidding
+E63002958,Thetford
+E63002959,Craven Arms
+E63002960,Geddington
+E63002961,Rushton
+E63002962,Lakenheath
+E63002963,Upwood
+E63002964,Wrentham
+E63002965,Prickwillow
+E63002966,Dickleburgh
+E63002967,Coveney
+E63002968,Meriden
+E63002969,Little Eriswell
+E63002970,South Kilworth
+E63002971,Pailton
+E63002972,Garboldisham
+E63002973,Clipston
+E63002974,Aldwincle
+E63002975,Millison's Wood
+E63002976,Hampton in Arden
+E63002977,South Lopham
+E63002978,Needham
+E63002979,St James South Elmham
+E63002980,Rothwell (North Northamptonshire)
+E63002981,Snow Street
+E63002982,Wistow (Huntingdonshire)
+E63002983,Clun
+E63002984,Stretton under Fosse
+E63002985,Mepal
+E63002986,Bressingham
+E63002987,Hunnington
+E63002988,Catherine-de-Barnes
+E63002989,Roydon (South Norfolk)
+E63002990,Cookley
+E63002991,Ely
+E63002992,Metfield
+E63002993,Witcham
+E63002994,Welford (West Northamptonshire)
+E63002995,Hagley
+E63002996,Diss
+E63002997,Warboys
+E63002998,Lower Clent
+E63002999,Romsley
+E63003000,Wolverley
+E63003001,Titchmarsh
+E63003002,Swinford
+E63003003,Brinklow
+E63003004,Barnham (West Suffolk)
+E63003005,Hopton
+E63003006,Coventry
+E63003007,Wangford
+E63003008,Eastcote
+E63003009,Sutton (East Cambridgeshire)
+E63003010,Scole
+E63003011,Solihull
+E63003012,Holy Cross
+E63003013,Islip (North Northamptonshire)
+E63003014,Witchford
+E63003015,Thrapston
+E63003016,Kettering
+E63003017,Palgrave
+E63003018,Loddington
+E63003019,Blakedown
+E63003020,Naseby
+E63003021,Pidley
+E63003022,Somersham (Huntingdonshire)
+E63003023,Abbots Ripton
+E63003024,Redgrave
+E63003025,Coney Weston
+E63003026,Holton
+E63003027,Beck Row
+E63003028,Market Weston
+E63003029,Brington
+E63003030,Trimpley
+E63003031,Halesworth
+E63003032,Major's Green
+E63003033,Reydon
+E63003034,Fressingfield
+E63003035,Balsall Common
+E63003036,Binley Woods
+E63003037,Wortham
+E63003038,Holywell Row
+E63003039,Woodford (North Northamptonshire)
+E63003040,Belbroughton
+E63003041,Alconbury Weston
+E63003042,Maidwell
+E63003043,Wingfield
+E63003044,Hollywood
+E63003045,Barningham
+E63003046,Whitlock's End
+E63003047,Alconbury Weald
+E63003048,Hinderclay
+E63003049,Kidderminster
+E63003050,Southwold
+E63003051,Heckfield Green
+E63003052,Dickens Heath
+E63003053,Little Thetford
+E63003054,Doddington
+E63003055,Clifton upon Dunsmore
+E63003056,Burton Green
+E63003057,Alconbury
+E63003058,Long Lawford
+E63003059,Broughton (North Northamptonshire)
+E63003060,Cleobury Mortimer
+E63003061,Fakenham Magna
+E63003062,Cheswick Green
+E63003063,Tidbury Green
+E63003064,Mawsley Village
+E63003065,Wenhaston
+E63003066,Rockgreen
+E63003067,Little Stukeley
+E63003068,Rugby
+E63003069,Yelvertoft
+E63003070,Wolston
+E63003071,Bedstone
+E63003072,Rickinghall and Botesdale
+E63003073,Bewdley
+E63003074,Haddenham (East Cambridgeshire)
+E63003075,Knowle and Dorridge
+E63003076,Wythall
+E63003077,West Row
+E63003078,Cleehill
+E63003079,Brome
+E63003080,Ringstead (North Northamptonshire)
+E63003081,Mildenhall (West Suffolk)
+E63003082,Earith
+E63003083,Great Addington
+E63003084,Longfield Green
+E63003085,Bluntisham and Colne
+E63003086,Walberswick
+E63003087,Ludlow
+E63003088,Burton Latimer
+E63003089,Great Stukeley
+E63003090,Hopwood
+E63003091,Far Forest
+E63003092,Baginton
+E63003093,Wilburton
+E63003094,Knowbury
+E63003095,Fairfield
+E63003096,Lem Hill
+E63003097,Pytchley
+E63003098,Stretham
+E63003099,Wyton
+E63003100,Mellis
+E63003101,Cottesbrooke
+E63003102,Ryton-on-Dunsmore
+E63003103,Sheet (Shropshire)
+E63003104,Wattisfield
+E63003105,Earlswood
+E63003106,Eye (Mid Suffolk)
+E63003107,Inkford
+E63003108,Leintwardine
+E63003109,Isleham
+E63003110,Yaxley (Mid Suffolk)
+E63003111,Barnt Green
+E63003112,Bramfield
+E63003113,Isham
+E63003114,Stradbroke
+E63003115,Barton Mills
+E63003116,Mustow Green
+E63003117,Bucknell (Shropshire)
+E63003118,Fen End
+E63003119,Catshill
+E63003120,Callow Hill
+E63003121,Bardwell
+E63003122,Terry's Green
+E63003123,Worlington
+E63003124,Stanton (West Suffolk)
+E63003125,Summerfield
+E63003126,Cawston (Rugby)
+E63003127,Guilsborough
+E63003128,Upthorpe (West Suffolk)
+E63003129,Soham
+E63003130,Catworth
+E63003131,Icklingham
+E63003132,Dodford
+E63003133,Hockley Heath
+E63003134,Raunds
+E63003135,Stoneleigh
+E63003136,Huntingdon
+E63003137,Wicken
+E63003138,Spaldwick
+E63003139,Stretton-on-Dunsmore
+E63003140,Bubbenhall
+E63003141,Crick
+E63003142,Horham
+E63003143,Laxfield
+E63003144,Houghton (Huntingdonshire)
+E63003145,Blackwell (Bromsgrove)
+E63003146,Alvechurch
+E63003147,St Ives (Huntingdonshire)
+E63003148,Orlingbury
+E63003149,Walgrave
+E63003150,Freckenham
+E63003151,Finedon
+E63003152,Kenilworth
+E63003153,Needingworth
+E63003154,Ellington (Huntingdonshire)
+E63003155,Creaton
+E63003156,Clows Top
+E63003157,Stourport-on-Severn
+E63003158,West Haddon
+E63003159,Down Field
+E63003160,Wood End (Stratford-on-Avon)
+E63003161,Rowney Green
+E63003162,Dunchurch
+E63003163,Gislingham
+E63003164,Stareton
+E63003165,Burcot (Bromsgrove)
+E63003166,Tuddenham
+E63003167,Lapworth
+E63003168,Stanwick
+E63003169,Chittering
+E63003170,Little Harrowden
+E63003171,Kingswood (Warwick)
+E63003172,Princethorpe
+E63003173,Hemingford Abbots
+E63003174,Walsham le Willows
+E63003175,Kilsby
+E63003176,Thurlaston (Rugby)
+E63003177,Irthlingborough
+E63003178,Brampton (Huntingdonshire)
+E63003179,Occold
+E63003180,Ixworth
+E63003181,Fordham (East Cambridgeshire)
+E63003182,Hargrave
+E63003183,Hemingford Grey
+E63003184,Aspley Heath
+E63003185,Tanworth-in-Arden
+E63003186,Lackford
+E63003187,Culford
+E63003188,Ashford Carbonell
+E63003189,Over
+E63003190,Ingham (West Suffolk)
+E63003191,Waresley (Wychavon)
+E63003192,Bromsgrove
+E63003193,Brixworth
+E63003194,Frankton
+E63003195,Ravensthorpe
+E63003196,Barby
+E63003197,Darsham
+E63003198,Spratton
+E63003199,Red Lodge
+E63003200,Onley
+E63003201,Bordesley
+E63003202,Lower Heath
+E63003203,Hartlebury
+E63003204,Godmanchester
+E63003205,Willingham
+E63003206,Chippenham (East Cambridgeshire)
+E63003207,Thorndon
+E63003208,Westleton
+E63003209,Peasenhall
+E63003210,Tardebigge
+E63003211,Tilbrook
+E63003212,Finningham
+E63003213,Wickham Skeith
+E63003214,Badwell Ash
+E63003215,Yoxford
+E63003216,Marton (Rugby)
+E63003217,Leek Wootton
+E63003218,Higham Ferrers
+E63003219,Wigmore
+E63003220,Landwade
+E63003221,Cubbington
+E63003222,Blackdown
+E63003223,Cutnall Green
+E63003224,Crossway Green
+E63003225,Worlingworth
+E63003226,Fenstanton
+E63003227,Fen Drayton
+E63003228,Birdingbury
+E63003229,Eardiston
+E63003230,Wellingborough
+E63003231,Tenbury Wells
+E63003232,Badingham
+E63003233,Brimfield
+E63003234,East Haddon
+E63003235,Swavesey
+E63003236,Kimbolton
+E63003237,Rampton (South Cambridgeshire)
+E63003238,Snailwell
+E63003239,Pitsford
+E63003240,Watford (West Northamptonshire)
+E63003241,Fornham St Martin
+E63003242,Upper Dean
+E63003243,Middleton (East Suffolk)
+E63003244,Buckden
+E63003245,Shrewley
+E63003246,Abberley
+E63003247,Willoughby (Rugby)
+E63003248,Fornham All Saints
+E63003249,Great Barton
+E63003250,Long Buckby
+E63003251,Cottenham
+E63003252,Bacton and Cotton
+E63003253,Henbrook
+E63003254,Orleton
+E63003255,Pakenham
+E63003256,Ullenhall
+E63003257,West Perry
+E63003258,Dennington
+E63003259,Hatton (Warwick)
+E63003260,Burwell
+E63003261,Offord D'Arcy and Offord Cluny
+E63003262,Bedfield
+E63003263,Kentford
+E63003264,Stoke Prior (Bromsgrove)
+E63003265,Wetheringsett
+E63003266,Mears Ashby
+E63003267,Rushden
+E63003268,Redditch
+E63003269,Longstanton and Northstowe
+E63003270,East Perry
+E63003271,Great Witley
+E63003272,Little Irchester
+E63003273,Moulton (West Northamptonshire)
+E63003274,Hilton (Huntingdonshire)
+E63003275,Chapel Brampton
+E63003276,Braunston
+E63003277,Risby
+E63003278,Royal Leamington Spa
+E63003279,Sywell and Overstone
+E63003280,Welton (West Northamptonshire)
+E63003281,Wilby
+E63003282,Mappleborough Green
+E63003283,Waterbeach
+E63003284,Henley-in-Arden
+E63003285,Wychbold
+E63003286,St Michaels
+E63003287,Norton (Mid Suffolk)
+E63003288,Boughton (West Northamptonshire)
+E63003289,Irchester
+E63003290,Exning
+E63003291,Church Brampton
+E63003292,Offchurch
+E63003293,Mendlesham
+E63003294,Boxworth
+E63003295,Thurston
+E63003296,Long Itchington
+E63003297,Hampton Lovett
+E63003298,Great Doddington
+E63003299,Long Buckby Wharf
+E63003300,Landbeach
+E63003301,Yarpole
+E63003302,Claverdon
+E63003303,Great Staughton
+E63003304,Cransford
+E63003305,Hampton Magna
+E63003306,Uphampton
+E63003307,Wymington
+E63003308,Warwick
+E63003309,Kelsale
+E63003310,Lucton
+E63003311,Oakington
+E63003312,Moulton (West Suffolk)
+E63003313,Bury St Edmunds
+E63003314,Radford Semele
+E63003315,Swaffham Prior
+E63003316,Gazeley
+E63003317,Graveley
+E63003318,Great Paxton
+E63003319,Earls Barton
+E63003320,Ombersley
+E63003321,Newmarket
+E63003322,Stockton
+E63003323,Tostock
+E63003324,Elmswell
+E63003325,Holt Fleet
+E63003326,Elsworth
+E63003327,Ecton
+E63003328,Studley
+E63003329,Barrow (West Suffolk)
+E63003330,Framlingham
+E63003331,Bar Hill
+E63003332,Histon and Impington
+E63003333,Sizewell
+E63003334,Bascote Heath
+E63003335,Hanbury
+E63003336,Luston
+E63003337,Saxmundham
+E63003338,Wootton Wawen
+E63003339,Debenham
+E63003340,Norton Lindsey
+E63003341,Earl Soham
+E63003342,Daventry
+E63003343,Beyton
+E63003344,Whitnash
+E63003345,Little Staughton
+E63003346,Wollaston
+E63003347,Papworth Everard
+E63003348,Wetherden
+E63003349,Milton (South Cambridgeshire)
+E63003350,Droitwich Spa
+E63003351,Little Paxton
+E63003352,Riseley (Bedford)
+E63003353,Yelling
+E63003354,Podington
+E63003355,Lode
+E63003356,Woolpit
+E63003357,Old Newton
+E63003358,Leiston
+E63003359,Horningsea
+E63003360,Astwood Bank
+E63003361,Swaffham Bulbeck
+E63003362,Sambourne
+E63003363,Dry Drayton
+E63003364,Hail Weston
+E63003365,Haughley
+E63003366,Horringer
+E63003367,Holt (Malvern Hills)
+E63003368,Ashley (East Cambridgeshire)
+E63003369,Southam (Stratford-on-Avon)
+E63003370,Woolpit Heath
+E63003371,Clifton upon Teme
+E63003372,Keysoe Row
+E63003373,Kingsland
+E63003374,Feckenham
+E63003375,Benhall Green
+E63003376,Girton
+E63003377,Napton on the Hill
+E63003378,Bishop's Tachbrook
+E63003379,Staverton
+E63003380,Hessett
+E63003381,Shobdon
+E63003382,Coldfair Green
+E63003383,Cheveley
+E63003384,Harpole
+E63003385,Bottisham
+E63003386,Barford (Warwick)
+E63003387,Brandeston
+E63003388,Bearley
+E63003389,Cogenhoe
+E63003390,Northampton
+E63003391,Stow cum Quy
+E63003392,Grendon (North Northamptonshire)
+E63003393,Fen Ditton
+E63003394,Backnoe End
+E63003395,Martin Hussingtree
+E63003396,Flore
+E63003397,Drinkstone Green
+E63003398,Sicklesmere
+E63003399,Stowupland
+E63003400,Martley
+E63003401,Snitterfield
+E63003402,Harbury
+E63003403,St Neots
+E63003404,New End
+E63003405,Ousden
+E63003406,Newnham (West Northamptonshire)
+E63003407,Thorpeness
+E63003408,Chevington
+E63003409,Little Houghton
+E63003410,Great Alne
+E63003411,Eltisley
+E63003412,Sharnbrook
+E63003413,Weedon Bec
+E63003414,Cambourne
+E63003415,Kislingbury
+E63003416,Ladbroke
+E63003417,Stonham Aspal
+E63003418,Hardwick (South Cambridgeshire)
+E63003419,Bozeat
+E63003420,Rattlesden
+E63003421,Kings Coughton
+E63003422,Fernhill Heath
+E63003423,Brafield-on-the-Green
+E63003424,Badby
+E63003425,Highfields Caldecote
+E63003426,Leominster
+E63003427,Coton
+E63003428,Cladswell
+E63003429,Great Houghton (West Northamptonshire)
+E63003430,Hallow
+E63003431,Hacheston
+E63003432,Easton (East Suffolk)
+E63003433,Hindlip
+E63003434,Nether Heyford
+E63003435,Eardisland
+E63003436,Himbleton
+E63003437,Ashorne
+E63003438,Teversham
+E63003439,Stowmarket
+E63003440,Stetchworth
+E63003441,Snape (East Suffolk)
+E63003442,Pembridge
+E63003443,Cambridge (Cambridge)
+E63003444,Caxton
+E63003445,Wilmcote
+E63003446,Denton (West Northamptonshire)
+E63003447,Alcester
+E63003448,Chesterton Green
+E63003449,Tibberton (Wychavon)
+E63003450,Bishop's Itchington
+E63003451,Chedburgh
+E63003452,Felmersham
+E63003453,Lidgate
+E63003454,Great Wilbraham
+E63003455,Aldeburgh
+E63003456,Great Finborough
+E63003457,Crowfield
+E63003458,Priors Marston
+E63003459,Bugbrooke
+E63003460,Felsham
+E63003461,Inkberrow
+E63003462,Harrold
+E63003463,Wyboston
+E63003464,Rothersthorpe
+E63003465,Lower Broadheath
+E63003466,Yardley Hastings
+E63003467,Charsfield
+E63003468,Abbotsley
+E63003469,Bourn
+E63003470,Kington
+E63003471,Stoke Prior (Herefordshire)
+E63003472,Fulbourn
+E63003473,Milton Ernest
+E63003474,Comberton
+E63003475,Toft
+E63003476,Priors Hardwick
+E63003477,Crowle (Wychavon)
+E63003478,Great Gransden
+E63003479,Tiddington
+E63003480,Great Green
+E63003481,Wickham Market
+E63003482,Lighthorne
+E63003483,Barton (South Cambridgeshire)
+E63003484,Grantchester
+E63003485,Pavenham
+E63003486,Lyonshall
+E63003487,Burrough Green
+E63003488,Wickhambrook
+E63003489,Moreton Morrell
+E63003490,Worcester
+E63003491,Needham Market
+E63003492,Carlton (Bedford)
+E63003493,Otley (East Suffolk)
+E63003494,Broadwas
+E63003495,Collingtree and Milton Malsor
+E63003496,Wellesbourne
+E63003497,Tunstall (East Suffolk)
+E63003498,Kingston (South Cambridgeshire)
+E63003499,Hackleton
+E63003500,Little Gransden
+E63003501,Lighthorne Heath
+E63003502,Stratford-upon-Avon
+E63003503,Flyford Flavell
+E63003504,Stoneton
+E63003505,Brinkley
+E63003506,Dilwyn
+E63003507,Bromyard
+E63003508,Gayton (West Northamptonshire)
+E63003509,Lawshall
+E63003510,Coddenham
+E63003511,Waresley (Huntingdonshire)
+E63003512,Pettistree
+E63003513,Roxton
+E63003514,Horton (West Northamptonshire)
+E63003515,Ashbocking
+E63003516,Piddington (West Northamptonshire)
+E63003517,Upton Snodsbury
+E63003518,Ardens Grafton
+E63003519,Battisford Tye
+E63003520,Gaydon
+E63003521,Binton
+E63003522,Pattishall and Astcote
+E63003523,Otley Bottom
+E63003524,Tempsford
+E63003525,Rushwick
+E63003526,Lavendon
+E63003527,Haslingfield
+E63003528,Oakley (Bedford)
+E63003529,Upper Boddington
+E63003530,Blisworth
+E63003531,Great Eversden
+E63003532,Byfield
+E63003533,Stevington
+E63003534,Broom (Stratford-on-Avon)
+E63003535,Little Eversden
+E63003536,Brettenham
+E63003537,Clapham (Bedford)
+E63003538,Whittington (Wychavon)
+E63003539,Bredfield
+E63003540,Rendlesham
+E63003541,Bransford
+E63003542,Salph End
+E63003543,Woodford Halse
+E63003544,Barking
+E63003545,Northend
+E63003546,Turvey
+E63003547,Harlton
+E63003548,Workhouse End
+E63003549,Fenny Compton
+E63003550,Hartest
+E63003551,Great Shelford and Stapleford
+E63003552,Great Barford
+E63003553,Bidford-on-Avon
+E63003554,Gamlingay
+E63003555,Clifford Chambers
+E63003556,West Wratting
+E63003557,Ufford (East Suffolk)
+E63003558,Hauxton
+E63003559,Welford-on-Avon
+E63003560,Temple Herdewyke
+E63003561,Cock and End
+E63003562,Eyke
+E63003563,Olney
+E63003564,Hitcham
+E63003565,Roade
+E63003566,Little Shelford
+E63003567,Norton (Norton Juxta Kempsey)
+E63003568,Great Bricett
+E63003569,Weobley
+E63003570,Henley
+E63003571,Powick
+E63003572,Sharpstone Street
+E63003573,Bishampton
+E63003574,Church Lench
+E63003575,Upper Wolverton
+E63003576,Blunham
+E63003577,Kineton
+E63003578,Salford Priors
+E63003579,Bodenham
+E63003580,Westhope
+E63003581,Harston
+E63003582,Collett's Green
+E63003583,Bromham (Bedford)
+E63003584,Leigh Sinton
+E63003585,Balsham
+E63003586,Babraham
+E63003587,Melton
+E63003588,Grundisburgh
+E63003589,Peopleton
+E63003590,Hartwell
+E63003591,Witnesham
+E63003592,Blakesley
+E63003593,Bromeswell
+E63003594,Eydon
+E63003595,Orwell
+E63003596,Great Blakenham
+E63003597,Bedford
+E63003598,Sandy
+E63003599,Barrington (South Cambridgeshire)
+E63003600,Claydon
+E63003601,Ashton (West Northamptonshire)
+E63003602,Stoke Bruerne
+E63003603,Orford
+E63003604,Nedging Tye
+E63003605,Aston le Walls
+E63003606,Callow End
+E63003607,Willington (Bedford)
+E63003608,Greens Norton
+E63003609,Emberton
+E63003610,Throckmorton
+E63003611,West Wickham
+E63003612,Bildeston
+E63003613,Newton (South Cambridgeshire)
+E63003614,Sawston
+E63003615,Cleeve Prior
+E63003616,Little Abington
+E63003617,Eardisley
+E63003618,Potton
+E63003619,Stagsden
+E63003620,Moreton Pinkney
+E63003621,Kempsey
+E63003622,Lavenham
+E63003623,Woodbridge
+E63003624,Moggerhanger
+E63003625,Box End
+E63003626,Harvington
+E63003627,Ettington
+E63003628,Chipping Warden
+E63003629,Stoke Goldington
+E63003630,Long Marston (Stratford-on-Avon)
+E63003631,Hundon
+E63003632,Drakes Broughton
+E63003633,Great Denham
+E63003634,Alderminster
+E63003635,Somersham (Mid Suffolk)
+E63003636,Great Bealings
+E63003637,Tuddenham St Martin
+E63003638,Cople
+E63003639,Pinvin
+E63003640,Foxton (South Cambridgeshire)
+E63003641,Great Abington
+E63003642,Sutton Common
+E63003643,Towcester
+E63003644,Edgcote
+E63003645,Radway
+E63003646,Beeston (Central Bedfordshire)
+E63003647,Wellington (Herefordshire)
+E63003648,Norton (Norton and Lenchwick)
+E63003649,Glemsford
+E63003650,Whittlesford
+E63003651,Chelsworth
+E63003652,Shepreth
+E63003653,Cardington
+E63003654,Marden (Herefordshire)
+E63003655,Warmington (Stratford-on-Avon)
+E63003656,Westerfield
+E63003657,Pillerton Priors
+E63003658,Wrestlingworth
+E63003659,Monks Eleigh
+E63003660,North Littleton
+E63003661,Wyre Piddle
+E63003662,Little Bealings
+E63003663,Mollington (Cherwell)
+E63003664,Kempston
+E63003665,Horseheath
+E63003666,Cradley
+E63003667,Lower Moor
+E63003668,Lower Quinton
+E63003669,Shortstown
+E63003670,Westfield (Herefordshire)
+E63003671,Hanslope
+E63003672,Culworth
+E63003673,Martlesham
+E63003674,Linton (South Cambridgeshire)
+E63003675,Meon Vale
+E63003676,Kedington
+E63003677,Middle Littleton
+E63003678,Bramford
+E63003679,Northill
+E63003680,Pebworth
+E63003681,Cropredy
+E63003682,Sherington
+E63003683,Wellington Marsh
+E63003684,Cavendish
+E63003685,Thriplow
+E63003686,South Littleton
+E63003687,Meldreth
+E63003688,Rushmere St Andrew
+E63003689,Newbold-on-Stour
+E63003690,Elmsett
+E63003691,Fladbury
+E63003692,Wardington
+E63003693,Heathfield (South Cambridgeshire)
+E63003694,Offenham
+E63003695,Great Malvern
+E63003696,Long Melford
+E63003697,Pershore
+E63003698,Duxford
+E63003699,Fowlmere
+E63003700,Burstallhill
+E63003701,Oxhill
+E63003702,Moreton on Lugg
+E63003703,Upper Caldecote
+E63003704,Sutton St Nicholas
+E63003705,Shotteswell
+E63003706,Halford
+E63003707,Ickwell
+E63003708,Clare
+E63003709,Haverhill
+E63003710,Great Bourton
+E63003711,Paulerspury
+E63003712,Kesgrave
+E63003713,Martlesham Heath
+E63003714,Little Waldingfield
+E63003715,Sulgrave
+E63003716,Hinxton
+E63003717,Cotton End
+E63003718,Hornton
+E63003719,Hadstock
+E63003720,Wick (Wychavon)
+E63003721,Acton
+E63003722,Sproughton
+E63003723,Wootton (Bedford)
+E63003724,North Crawley
+E63003725,Yardley Gobion
+E63003726,Blackminster
+E63003727,Oak Hill
+E63003728,Melbourn
+E63003729,Waldringfield
+E63003730,Cropthorne
+E63003731,Armscote
+E63003732,Hollesley
+E63003733,Honeybourne
+E63003734,Shudy Camps
+E63003735,Castlethorpe
+E63003736,Ipswich
+E63003737,Burghill
+E63003738,Wixams
+E63003739,Kneesworth
+E63003740,Biggleswade
+E63003741,Withington Marsh
+E63003742,Dunton
+E63003743,Helmdon
+E63003744,Whittlebury
+E63003745,Guilden Morden
+E63003746,Besford
+E63003747,Bassingbourn
+E63003748,Kempston Hardwick
+E63003749,Sturmer
+E63003750,Chacombe
+E63003751,Horley (Cherwell)
+E63003752,Bretforton
+E63003753,Upper Tysoe
+E63003754,Ilmington
+E63003755,Tredington
+E63003756,Ickleton
+E63003757,Mickleton (Cotswold)
+E63003758,Stoke-by-Clare
+E63003759,Great Waldingfield
+E63003760,Newport Pagnell
+E63003761,Bosbury
+E63003762,Wilstead
+E63003763,Defford
+E63003764,Castle Camps
+E63003765,Hintlesham
+E63003766,Credenhill
+E63003767,Potterspury
+E63003768,Little Comberton
+E63003769,Badsey
+E63003770,Evesham
+E63003771,Broom (Central Bedfordshire)
+E63003772,Newbourne
+E63003773,Hanley Swan
+E63003774,Great Chesterford
+E63003775,Hadleigh
+E63003776,Withington and White Stone
+E63003777,Steeple Morden
+E63003778,Shenington
+E63003779,Litlington
+E63003780,Greatworth
+E63003781,Stewartby
+E63003782,Cosgrove
+E63003783,Cranfield
+E63003784,Colwall Stone
+E63003785,Great Comberton
+E63003786,Weston-sub-Edge
+E63003787,Silverstone
+E63003788,Hanley Castle
+E63003789,Washbrook
+E63003790,Bucklesham
+E63003791,Haynes
+E63003792,Ashdon
+E63003793,Southill
+E63003794,Middleton Cheney
+E63003795,Marston Moretaine
+E63003796,Helions Bumpstead
+E63003797,Wroxton
+E63003798,Houghton Conquest
+E63003799,King's Acre
+E63003800,Alderton (East Suffolk)
+E63003801,Dorstone
+E63003802,Malvern Wells
+E63003803,Syresham
+E63003804,Copdock
+E63003805,Sudbury
+E63003806,Wickhamford
+E63003807,Eckington (Wychavon)
+E63003808,Langford (Central Bedfordshire)
+E63003809,Elmley Castle
+E63003810,Old Stratford
+E63003811,Bartestree
+E63003812,Steeple Bumpstead
+E63003813,Lugwardine
+E63003814,Royston (North Hertfordshire)
+E63003815,Ridgewell
+E63003816,Ryall
+E63003817,Newton (Babergh)
+E63003818,Banbury
+E63003819,Wellington Heath
+E63003820,Boxford (Babergh)
+E63003821,Upper Layham
+E63003822,Shipston-on-Stour
+E63003823,Tarrington
+E63003824,Bawdsey
+E63003825,Upton upon Severn
+E63003826,Radstone
+E63003827,Ebrington
+E63003828,Mace Green
+E63003829,Welland
+E63003830,Hereford
+E63003831,Deanshanger
+E63003832,Heydon
+E63003833,Farthinghoe
+E63003834,Littlebury
+E63003835,Ashwell
+E63003836,Elmdon
+E63003837,Nacton
+E63003838,Willersey
+E63003839,Kirton (East Suffolk)
+E63003840,Chicksands
+E63003841,Lower Brailes
+E63003842,Chipping Campden
+E63003843,Chrishall
+E63003844,Clifton (Central Bedfordshire)
+E63003845,Shefford
+E63003846,Lidlington
+E63003847,Peterchurch
+E63003848,Great Chishill
+E63003849,Woolverstone
+E63003850,Childswickham
+E63003851,Madley
+E63003852,Raydon
+E63003853,Great Yeldham
+E63003854,Barley
+E63003855,Sedgeberrow
+E63003856,Broughton (Cherwell)
+E63003857,Henlow
+E63003858,Milton Keynes
+E63003859,Stretton-on-Fosse
+E63003860,Whitfield (Buckinghamshire)
+E63003861,Capel St Mary
+E63003862,Sewards End
+E63003863,Ashton under Hill
+E63003864,Campton
+E63003865,Clophill
+E63003866,Saffron Walden
+E63003867,Hampton Bishop
+E63003868,Hempstead
+E63003869,Bodicote
+E63003870,Sibford Gower
+E63003871,Maulden
+E63003872,Brogborough
+E63003873,Broadway
+E63003874,Swalcliffe
+E63003875,Trimley St Martin
+E63003876,Akeley
+E63003877,Assington
+E63003878,Turweston
+E63003879,Clehonger
+E63003880,Radwinter
+E63003881,Chelmondiston
+E63003882,Brackley
+E63003883,Paxford
+E63003884,Ampthill
+E63003885,Toppesfield
+E63003886,Dadford
+E63003887,Therfield
+E63003888,Ledbury
+E63003889,Sibford Ferris
+E63003890,Kemerton
+E63003891,Wavendon
+E63003892,Bredon
+E63003893,Hinton-in-the-Hedges
+E63003894,Bentley (Babergh)
+E63003895,Twyning
+E63003896,Cherington and Stourton
+E63003897,Meppershall
+E63003898,Stotfold
+E63003899,Arlesey
+E63003900,Wickham St Paul
+E63003901,Stoke-by-Nayland
+E63003902,Kings Sutton
+E63003903,Trimley St Mary
+E63003904,Leavenheath
+E63003905,Kingstone (Herefordshire)
+E63003906,Wendens Ambo
+E63003907,Charlton (West Northamptonshire)
+E63003908,Reed
+E63003909,Ridgmont
+E63003910,Queenhill
+E63003911,Woburn Sands
+E63003912,Upper Gravenhurst
+E63003913,Silsoe
+E63003914,Adderbury and Twyford
+E63003915,Aspley Guise
+E63003916,Westbury (Buckinghamshire)
+E63003917,Bloxham
+E63003918,Lamarsh
+E63003919,Flitton
+E63003920,Barkway
+E63003921,Holme Lacy
+E63003922,Castle Hedingham
+E63003923,Kinsham
+E63003924,Maids Moreton
+E63003925,Lower Stondon
+E63003926,East Bergholt
+E63003927,Flitwick
+E63003928,Langley (Uttlesford)
+E63003929,Shotley
+E63003930,Holbrook (Babergh)
+E63003931,Elder Street
+E63003932,Blockley
+E63003933,Evenley
+E63003934,Stutton
+E63003935,Greenfield (Central Bedfordshire)
+E63003936,Milcombe
+E63003937,Newport (Uttlesford)
+E63003938,Bow Brickhill
+E63003939,Stratford St Mary
+E63003940,Arkesden
+E63003941,Fownhope
+E63003942,Shillington
+E63003943,Nayland
+E63003944,Sible Hedingham
+E63003945,Whaddon (Buckinghamshire)
+E63003946,Felixstowe
+E63003947,Stanton (Tewkesbury)
+E63003948,Barford St John
+E63003949,Shotley Gate
+E63003950,Bures
+E63003951,Nash
+E63003952,Mixbury
+E63003953,Pulloxhill
+E63003954,Thornborough
+E63003955,Ashchurch
+E63003956,Buckingham
+E63003957,Baldock
+E63003958,Brantham
+E63003959,Pebmarsh
+E63003960,Bletchley
+E63003961,Hook Norton
+E63003962,Northway
+E63003963,Aynho
+E63003964,School Green
+E63003965,South Newington
+E63003966,Debden
+E63003967,Holwell (North Hertfordshire)
+E63003968,Alderton (Tewkesbury)
+E63003969,Wicken Bonhunt
+E63003970,Woburn
+E63003971,Apsley End
+E63003972,Croughton
+E63003973,Finmere
+E63003974,Bromesberrow Heath
+E63003975,Tingewick
+E63003976,Finchingfield
+E63003977,Letchworth
+E63003978,Barford St Michael
+E63003979,Westoning
+E63003980,Long Compton
+E63003981,Little Brickhill
+E63003982,Moreton-in-Marsh
+E63003983,Dedham
+E63003984,Boxted Cross
+E63003985,Tewkesbury
+E63003986,New Town
+E63003987,Parkeston
+E63003988,King's Thorn
+E63003989,Boyton End
+E63003990,Gawcott
+E63003991,Clavering
+E63003992,Pirton
+E63003993,Deddington
+E63003994,Langham (Colchester)
+E63003995,Ickleford
+E63003996,Manningtree
+E63003997,Mistley
+E63003998,Redmarley D'Abitot
+E63003999,Lamb Corner
+E63004000,Widdington
+E63004001,Dedham Heath
+E63004002,Boxted
+E63004003,Lawford
+E63004004,Tye Green (Colchester)
+E63004005,Newton Longville
+E63004006,Great Rollright
+E63004007,Wethersfield
+E63004008,Thaxted
+E63004009,Great Horwood
+E63004010,Newton Purcell
+E63004011,Dymock
+E63004012,Harwich
+E63004013,Harlington
+E63004014,Barton-le-Clay
+E63004015,Padbury
+E63004016,Halstead (Braintree)
+E63004017,Colne Engaine
+E63004018,Great Bardfield
+E63004019,Foxash Estate
+E63004020,Gretton (Tewkesbury)
+E63004021,Great Brickhill
+E63004022,Weston (North Hertfordshire)
+E63004023,Rickling Green and Quendon
+E63004024,Fordham (Colchester)
+E63004025,Great Hormead
+E63004026,Bradfield (Tendring)
+E63004027,Greet
+E63004028,Gosfield
+E63004029,Buntingford
+E63004030,Barton Hartshorn
+E63004031,Hitchin
+E63004032,Stoke Hammond
+E63004033,Gotherington
+E63004034,Longborough
+E63004035,Great Horkesley
+E63004036,Shalford (Braintree)
+E63004037,Ardleigh
+E63004038,Cottered
+E63004039,Fritwell
+E63004040,White Colne
+E63004041,Corse
+E63004042,Winchcombe
+E63004043,Mursley
+E63004044,North Aston
+E63004045,Fringford
+E63004046,Pontrilas
+E63004047,Toddington
+E63004048,Little Tew
+E63004049,Earls Colne
+E63004050,Fox Street
+E63004051,Chappel
+E63004052,Drayton Parslow
+E63004053,Apperley
+E63004054,Ewyas Harold
+E63004055,Streatley (Central Bedfordshire)
+E63004056,Over Norton
+E63004057,Henham
+E63004058,Duns Tew
+E63004059,Botloe's Green
+E63004060,Stoke Orchard
+E63004061,Wix
+E63004062,Heath and Reach
+E63004063,Winslow
+E63004064,Great Oakley
+E63004065,Ardley and Fewcott
+E63004066,West Bergholt
+E63004067,Bromley Cross
+E63004068,The Scarr
+E63004069,Broadwell
+E63004070,Bishop's Cleeve
+E63004071,Little Wymondley
+E63004072,Soulbury
+E63004073,Chalton
+E63004074,Ugley Green
+E63004075,Swanbourne
+E63004076,Gosmore
+E63004077,High Garrett
+E63004078,Fordstreet
+E63004079,Great Offley
+E63004080,St Ippolyts
+E63004081,Hockliffe
+E63004082,Chipping Norton
+E63004083,Manuden
+E63004084,Tebworth
+E63004085,Twyford (Buckinghamshire)
+E63004086,Steeple Claydon
+E63004087,Upper Heyford
+E63004088,Gagingwell
+E63004089,Elsenham
+E63004090,Walkern
+E63004091,Steeple Aston
+E63004092,Cornwell
+E63004093,Ashleworth
+E63004094,Stratton Audley
+E63004095,Great Tey
+E63004096,Eight Ash Green
+E63004097,Newent
+E63004098,Middle Barton
+E63004099,Stewkley
+E63004100,Stow-on-the-Wold
+E63004101,Upper Oddington
+E63004102,Gorsley Common
+E63004103,Southam (Tewkesbury)
+E63004104,Colchester
+E63004105,Leighton Buzzard
+E63004106,Great Easton (Uttlesford)
+E63004107,Bucknell (Cherwell)
+E63004108,Braughing
+E63004109,Granborough
+E63004110,Hartpury
+E63004111,Panfield
+E63004112,Swindon (Cheltenham)
+E63004113,Stevenage
+E63004114,Guiting Power
+E63004115,Hare Green
+E63004116,Preston (North Hertfordshire)
+E63004117,Lower Heyford
+E63004118,Stansted Mountfitchet
+E63004119,Elmstead Market
+E63004120,Enstone
+E63004121,Wilton and Bridstow
+E63004122,Tilsworth
+E63004123,Stebbing
+E63004124,Calvert
+E63004125,Ross-on-Wye
+E63004126,Churchill (West Oxfordshire)
+E63004127,Houghton Regis
+E63004128,Stanbridge
+E63004129,Kingham
+E63004130,Prestbury (Cheltenham)
+E63004131,Rush Green
+E63004132,Frating Green
+E63004133,Benington
+E63004134,Copford
+E63004135,Naunton
+E63004136,Braintree
+E63004137,Weston under Penyard
+E63004138,Moor End
+E63004139,Marks Tey
+E63004140,Sandhurst (Tewkesbury)
+E63004141,Marsh Gibbon
+E63004142,Clifford's Mesne
+E63004143,Wing (Buckinghamshire)
+E63004144,Bradwell (Braintree)
+E63004145,Luton
+E63004146,Puckeridge and Standon
+E63004147,Coggeshall
+E63004148,Aston (East Hertfordshire)
+E63004149,Little Hadham
+E63004150,Birchanger
+E63004151,Billington (Central Bedfordshire)
+E63004152,Bledington
+E63004153,North Marston
+E63004154,Bicester
+E63004155,Launton
+E63004156,Thorpe-le-Soken
+E63004157,Wivenhoe
+E63004158,Burton End
+E63004159,Rayne
+E63004160,Weeley
+E63004161,Cublington
+E63004162,Twigworth
+E63004163,Golden Valley
+E63004164,Berechurch
+E63004165,Great Dunmow
+E63004166,Chadlington
+E63004167,Breachwood Green
+E63004168,Old Hall Green
+E63004169,Edgcott
+E63004170,Heckfordbridge
+E63004171,Kirby-le-Soken
+E63004172,Wellpond Green
+E63004173,Cheltenham
+E63004174,Great Bentley
+E63004175,Dunstable
+E63004176,Tibberton (Forest of Dean)
+E63004177,Bamfurlong (Tewkesbury)
+E63004178,Lea (Herefordshire)
+E63004179,Rowhedge
+E63004180,Walton-on-the-Naze
+E63004181,Oving
+E63004182,Alresford
+E63004183,Chesterton
+E63004184,Dane End
+E63004185,Maisemore
+E63004186,Takeley and Little Canfield
+E63004187,Great Notley
+E63004188,Totternhoe
+E63004189,Bury Green
+E63004190,Takeley Street
+E63004191,Bishop's Stortford
+E63004192,Churchdown
+E63004193,Kirby Cross
+E63004194,Weeley Heath
+E63004195,Whitwell (North Hertfordshire)
+E63004196,Bourton-on-the-Water
+E63004197,Longford
+E63004198,Slapton (Buckinghamshire)
+E63004199,Little Dunmow
+E63004200,High Park Corner
+E63004201,Whitchurch (Buckinghamshire)
+E63004202,Tackley
+E63004203,Grendon Underwood
+E63004204,Tye Green (Braintree)
+E63004205,Felsted
+E63004206,Black Notley
+E63004207,Layer-de-la-Haye
+E63004208,Knebworth
+E63004209,Thorrington
+E63004210,May Hill Village
+E63004211,Frinton-on-Sea
+E63004212,Highnam
+E63004213,Aston Abbotts
+E63004214,Quainton
+E63004215,Eaton Bray and Edlesborough
+E63004216,Barnston (Uttlesford)
+E63004217,Wootton (West Oxfordshire)
+E63004218,Kirtlington
+E63004219,Ambrosden
+E63004220,Shipton Lee
+E63004221,Silver End
+E63004222,Hadham Cross
+E63004223,Great Holland
+E63004224,Wendlebury
+E63004225,Blackthorn
+E63004226,Fingringhoe
+E63004227,Andoversford
+E63004228,Charlbury
+E63004229,Caddington
+E63004230,Causeway End
+E63004231,Huntley
+E63004232,Kelvedon and Feering
+E63004233,Llangrove
+E63004234,Watton at Stone
+E63004235,Wingrave
+E63004236,Young's End
+E63004237,Little Clacton
+E63004238,Langenhoe and Abberton
+E63004239,Longhope
+E63004240,Upper Rissington
+E63004241,Woolmer Green
+E63004242,Layer Breton
+E63004243,Ascott-under-Wychwood
+E63004244,Weston-on-the-Green
+E63004245,Shipton (Cotswold)
+E63004246,High Cross
+E63004247,Datchworth
+E63004248,Mitcheldean
+E63004249,Shurdington
+E63004250,Kimpton
+E63004251,Slip End
+E63004252,Weedon
+E63004253,Codicote
+E63004254,Oaklands
+E63004255,Milton-under-Wychwood and Shipton-under-Wychwood
+E63004256,Minsterworth
+E63004257,Kensworth
+E63004258,Whitchurch (Herefordshire)
+E63004259,High Roding
+E63004260,Little Hallingbury
+E63004261,Bletchingdon
+E63004262,Perry Green
+E63004263,Spellbrook
+E63004264,Ruardean
+E63004265,Great Leighs
+E63004266,Ludgershall (Buckinghamshire)
+E63004267,Upper Arncott
+E63004268,Great Rissington
+E63004269,Gloucester
+E63004270,Stonesfield
+E63004271,Cheddington
+E63004272,Drybrook
+E63004273,Holywell (Central Bedfordshire)
+E63004274,Thundridge and Wadesmill
+E63004275,Brightlingsea
+E63004276,Piddington (Cherwell)
+E63004277,Waddesdon
+E63004278,Westcott (Buckinghamshire)
+E63004279,Ford End
+E63004280,Ruardean Woodside
+E63004281,Oldhill Wood
+E63004282,Woodstock
+E63004283,Symonds Yat West
+E63004284,Leckhampton Hill
+E63004285,South-end
+E63004286,Peldon
+E63004287,Hatfield Broad Oak
+E63004288,Fleet Marston
+E63004289,Brockworth
+E63004290,Blackmore End
+E63004291,Dagnall
+E63004292,Tewin Wood
+E63004293,Finstock
+E63004294,Tiptree
+E63004295,Welsh Bicknor
+E63004296,Northwood Green
+E63004297,Markyate
+E63004298,Combe
+E63004299,Welwyn
+E63004300,Clacton-on-Sea
+E63004301,Charlton-on-Otmoor
+E63004302,Kinsbourne Green
+E63004303,Widford
+E63004304,St Osyth
+E63004305,Pitstone
+E63004306,Bierton
+E63004307,Bentham
+E63004308,Leafield
+E63004309,Ramsden
+E63004310,Point Clear
+E63004311,Upton St Leonards
+E63004312,Witham
+E63004313,Broughton (Buckinghamshire)
+E63004314,Hatfield Heath
+E63004315,High Easter
+E63004316,Bladon
+E63004317,Friar's Wash
+E63004318,Tolleshunt Knights
+E63004319,Tewin
+E63004320,Sawbridgeworth
+E63004321,Northleach
+E63004322,Lea Valley
+E63004323,Flamstead
+E63004324,Ware
+E63004325,Marsworth
+E63004326,Harpenden
+E63004327,Cinderford
+E63004328,Pope's Hill
+E63004329,Hunsdon
+E63004330,Islip (Cherwell)
+E63004331,Long Hanborough
+E63004332,Kidlington
+E63004333,Wheathampstead
+E63004334,Begbroke
+E63004335,Wilstone
+E63004336,Brill
+E63004337,East Mersea
+E63004338,Dorton
+E63004339,Sheering
+E63004340,Little Gaddesden
+E63004341,Jaywick
+E63004342,Littledean
+E63004343,Quedgeley and Hardwicke
+E63004344,Delly End
+E63004345,Whaddon (Stroud)
+E63004346,Great Waltham
+E63004347,Aylesbury
+E63004348,Seawick
+E63004349,Welwyn Garden City
+E63004350,Berry Hill
+E63004351,North Leigh
+E63004352,Fulbrook
+E63004353,West Mersea
+E63004354,Great Totham
+E63004355,Hailey
+E63004356,Freeland
+E63004357,Little Waltham
+E63004358,Hertford
+E63004359,Wickham Bishops
+E63004360,Aston Clinton
+E63004361,Ruspidge
+E63004362,Redbourn
+E63004363,Aldbury
+E63004364,Horton-cum-Studley
+E63004365,Stone (Buckinghamshire)
+E63004366,Yarnton
+E63004367,Great Amwell
+E63004368,Hardwicke
+E63004369,Oakley (Buckinghamshire)
+E63004370,Newnham (Forest of Dean)
+E63004371,Tring
+E63004372,Little Totham
+E63004373,Tolleshunt D'Arcy
+E63004374,Burford
+E63004375,Stanstead Abbotts
+E63004376,Rodley
+E63004377,Hatfield Peverel
+E63004378,Birch Green
+E63004379,Broomfield
+E63004380,Beckley (South Oxfordshire)
+E63004381,Chedworth
+E63004382,Haresfield
+E63004383,Cuddington (Buckinghamshire)
+E63004384,Hertford Heath
+E63004385,Tolleshunt Major
+E63004386,Matching Green
+E63004387,Coleford (Forest of Dean)
+E63004388,Cassington
+E63004389,Broadwell and Coalway
+E63004390,Weston Turville
+E63004391,Minster Lovell
+E63004392,Dinton (Buckinghamshire)
+E63004393,Chearsley
+E63004394,Letty Green
+E63004395,Stoke Mandeville
+E63004396,Nounsley
+E63004397,Sandridge
+E63004398,Tollesbury
+E63004399,Whiteway
+E63004400,Sheepscombe
+E63004401,Bishopstone (Buckinghamshire)
+E63004402,Wigginton (Dacorum)
+E63004403,Rendcomb
+E63004404,Halton (Buckinghamshire)
+E63004405,Witney
+E63004406,Roydon (Epping Forest)
+E63004407,Boreham
+E63004408,Harlow
+E63004409,Wolvercote
+E63004410,Worminghall
+E63004411,Edge
+E63004412,Painswick
+E63004413,Eynsham
+E63004414,Stanton St John
+E63004415,Saul
+E63004416,Milkwall
+E63004417,Langford (Maldon)
+E63004418,Goldhanger
+E63004419,Long Crendon
+E63004420,Potten End
+E63004421,Hatfield
+E63004422,Haddenham (Buckinghamshire)
+E63004423,Essendon
+E63004424,Curbridge (West Oxfordshire)
+E63004425,Bayford
+E63004426,Wendover
+E63004427,Hoddesdon
+E63004428,Whitminster
+E63004429,Roxwell
+E63004430,Frampton on Severn
+E63004431,Little Berkhamsted
+E63004432,Sling
+E63004433,Clearwell
+E63004434,Brickendon
+E63004435,Berkhamsted
+E63004436,Smallford
+E63004437,Forest Hill
+E63004438,Roydon Hamlet
+E63004439,Ducklington
+E63004440,Brize Norton
+E63004441,St Albans
+E63004442,Chelmsford
+E63004443,Maldon
+E63004444,Broadley Common
+E63004445,Heybridge Basin
+E63004446,Ickford
+E63004447,Cholesbury
+E63004448,Butler's Cross
+E63004449,Hemel Hempstead
+E63004450,Shabbington
+E63004451,Moreton (Epping Forest)
+E63004452,Whiteshill and Randwick
+E63004453,Little Kimble
+E63004454,Yorkley and Whitecroft
+E63004455,Fyfield
+E63004456,Blakeney (Forest of Dean)
+E63004457,Arlington
+E63004458,Oxford
+E63004459,Farmoor
+E63004460,Nazeing
+E63004461,Carterton
+E63004462,Great Kimble
+E63004463,Lower Nazeing
+E63004464,Sutton (West Oxfordshire)
+E63004465,Hardwick (West Oxfordshire)
+E63004466,Writtle
+E63004467,Bisley (Stroud)
+E63004468,Bream
+E63004469,Colney Heath
+E63004470,Wheatley
+E63004471,Thame
+E63004472,Welham Green
+E63004473,Ramsey Island
+E63004474,Stonehouse (Stroud)
+E63004475,Stanton Harcourt
+E63004476,Danbury
+E63004477,Eastleach Turville
+E63004478,Ashley Green
+E63004479,Eastington
+E63004480,Towersey
+E63004481,Hatherop
+E63004482,Bumble's Green
+E63004483,Newgate Street
+E63004484,Stroud
+E63004485,Horspath
+E63004486,Askett and Whiteleaf
+E63004487,Woodham Mortimer
+E63004488,Ryeford
+E63004489,North Weald Bassett
+E63004490,Epping Upland
+E63004491,Brighthampton
+E63004492,Thornwood Common
+E63004493,Longwick
+E63004494,Alvescot
+E63004495,Chawley
+E63004496,St Briavels
+E63004497,Brookmans Park
+E63004498,Sandon
+E63004499,Quenington
+E63004500,Kencot
+E63004501,Shelley (Epping Forest)
+E63004502,Filkins
+E63004503,Black Bourton
+E63004504,Cumnor
+E63004505,Rucklers Lane
+E63004506,Park Street and Frogmore
+E63004507,Gay Bowers
+E63004508,Lee Common
+E63004509,Chiswell Green
+E63004510,Slimbridge
+E63004511,Cambridge (Stroud)
+E63004512,Chartridge
+E63004513,Stratton (Cotswold)
+E63004514,Bovingdon
+E63004515,Lye Green
+E63004516,Tillingham
+E63004517,Leonard Stanley and King's Stanley
+E63004518,Oakridge Lynch
+E63004519,Bedmond
+E63004520,Milton Common
+E63004521,London Colney
+E63004522,Southrop
+E63004523,North Mymms
+E63004524,Cuffley
+E63004525,Bampton (West Oxfordshire)
+E63004526,Princes Risborough
+E63004527,Ballinger Common
+E63004528,South Hinksey
+E63004529,Bagpath
+E63004530,Aston (West Oxfordshire)
+E63004531,Chalford
+E63004532,Goff's Oak
+E63004533,Middleyard
+E63004534,Howe Green
+E63004535,Standlake
+E63004536,Steeple
+E63004537,Lydney
+E63004538,Coopersale
+E63004539,Galleywood
+E63004540,Great Milton
+E63004541,Chesham
+E63004542,Cheshunt
+E63004543,Chipping Ongar
+E63004544,Woodchester
+E63004545,Bicknacre
+E63004546,Brimscombe and Thrupp
+E63004547,Langford (West Oxfordshire)
+E63004548,Northaw
+E63004549,Colney Street
+E63004550,Garsington
+E63004551,Abbots Langley and Kings Langley
+E63004552,Sharpness
+E63004553,Bricket Wood
+E63004554,South Heath
+E63004555,Purleigh
+E63004556,Ley Hill
+E63004557,Ampney Crucis
+E63004558,Boars Hill
+E63004559,Blackmore
+E63004560,Mayland
+E63004561,Chipperfield
+E63004562,Margaretting
+E63004563,Shenleybury
+E63004564,Aylburton
+E63004565,Great Haseley
+E63004566,Paslow Wood Common
+E63004567,Clanfield (West Oxfordshire)
+E63004568,Sandford-on-Thames
+E63004569,Epping
+E63004570,Amberley (Stroud)
+E63004571,Tetsworth
+E63004572,Sydenham
+E63004573,Potters Bar
+E63004574,Hogpits Bottom
+E63004575,Appleton
+E63004576,Cirencester
+E63004577,East Hanningfield
+E63004578,Kennington
+E63004579,Fairford
+E63004580,Bayworth
+E63004581,Minchinhampton
+E63004582,Alvington
+E63004583,Coates
+E63004584,Poulton
+E63004585,Shenley
+E63004586,Chinnor
+E63004587,Little Milton
+E63004588,South Mimms
+E63004589,Waltham Cross
+E63004590,Wootton (Vale of White Horse)
+E63004591,Woolaston
+E63004592,Waltham Abbey
+E63004593,Fryerning
+E63004594,Woodham Ferrers
+E63004595,Latchingdon
+E63004596,Lacey Green and Loosley Row
+E63004597,Prestwood and Great Missenden
+E63004598,Upthorpe (Stroud)
+E63004599,Commonwood
+E63004600,Cold Norton (Maldon)
+E63004601,Nympsfield
+E63004602,Stondon Massey
+E63004603,Box (Stroud)
+E63004604,Cam
+E63004605,Speen
+E63004606,Lechlade-on-Thames
+E63004607,Hyde Heath
+E63004608,Meysey Hampton
+E63004609,West Hanningfield
+E63004610,Southminster
+E63004611,Radlett
+E63004612,Nailsworth
+E63004613,Siddington
+E63004614,Marsh Baldon
+E63004615,Kingston Blount
+E63004616,Cothill
+E63004617,Ingatestone
+E63004618,Berkeley
+E63004619,Sarratt
+E63004620,Clapton
+E63004621,Doddinghurst
+E63004622,Longworth
+E63004623,Althorne
+E63004624,Theydon Bois
+E63004625,Radley
+E63004626,Little Kingshill
+E63004627,Shippon
+E63004628,Aston Rowant
+E63004629,Little Missenden
+E63004630,Hinton Waldrist
+E63004631,Kelvedon Hatch
+E63004632,Amersham
+E63004633,Stock
+E63004634,Stadhampton
+E63004635,Chandler's Cross
+E63004636,Dunfield
+E63004637,Rettendon
+E63004638,Horsley (Stroud)
+E63004639,High Beech
+E63004640,Uley
+E63004641,Kingston Bagpuize
+E63004642,Walter's Ash and Naphill
+E63004643,Sewardstone
+E63004644,Great Kingshill
+E63004645,Avening
+E63004646,Buckland (Vale of White Horse)
+E63004647,Abingdon-on-Thames
+E63004648,Bledlow Ridge
+E63004649,North Fambridge
+E63004650,Dursley
+E63004651,Doddinghurst Common
+E63004652,Stoneyhills
+E63004653,Coalhill
+E63004654,Lewknor
+E63004655,Chalgrove
+E63004656,Ewen
+E63004657,Kemble
+E63004658,Hughenden Valley
+E63004659,Letchmore Heath
+E63004660,South Woodham Ferrers
+E63004661,South Cerney
+E63004662,Frilford
+E63004663,Little Chalfont
+E63004664,Down Ampney
+E63004665,Borehamwood
+E63004666,Cryers Hill
+E63004667,Kempsford
+E63004668,Marcham
+E63004669,Loughton
+E63004670,Abridge
+E63004671,The City
+E63004672,Woodcroft
+E63004673,Burnham-on-Crouch
+E63004674,Brock Hill
+E63004675,Drayton St Leonard
+E63004676,Rodmarton
+E63004677,Berinsfield
+E63004678,Bushey
+E63004679,Enfield
+E63004680,Downham
+E63004681,Clifton Hampden
+E63004682,North Nibley
+E63004683,Stokenchurch
+E63004684,Burcot (South Oxfordshire)
+E63004685,Chorleywood
+E63004686,Pyrton
+E63004687,Ramsden Heath
+E63004688,Latton
+E63004689,Hazlemere
+E63004690,Watford (Watford)
+E63004691,Beacon's Bottom
+E63004692,Stone (Stroud)
+E63004693,Elstree
+E63004694,Culham
+E63004695,Coleshill (Buckinghamshire)
+E63004696,Battlesbridge
+E63004697,Faringdon
+E63004698,Downley
+E63004699,Creeksea
+E63004700,Winchmore Hill
+E63004701,Billericay
+E63004702,Somerford Keynes
+E63004703,Runwell
+E63004704,Havering's Grove
+E63004705,Hullbridge
+E63004706,Stapleford Abbotts
+E63004707,Dorchester (South Oxfordshire)
+E63004708,Rickmansworth
+E63004709,Oldbury Naite
+E63004710,Watlington (South Oxfordshire)
+E63004711,Canewdon
+E63004712,Tutshill and Sedbury
+E63004713,Brentwood
+E63004714,Drayton (Vale of White Horse)
+E63004715,Ramsden Bellhouse
+E63004716,Buckhurst Hill
+E63004717,Ashton Keynes
+E63004718,Beverston
+E63004719,Long Wittenham
+E63004720,Sutton Courtenay
+E63004721,Cricklade
+E63004722,Tetbury
+E63004723,Chigwell Row
+E63004724,Ashingdon
+E63004725,Warborough and Shillingford
+E63004726,Oaksey
+E63004727,Stanford in the Vale
+E63004728,Chalfont St Giles
+E63004729,Rawreth
+E63004730,Falfield
+E63004731,Wotton-under-Edge
+E63004732,East Hanney
+E63004733,Moor Park
+E63004734,Wickford
+E63004735,High Wycombe
+E63004736,Hockley and Hawkwell
+E63004737,West Hanney
+E63004738,Chigwell
+E63004739,Bolter End
+E63004740,Crudwell
+E63004741,Chelworth Lower Green
+E63004742,Highworth
+E63004743,Oldbury-on-Severn
+E63004744,Maple Cross
+E63004745,Tortworth Green
+E63004746,Little Burstead
+E63004747,Barnet
+E63004748,Charfield
+E63004749,Kingswood (Stroud)
+E63004750,Milton (Vale of White Horse)
+E63004751,Lane End
+E63004752,Steventon
+E63004753,Crays Hill
+E63004754,Seer Green
+E63004755,Ewelme
+E63004756,Ingrave and Herongate
+E63004757,Benson
+E63004758,Nevendon
+E63004759,Rayleigh
+E63004760,Upper Minety
+E63004761,Beachley
+E63004762,Noak Hill
+E63004763,Rochford
+E63004764,Longcot
+E63004765,West Hyde
+E63004766,Brightwell-cum-Sotwell
+E63004767,Milton Hill
+E63004768,Clayhill
+E63004769,Beaconsfield
+E63004770,Minety
+E63004771,Townwell
+E63004772,Didcot
+E63004773,Chalfont St Peter
+E63004774,Frieth
+E63004775,Broad Blunsdon
+E63004776,Thornbury
+E63004777,Flackwell Heath and Wooburn Green
+E63004778,Grove (Vale of White Horse)
+E63004779,North Benfleet
+E63004780,Shrivenham and Watchfield
+E63004781,Harrow
+E63004782,Hillesley
+E63004783,Heath End
+E63004784,Wallingford
+E63004785,North Moreton
+E63004786,Westonbirt
+E63004787,Childerditch
+E63004788,Blunsdon St Andrew
+E63004789,Crowmarsh Gifford
+E63004790,Redbridge
+E63004791,Uffington (Vale of White Horse)
+E63004792,Harwell
+E63004793,Haringey
+E63004794,Little Warley
+E63004795,East Hendred
+E63004796,Havering
+E63004797,Waltham Forest
+E63004798,West Hendred
+E63004799,Basildon
+E63004800,Marlow Bottom
+E63004801,East Hagbourne
+E63004802,Wickwar
+E63004803,West Horndon
+E63004804,Tytherington
+E63004805,South Moreton
+E63004806,Mundaydean Bottom
+E63004807,Wantage
+E63004808,Thundersley and South Benfleet
+E63004809,East Challow
+E63004810,Alveston
+E63004811,Purton
+E63004812,Gerrards Cross
+E63004813,South Marston
+E63004814,Higher Denham
+E63004815,West Hagbourne
+E63004816,Sparsholt (Vale of White Horse)
+E63004817,Great Wakering
+E63004818,Childrey
+E63004819,Stonebridge
+E63004820,Southend-on-Sea
+E63004821,Malmesbury
+E63004822,Stratton St Margaret
+E63004823,Bourne End
+E63004824,Olveston
+E63004825,Baker's Wood
+E63004826,Tatling End
+E63004827,Bovingdon Green
+E63004828,Bourton (Vale of White Horse)
+E63004829,Hawkesbury Upton
+E63004830,Rudgeway
+E63004831,Upton (Vale of White Horse)
+E63004832,Fawley
+E63004833,Nettlebed
+E63004834,Marlow
+E63004835,Denham
+E63004836,Tockington
+E63004837,Lea (Wiltshire)
+E63004838,Cholsey
+E63004839,Chilton (Vale of White Horse)
+E63004840,Letcombe Regis
+E63004841,Aston Tirrold and Aston Upthorpe
+E63004842,Bulphan
+E63004843,Sherston
+E63004844,Brent
+E63004845,Lydiard Millicent
+E63004846,Blewbury
+E63004847,Fobbing
+E63004848,Swindon (Swindon)
+E63004849,Greenlands
+E63004850,Hackney
+E63004851,Pilning
+E63004852,Ashbury
+E63004853,Bix
+E63004854,Cookham
+E63004855,Fulmer
+E63004856,Rangeworthy
+E63004857,New Denham
+E63004858,Camden
+E63004859,Barking and Dagenham
+E63004860,Islington
+E63004861,Brinkworth
+E63004862,Almondsbury
+E63004863,Farnham Common and Farnham Royal
+E63004864,Stoke Poges
+E63004865,Stoke Row
+E63004866,Moulsford
+E63004867,Corston (Wiltshire)
+E63004868,Engine Common
+E63004869,Hurley (Windsor and Maidenhead)
+E63004870,Luckington
+E63004871,Bishopstone (Swindon)
+E63004872,Iron Acton
+E63004873,South Stoke
+E63004874,Wexham Street
+E63004875,Canvey Island
+E63004876,Checkendon
+E63004877,Shepherd's Green
+E63004878,Severn Beach
+E63004879,Wanborough
+E63004880,Horndon on the Hill
+E63004881,Newham
+E63004882,Hillingdon
+E63004883,Stanford-le-Hope
+E63004884,Yate
+E63004885,Great Somerford
+E63004886,Marsh Common
+E63004887,Badminton
+E63004888,Royal Wootton Bassett
+E63004889,Iver Heath
+E63004890,Easter Compton
+E63004891,Taplow
+E63004892,Chipping Sodbury
+E63004893,Henley-on-Thames
+E63004894,Ealing
+E63004895,Orsett
+E63004896,Rotherfield Peppard
+E63004897,South Ockendon
+E63004898,Tower Hamlets
+E63004899,Hullavington
+E63004900,Woodcote
+E63004901,Patchway
+E63004902,Burchett's Green
+E63004903,Liddington
+E63004904,Old Sodbury
+E63004905,Bradley Stoke
+E63004906,City and County of the City of London
+E63004907,Southfields
+E63004908,George Green
+E63004909,Baker Street
+E63004910,Lower Stanton St Quintin
+E63004911,Frampton Cotterell and Winterbourne
+E63004912,Goring
+E63004913,East Ilsley
+E63004914,Iver
+E63004915,Acton Turville
+E63004916,City of Westminster
+E63004917,Streatley (West Berkshire)
+E63004918,Slough
+E63004919,Wroughton
+E63004920,Crazies Hill and Cockpole Green
+E63004921,Upper Seagry
+E63004922,Maidenhead
+E63004923,Aveley
+E63004924,Upper Lambourn
+E63004925,Holloway (Windsor and Maidenhead)
+E63004926,Sonning Common
+E63004927,Cray's Pond
+E63004928,Gallowstree Common
+E63004929,Littlewick Green
+E63004930,Coalpit Heath
+E63004931,Compton (West Berkshire)
+E63004932,Chiseldon
+E63004933,Lower Shiplake
+E63004934,Westerleigh
+E63004935,Filton
+E63004936,Woolley Green
+E63004937,Bray
+E63004938,Richings Park
+E63004939,Clanville
+E63004940,Kidmore End
+E63004941,Whiteshill
+E63004942,Leigh Delamere
+E63004943,Dorney Reach
+E63004944,Hammersmith and Fulham
+E63004945,Whitchurch Hill
+E63004946,Hambrook (South Gloucestershire)
+E63004947,Knowl Hill
+E63004948,Lambourn
+E63004949,Stoke Gifford
+E63004950,Kensington and Chelsea
+E63004951,Tormarton
+E63004952,Christian Malford
+E63004953,Wargrave
+E63004954,East Tilbury
+E63004955,Grays
+E63004956,Binfield Heath
+E63004957,Sutton Benger
+E63004958,Chadwell St Mary
+E63004959,Lyneham
+E63004960,Chafford Hundred
+E63004961,Eton Wick
+E63004962,Shiplake
+E63004963,Chafford Hundred and West Thurrock
+E63004964,Allhallows
+E63004965,Southwark
+E63004966,Eton
+E63004967,Chalkhouse Green
+E63004968,Baydon
+E63004969,Lower Basildon
+E63004970,Holyport
+E63004971,Hare Hatch
+E63004972,Broad Town
+E63004973,Water Oakley
+E63004974,Chaddleworth
+E63004975,Tokers Green
+E63004976,Stud Green
+E63004977,Avonmouth
+E63004978,Purfleet-on-Thames
+E63004979,Kington St Michael
+E63004980,Peasemore
+E63004981,West Kington
+E63004982,Whitchurch-on-Thames
+E63004983,Eastbury
+E63004984,Upper Castle Combe
+E63004985,Colnbrook
+E63004986,Greenwich
+E63004987,Kington Langley
+E63004988,East Garston
+E63004989,Datchet
+E63004990,Waltham St Lawrence
+E63004991,Touchen-end
+E63004992,Bexley
+E63004993,Upper Basildon
+E63004994,Broad Hinton
+E63004995,Fifield
+E63004996,Hampstead Norreys
+E63004997,Cliffe (Medway)
+E63004998,Tilbury
+E63004999,Poyle
+E63005000,Pucklechurch
+E63005001,Oakley Green
+E63005002,Portishead
+E63005003,Yatton Keynell
+E63005004,Twyford (Wokingham)
+E63005005,Paley Street
+E63005006,Pangbourne
+E63005007,Windsor
+E63005008,Caversham
+E63005009,Charvil
+E63005010,Aldbourne
+E63005011,West End (Windsor and Maidenhead)
+E63005012,Horton (Windsor and Maidenhead)
+E63005013,Pill
+E63005014,Hounslow
+E63005015,Lambourn Woodlands
+E63005016,Grain
+E63005017,High Halstow
+E63005018,Kingswood and Fishponds
+E63005019,Great Shefford
+E63005020,Sonning
+E63005021,Wallend
+E63005022,Stanwell Moor
+E63005023,Tidmarsh
+E63005024,Welford (West Berkshire)
+E63005025,Swanscombe
+E63005026,Shurlock Row
+E63005027,Old Windsor and Wraysbury
+E63005028,Sheerness
+E63005029,Ogbourne St George
+E63005030,Dartford
+E63005031,Stone (Dartford)
+E63005032,Clapton in Gordano
+E63005033,Wandsworth
+E63005034,Chieveley
+E63005035,Lewisham
+E63005036,Marshfield (South Gloucestershire)
+E63005037,Stanwell
+E63005038,Abbots Leigh
+E63005039,Northfleet
+E63005040,Biddestone
+E63005041,Ebbsfleet Valley
+E63005042,Hurst
+E63005043,Jealott's Hill
+E63005044,Cliffe Woods
+E63005045,Chippenham (Wiltshire)
+E63005046,Hermitage
+E63005047,Woodley
+E63005048,Winkfield Street
+E63005049,Halfway Houses
+E63005050,Wick (South Gloucestershire)
+E63005051,Stone-edge Batch
+E63005052,Minster (Swale)
+E63005053,Leigh Woods
+E63005054,Bradfield (West Berkshire)
+E63005055,Lower Higham
+E63005056,Cranbourne
+E63005057,Bristol
+E63005058,Gravesend
+E63005059,Kingsnorth (Medway)
+E63005060,Mud Row
+E63005061,Hythe End
+E63005062,Runnymede
+E63005063,Lambeth
+E63005064,Winkfield
+E63005065,Bishopsgate
+E63005066,Hoo St Werburgh
+E63005067,Ogbourne Maizey
+E63005068,Chattenden
+E63005069,Bean
+E63005070,West Hill (North Somerset)
+E63005071,Tickenham
+E63005072,Curridge
+E63005073,Richmond upon Thames
+E63005074,Reading
+E63005075,Ramsbury
+E63005076,Ashford (Spelthorne)
+E63005077,Queenborough
+E63005078,Colerne
+E63005079,Joyden's Wood
+E63005080,Warden
+E63005081,Boxford (West Berkshire)
+E63005082,Hawley (Dartford)
+E63005083,Failand
+E63005084,Darenth
+E63005085,Stanford Dingley
+E63005086,Higham (Gravesham)
+E63005087,Newell Green
+E63005088,Theale (West Berkshire)
+E63005089,Derry Hill and Studley
+E63005090,Winnersh
+E63005091,Tutts Clump
+E63005092,Binfield
+E63005093,Woodside
+E63005094,Lower Upnor
+E63005095,Southfleet
+E63005096,Calne
+E63005097,Winkfield Row
+E63005098,Leysdown-on-Sea
+E63005099,Southend
+E63005100,Egham
+E63005101,Cold Ash
+E63005102,Shorne
+E63005103,Clevedon
+E63005104,Hextable
+E63005105,Staines-upon-Thames
+E63005106,Long Ashton
+E63005107,Nailsea
+E63005108,Ashford Common
+E63005109,Corsham
+E63005110,Cherhill
+E63005111,Lackham
+E63005112,Upton Cheyney
+E63005113,Eastchurch
+E63005114,Istead Rise
+E63005115,South Darenth and Sutton at Hone
+E63005116,Cambridge Batch
+E63005117,Chapel Row
+E63005118,Bitton
+E63005119,Mildenhall (Wiltshire)
+E63005120,Swanley Village
+E63005121,Merton
+E63005122,Rudloe
+E63005123,Sindlesham
+E63005124,Ashmore Green
+E63005125,Margate
+E63005126,Flax Bourton
+E63005127,Marlborough
+E63005128,Laleham
+E63005129,Notton (Wiltshire)
+E63005130,Sunbury-on-Thames
+E63005131,Cobham (Gravesham)
+E63005132,Rochester
+E63005133,Thorpe
+E63005134,Upper Bucklebury
+E63005135,Swanley
+E63005136,Burghfield
+E63005137,Beenham
+E63005138,Penton Hook
+E63005139,Lower Padworth
+E63005140,Backwell
+E63005141,Upper Halliford
+E63005142,Neston (Wiltshire)
+E63005143,Box (Wiltshire)
+E63005144,Ham Green
+E63005145,Bracknell
+E63005146,Manton (Wiltshire)
+E63005147,Hungerford
+E63005148,Gastard
+E63005149,Broadstairs
+E63005150,Shepperton Green
+E63005151,Shinfield
+E63005152,Keynsham
+E63005153,Grazeley Green
+E63005154,North Ascot
+E63005155,"Longfield, New Ash Green and Hartley"
+E63005156,Horton Kirby
+E63005157,Barrow Gurney
+E63005158,Sole Street
+E63005159,Virginia Water
+E63005160,Herne Bay
+E63005161,Ascot
+E63005162,Batheaston
+E63005163,Whitchurch (Bath and North East Somerset)
+E63005164,Kingston upon Thames
+E63005165,Aldermaston Wharf
+E63005166,Iwade
+E63005167,Arborfield
+E63005168,Newbury
+E63005169,Upchurch
+E63005170,Wentworth (Runnymede)
+E63005171,Holme Green
+E63005172,Saltford
+E63005173,Lower Halstow
+E63005174,Chapel Green
+E63005175,Crockenhill
+E63005176,Woolhampton
+E63005177,Shepperton
+E63005178,Arborfield Cross
+E63005179,Thatcham
+E63005180,Burghfield Common
+E63005181,Wokingham
+E63005182,Dundry
+E63005183,Spencers Wood and Three Mile Cross
+E63005184,Bathford
+E63005185,Speed Gate
+E63005186,Farningham
+E63005187,St Nicholas at Wade
+E63005188,Cuxton
+E63005189,Bromley
+E63005190,Kintbury
+E63005191,Gardeners Green
+E63005192,Walton-on-Thames
+E63005193,Lyne
+E63005194,Chertsey
+E63005195,Whitley (Wiltshire)
+E63005196,Beanacre
+E63005197,Herne
+E63005198,Meopham
+E63005199,Yatton
+E63005200,South Ascot
+E63005201,Bathampton
+E63005202,Minster (Thanet)
+E63005203,West Molesey
+E63005204,Gillingham (Medway)
+E63005205,Arborfield Garrison
+E63005206,Whitstable
+E63005207,Eynsford
+E63005208,Felton (North Somerset)
+E63005209,Shaw (Wiltshire)
+E63005210,Cleeve
+E63005211,Longcross
+E63005212,Chatham
+E63005213,Greenham
+E63005214,Ramsgate
+E63005215,Bromham (Wiltshire)
+E63005216,Corston (Bath and North East Somerset)
+E63005217,Atworth
+E63005218,Winford (North Somerset)
+E63005219,Downside
+E63005220,Aldermaston
+E63005221,Weybridge
+E63005222,Worcester Park and Stoneleigh
+E63005223,Monkton (Thanet)
+E63005224,Newington
+E63005225,Brimpton
+E63005226,Addlestone
+E63005227,Bath
+E63005228,Swallowfield
+E63005229,Inkpen
+E63005230,Lower Wraxall
+E63005231,Mortimer
+E63005232,Windlesham
+E63005233,Crowthorne
+E63005234,Ash (Sevenoaks)
+E63005235,Great Bedwyn
+E63005236,Farley Hill
+E63005237,Halling
+E63005238,Sittingbourne
+E63005239,Hersham
+E63005240,Stratfield Mortimer
+E63005241,Lower Green
+E63005242,Bishop's Green
+E63005243,Esher
+E63005244,Newton St Loe
+E63005245,Pensford
+E63005246,Melksham
+E63005247,Old Warren
+E63005248,Well Hill
+E63005249,Hartlip
+E63005250,Sutton (Sutton)
+E63005251,Kewstoke
+E63005252,Congresbury
+E63005253,Broughton Gifford
+E63005254,Finchampstead
+E63005255,Peters Village
+E63005256,Harvel
+E63005257,Riseley (Wokingham)
+E63005258,Redhill (North Somerset)
+E63005259,Ball Hill
+E63005260,Chew Magna
+E63005261,Wootton Rivers
+E63005262,Upstreet
+E63005263,Chobham
+E63005264,Horris Hill
+E63005265,Bagshot
+E63005266,Ham
+E63005267,Croydon
+E63005268,Eversley
+E63005269,Oare
+E63005270,Brimpton Common
+E63005271,Shalbourne
+E63005272,Waterham
+E63005273,Yorkletts
+E63005274,Borden
+E63005275,Wrington
+E63005276,Culverstone Green
+E63005277,Teynham
+E63005278,Rowde
+E63005279,Tadley
+E63005280,Burghclere Common
+E63005281,West Kingsdown
+E63005282,Headley (Basingstoke and Deane)
+E63005283,Blue Bell Hill
+E63005284,Bredhurst
+E63005285,Ewell
+E63005286,Bowerhill
+E63005287,Cliffs End
+E63005288,Byfleet
+E63005289,Badgers Mount
+E63005290,Burham
+E63005291,Ashford Hill
+E63005292,Lower Common
+E63005293,"New Haw, West Byfleet and Sheerwater"
+E63005294,Chew Stoke
+E63005295,West Wick
+E63005296,Lightwater
+E63005297,Holt (Wiltshire)
+E63005298,Woodham
+E63005299,Monkton Combe
+E63005300,Silchester
+E63005301,Berryfield
+E63005302,West End and Chobham
+E63005303,Snodland
+E63005304,All Cannings
+E63005305,Hersden
+E63005306,Sandhurst (Bracknell Forest)
+E63005307,Shoreham
+E63005308,Baughurst
+E63005309,Eversley Centre
+E63005310,Vigo Village
+E63005311,Eversley Cross
+E63005312,Devizes
+E63005313,Broad Oak (Canterbury)
+E63005314,Kit's Coty
+E63005315,Woolton Hill and Highclere
+E63005316,Highsted
+E63005317,Seend
+E63005318,Blean
+E63005319,Mimbridge
+E63005320,Faversham
+E63005321,Tyler Hill
+E63005322,Burbage
+E63005323,Weston-super-Mare
+E63005324,Preston (Dover)
+E63005325,Burghclere
+E63005326,Easton Royal
+E63005327,Halstead (Sevenoaks)
+E63005328,Seend Cleeve
+E63005329,Winsley
+E63005330,Lynsted
+E63005331,Limpley Stoke
+E63005332,Castle Green
+E63005333,Churchill (North Somerset)
+E63005334,Epsom
+E63005335,Eccles (Tonbridge and Malling)
+E63005336,Sturry
+E63005337,Bradford-on-Avon
+E63005338,Cobham (Elmbridge)
+E63005339,East Grafton
+E63005340,Farmborough
+E63005341,Broadoak
+E63005342,Camberley
+E63005343,Yateley
+E63005344,Bredgar
+E63005345,Milton Lilbourne
+E63005346,Semington
+E63005347,Locking
+E63005348,Trottiscliffe
+E63005349,Blackwater (Hart)
+E63005350,Pewsey
+E63005351,Woodborough (Wiltshire)
+E63005352,Knockholt Pound
+E63005353,Freshford
+E63005354,Ryarsh
+E63005355,Banstead
+E63005356,Poulshot
+E63005357,Turgis Green
+E63005358,Pamber Green
+E63005359,Wisley
+E63005360,Bishop Sutton
+E63005361,Sepham Heath
+E63005362,Otford and Kemsing
+E63005363,Westwood
+E63005364,Banwell
+E63005365,Bisley (Surrey Heath)
+E63005366,Little London (Basingstoke and Deane)
+E63005367,Wrotham
+E63005368,Rough Common
+E63005369,Clutton
+E63005370,Hawley (Hart)
+E63005371,Bramley
+E63005372,Weddington
+E63005373,Dunkirk
+E63005374,Boughton under Blean
+E63005375,Blagdon
+E63005376,Addington
+E63005377,Aylesford
+E63005378,Forstal
+E63005379,Wickhambreaux
+E63005380,Timsbury (Bath and North East Somerset)
+E63005381,Hutton (North Somerset)
+E63005382,Kingsclere
+E63005383,Tadworth and Epsom Downs
+E63005384,Warlingham
+E63005385,Trowbridge
+E63005386,Potterne
+E63005387,Ash (Dover)
+E63005388,Larkfield
+E63005389,High Littleton
+E63005390,Knockholt
+E63005391,Upper Harbledown
+E63005392,Sandwich
+E63005393,Wellow (Bath and North East Somerset)
+E63005394,Minley
+E63005395,Detling
+E63005396,Wrotham Heath
+E63005397,Ubley
+E63005398,Frimley
+E63005399,Ashtead
+E63005400,Chipstead and Woodmansterne
+E63005401,Winscombe and Sandford
+E63005402,Temple Cloud
+E63005403,Whyteleafe
+E63005404,West Malling
+E63005405,Vernham Street and Little Down
+E63005406,Sheet's Heath
+E63005407,Sherfield on Loddon
+E63005408,Langley Vale
+E63005409,Hatchford
+E63005410,Canterbury
+E63005411,Elm Corner
+E63005412,Littlebourne
+E63005413,Woking
+E63005414,Peasedown St John
+E63005415,Oversland
+E63005416,Wingham
+E63005417,Keevil
+E63005418,Shipham
+E63005419,Worton
+E63005420,Charter Alley and Ramsdell
+E63005421,Tatsfield
+E63005422,Dunton Green
+E63005423,Chirton
+E63005424,Offham
+E63005425,Deepcut
+E63005426,Hallatrow
+E63005427,Urchfont
+E63005428,Borough Green
+E63005429,Brookwood
+E63005430,Compton Martin
+E63005431,Steeple Ashton
+E63005432,Bleadon
+E63005433,Seal
+E63005434,Woldingham Garden Village
+E63005435,Woodnesborough
+E63005436,Eastling
+E63005437,Hartley Wintney
+E63005438,Monk Sherborne
+E63005439,Styants Bottom
+E63005440,Rotherwick
+E63005441,Paulton
+E63005442,Ripley (Guildford)
+E63005443,Kingswood (Reigate and Banstead)
+E63005444,Hooley
+E63005445,Collingbourne Kingston
+E63005446,Netherne on-the-Hill
+E63005447,Ightham
+E63005448,Pirbright
+E63005449,East Harptree
+E63005450,Caterham
+E63005451,Worth
+E63005452,Phoenix Green
+E63005453,Norton St Philip
+E63005454,West Ashton
+E63005455,Crouch
+E63005456,Elvetham Heath
+E63005457,Leatherhead
+E63005458,Sherborne St John
+E63005459,Sevenoaks
+E63005460,Farrington Gurney
+E63005461,Hannington
+E63005462,Easterton
+E63005463,North Bradley
+E63005464,Bearsted
+E63005465,Sundridge
+E63005466,Maidstone
+E63005467,Woldingham
+E63005468,Kings Hill
+E63005469,Brasted
+E63005470,Southwick (Wiltshire)
+E63005471,Pyle Hill
+E63005472,Send
+E63005473,Chaldon
+E63005474,Chartham
+E63005475,Upavon
+E63005476,Old Wives Lees
+E63005477,Eastry
+E63005478,Great Bookham and Fetcham
+E63005479,Headley (Mole Valley)
+E63005480,Godden Green
+E63005481,Radstock
+E63005482,Farnborough
+E63005483,Cross
+E63005484,Stone Street
+E63005485,East Horsley
+E63005486,Hook (Hart)
+E63005487,Axbridge
+E63005488,Mytchett
+E63005489,Market Lavington
+E63005490,Merstham
+E63005491,Bridge
+E63005492,Great Cheverell
+E63005493,Lympsham
+E63005494,Midsomer Norton
+E63005495,Lower Kingswood
+E63005496,Adisham
+E63005497,Collingbourne Ducis
+E63005498,Westerham
+E63005499,Newnham (Basingstoke and Deane)
+E63005500,Erlestoke
+E63005501,Worplesdon
+E63005502,Rode
+E63005503,Plaxtol
+E63005504,Chilham
+E63005505,Fleet
+E63005506,Lower Weare
+E63005507,Cheddar
+E63005508,Teston
+E63005509,East Farleigh
+E63005510,Littleton Panell
+E63005511,Hurstbourne Tarrant
+E63005512,Berrow and Brean
+E63005513,Mickleham
+E63005514,Brasted Chart
+E63005515,Edington
+E63005516,Wateringbury
+E63005517,Nately Scures
+E63005518,Lower Hardres and Street End
+E63005519,Jacobs Well
+E63005520,West Clandon
+E63005521,Effingham
+E63005522,Limpsfield
+E63005523,Dogmersfield
+E63005524,Gatton
+E63005525,Sholden
+E63005526,South Merstham
+E63005527,Weare
+E63005528,Old Basing
+E63005529,Nonington
+E63005530,Lenham and Harrietsham
+E63005531,Crookham Village
+E63005532,Aylesham
+E63005533,West Horsley
+E63005534,Rooks Bridge
+E63005535,Bratton
+E63005536,Fairlands
+E63005537,Langley (Maidstone)
+E63005538,Basingstoke
+E63005539,Up Nately
+E63005540,Bishopsbourne
+E63005541,East Brent
+E63005542,Brewer Street
+E63005543,Westhumble
+E63005544,Box Hill
+E63005545,Beckington
+E63005546,Deal
+E63005547,Pains-Hill
+E63005548,Langley Heath
+E63005549,Westbury (Wiltshire)
+E63005550,Oxted
+E63005551,Great Mongeham
+E63005552,Godstone
+E63005553,Coxheath
+E63005554,Chilcompton
+E63005555,Greywell
+E63005556,Wyke
+E63005557,Kingston (Canterbury)
+E63005558,Wood Street Village
+E63005559,Normandy
+E63005560,Brent Knoll
+E63005561,Buckland Dinham
+E63005562,Draycott
+E63005563,Froghole
+E63005564,Ash and Ash Vale
+E63005565,Odiham
+E63005566,Sevenoaks Weald
+E63005567,Kingswood (Maidstone)
+E63005568,St Mary Bourne
+E63005569,Bletchingley
+E63005570,Crockham Hill
+E63005571,Aldershot
+E63005572,Stratton-on-the-Fosse
+E63005573,Nutfield
+E63005574,Ludgershall (Wiltshire)
+E63005575,Challock
+E63005576,Buckland (Mole Valley)
+E63005577,Guildford
+E63005578,Chart Sutton
+E63005579,Oakley (Basingstoke and Deane)
+E63005580,Reigate
+E63005581,Yalding
+E63005582,Brockham
+E63005583,Dilton Marsh
+E63005584,Barham
+E63005585,Pittswood
+E63005586,Hadlow
+E63005587,East Studdal
+E63005588,Ash Green (Guildford)
+E63005589,Overton (Basingstoke and Deane)
+E63005590,Cocklake
+E63005591,Burnham-on-Sea
+E63005592,Eythorne
+E63005593,Chartway Street
+E63005594,Enham Alamein
+E63005595,Holcombe (Mendip)
+E63005596,Skimmington
+E63005597,Bilting
+E63005598,Redhill (Reigate and Banstead)
+E63005599,Hale Street
+E63005600,Perham Down
+E63005601,Ewshot
+E63005602,Gurney Slade
+E63005603,Charing
+E63005604,Lynton and Lynmouth
+E63005605,Coleford (Mendip)
+E63005606,Cliddesden
+E63005607,Sutton Valence
+E63005608,Edithmead
+E63005609,Ulcombe
+E63005610,Dorking
+E63005611,Netheravon
+E63005612,Hildenborough
+E63005613,East Peckham
+E63005614,Mells
+E63005615,Westbury-sub-Mendip
+E63005616,Weybourne (Waverley)
+E63005617,Bossingham
+E63005618,Appleshaw
+E63005619,Crondall
+E63005620,Westcott (Mole Valley)
+E63005621,South Nutfield
+E63005622,Kingsdown
+E63005623,South Godstone
+E63005624,Tidworth
+E63005625,Badshot Lea
+E63005626,Upton Grey
+E63005627,Benover
+E63005628,Four Elms
+E63005629,Golden Green
+E63005630,Sibertswold
+E63005631,Frome
+E63005632,Whitchurch (Basingstoke and Deane)
+E63005633,Puttenham
+E63005634,Tilshead
+E63005635,Chapmanslade
+E63005636,Easton (Mendip)
+E63005637,Artington
+E63005638,Albury
+E63005639,Marlpit Hill
+E63005640,Mark
+E63005641,Shere
+E63005642,Wedmore
+E63005643,Chainhurst
+E63005644,Sandy Cross
+E63005645,Blackford (Sedgemoor)
+E63005646,Wookey Hole
+E63005647,Penton Mewsey and Penton Grafton
+E63005648,Mark Causeway
+E63005649,South Warnborough
+E63005650,Oakhill
+E63005651,Egerton
+E63005652,Highbridge
+E63005653,Chilworth (Guildford)
+E63005654,Gomshall
+E63005655,Charlton (Test Valley)
+E63005656,Long Sutton (Hart)
+E63005657,Chambercombe
+E63005658,Ilfracombe
+E63005659,Shalford (Guildford)
+E63005660,Picket Piece
+E63005661,Stoke St Michael
+E63005662,Leigh (Mole Valley)
+E63005663,Wye
+E63005664,Chiddingstone Causeway
+E63005665,Blindley Heath
+E63005666,Edenbridge
+E63005667,Combe Martin
+E63005668,Albury Heath
+E63005669,Porlock
+E63005670,Runfold
+E63005671,Tonbridge
+E63005672,Stelling Minnis
+E63005673,South Horrington
+E63005674,Weyhill
+E63005675,Theale (Sedgemoor)
+E63005676,Peasmarsh (Guildford)
+E63005677,North Waltham
+E63005678,The Sands
+E63005679,Leigh (Sevenoaks)
+E63005680,Farnham
+E63005681,Andover
+E63005682,Minehead
+E63005683,Lye's Green
+E63005684,Dummer
+E63005685,Abinger Common
+E63005686,Salfords
+E63005687,Wells
+E63005688,Sutton Abinger
+E63005689,Thruxton
+E63005690,Wookey
+E63005691,Peaslake
+E63005692,Huntspill
+E63005693,Outwood
+E63005694,Lydden
+E63005695,Farley Green
+E63005696,Pluckley
+E63005697,Shurton
+E63005698,Nalderswood
+E63005699,Nunney
+E63005700,Five Oak Green
+E63005701,Shipton Bellinger
+E63005702,Shackleford
+E63005703,Henton
+E63005704,Farncombe
+E63005705,Bramley and Wonersh
+E63005706,East Huntspill
+E63005707,Paddock Wood
+E63005708,Warminster
+E63005709,Hothfield
+E63005710,Pluckley Thorne
+E63005711,Whitfield (Dover)
+E63005712,Norney
+E63005713,St Margaret's at Cliffe
+E63005714,Lingfield Common
+E63005715,Marden (Maidstone)
+E63005716,Hever
+E63005717,Headcorn
+E63005718,Durrington
+E63005719,Larkhill
+E63005720,Monxton
+E63005721,Croscombe
+E63005722,Bentley (East Hampshire)
+E63005723,Holmbury St Mary
+E63005724,Brook (Ashford)
+E63005725,Parkgate (Mole Valley)
+E63005726,Shrewton
+E63005727,Staplehurst
+E63005728,Chitterne
+E63005729,Anna Valley and Upper Clatford
+E63005730,Wrecclesham
+E63005731,Woolacombe
+E63005732,Tilford
+E63005733,Upper Coxley and Coxley Wick
+E63005734,Shamley Green
+E63005735,Elham
+E63005736,Dunster
+E63005737,Bulford
+E63005738,Guston
+E63005739,Lingfield
+E63005740,Abbotts Ann
+E63005741,Shepton Mallet
+E63005742,Wootton Courtenay
+E63005743,Bidborough
+E63005744,Coxley (Mendip)
+E63005745,Godalming
+E63005746,Horley (Reigate and Banstead)
+E63005747,Elstead
+E63005748,Lasham
+E63005749,Blue Anchor
+E63005750,Kilve
+E63005751,Smallfield
+E63005752,Stogursey
+E63005753,Markbeech
+E63005754,Rhodes Minnis
+E63005755,Pawlett
+E63005756,Munstead Heath
+E63005757,Upper Froyle
+E63005758,Dormansland
+E63005759,Watchet
+E63005760,Busbridge
+E63005761,Crockerton
+E63005762,Beare Green
+E63005763,Heytesbury
+E63005764,Carhampton
+E63005765,Tilford Common
+E63005766,Southborough
+E63005767,Alkham
+E63005768,Newdigate
+E63005769,Combwich
+E63005770,Frensham
+E63005771,Smarden
+E63005772,Blacknest
+E63005773,Goodworth Clatford
+E63005774,Great Chart
+E63005775,Sutton Veny
+E63005776,Ashford (Ashford)
+E63005777,Red Rice
+E63005778,Preston Candover
+E63005779,Cudworth
+E63005780,Grafham
+E63005781,Dover
+E63005782,West Quantoxhead
+E63005783,Matfield
+E63005784,Meare
+E63005785,Pembury
+E63005786,Speldhurst
+E63005787,Newchapel
+E63005788,Felcourt
+E63005789,Puriton
+E63005790,Densole
+E63005791,Woolavington
+E63005792,Palestine
+E63005793,Hookwood
+E63005794,Brenchley
+E63005795,Barton Stacey
+E63005796,Lyminge
+E63005797,Williton
+E63005798,Washford
+E63005799,Forest Green
+E63005800,Chilmington Green
+E63005801,Burstow
+E63005802,Milford and Witley
+E63005803,Dunball
+E63005804,Frittenden
+E63005805,Charlwood
+E63005806,Holybourne
+E63005807,Pilton
+E63005808,Rowly
+E63005809,Sevington
+E63005810,Dormans Park
+E63005811,Ewhurst
+E63005812,Wherwell
+E63005813,Rushmoor
+E63005814,Horsmonden
+E63005815,Dockenfield
+E63005816,Bullingstone
+E63005817,Newton Tony
+E63005818,Curtisden Green
+E63005819,Enton Green
+E63005820,Cowden
+E63005821,Cossington (Sedgemoor)
+E63005822,Hydestile
+E63005823,Shipley Bridge
+E63005824,Bentworth
+E63005825,Fordcombe
+E63005826,Hascombe
+E63005827,Capel
+E63005828,Codford St Peter
+E63005829,Brabourne Lees
+E63005830,Bethersden
+E63005831,Tinsley Green
+E63005832,Alton (East Hampshire)
+E63005833,Ockley
+E63005834,Amesbury
+E63005835,Georgeham
+E63005836,Chilton Polden
+E63005837,Nether Stowey
+E63005838,Felbridge
+E63005839,Sutton Scotney
+E63005840,Chilbolton
+E63005841,Bawdrip
+E63005842,Cannington
+E63005843,Hawkinge
+E63005844,Catcott and Edington
+E63005845,Thursley
+E63005846,Royal Tunbridge Wells
+E63005847,Etchinghill
+E63005848,Copthorne
+E63005849,Mersham
+E63005850,Kingsnorth (Ashford)
+E63005851,Bicknoller
+E63005852,Croyde
+E63005853,Furnace Wood
+E63005854,Kentsboro
+E63005855,Finberry
+E63005856,Cranleigh
+E63005857,Rusthall and Langton Green
+E63005858,Pitch Place
+E63005859,Stoney Stratton
+E63005860,Churt
+E63005861,Glastonbury
+E63005862,Micheldever
+E63005863,Batcombe (Mendip)
+E63005864,Green Cross
+E63005865,Evercreech
+E63005866,Maiden Bradley
+E63005867,Capel-le-Ferne
+E63005868,Cranbrook Common
+E63005869,Elmbridge Village
+E63005870,Beech
+E63005871,Biddenden
+E63005872,Sellindge
+E63005873,West Pennard
+E63005874,Over Wallop
+E63005875,Exford
+E63005876,East Grinstead
+E63005877,Brook (Waverley)
+E63005878,Shapwick
+E63005879,Hambledon (Waverley)
+E63005880,Walliswood
+E63005881,Wormley
+E63005882,Shadoxhurst
+E63005883,Stanford
+E63005884,East Worldham
+E63005885,Goudhurst
+E63005886,Kingsley (East Hampshire)
+E63005887,Bratton Fleming
+E63005888,Edgarley
+E63005889,Sissinghurst
+E63005890,Wembdon
+E63005891,Wylye
+E63005892,Chedzoy
+E63005893,Middle Wallop
+E63005894,Crawley Down
+E63005895,Idmiston
+E63005896,Ashcott
+E63005897,High Halden
+E63005898,Stogumber
+E63005899,Rusper
+E63005900,Groombridge
+E63005901,Longstock
+E63005902,Woolpack Corner
+E63005903,Medstead
+E63005904,Spaxton
+E63005905,Pecking Mill
+E63005906,Crowcombe
+E63005907,Crawley (Crawley)
+E63005908,Ashurst Wood
+E63005909,Porton
+E63005910,Aldington
+E63005911,London Beach
+E63005912,Bridgwater
+E63005913,Braunton
+E63005914,Folkestone
+E63005915,Bromley Green
+E63005916,Nether Wallop
+E63005917,Street
+E63005918,Headley Down and Headley
+E63005919,Walton (Mendip)
+E63005920,Ditcheat
+E63005921,Cranbrook (Tunbridge Wells)
+E63005922,Lindford
+E63005923,Oakhanger
+E63005924,Alfold Crossways
+E63005925,Lamberhurst
+E63005926,Saltwood
+E63005927,Coursehorn
+E63005928,Hartfield
+E63005929,Chiddingfold
+E63005930,South Wonston
+E63005931,Bordon
+E63005932,Turners Hill
+E63005933,Kingsfold
+E63005934,Hindhead
+E63005935,Gomeldon
+E63005936,Frant
+E63005937,Lympne
+E63005938,East End
+E63005939,Grayshott
+E63005940,Ashford (North Devon)
+E63005941,Winterbourne Gunner
+E63005942,Upper Farringdon
+E63005943,Stockbridge
+E63005944,Lower Farringdon
+E63005945,Soldridge
+E63005946,Hartley
+E63005947,Crawley (Winchester)
+E63005948,Four Marks
+E63005949,Baltonsborough
+E63005950,Chivenor and Wrafton
+E63005951,Woodchurch
+E63005952,Westonzoyland
+E63005953,Upper Hartfield
+E63005954,Hythe
+E63005955,Bruton
+E63005956,Forest Row
+E63005957,Winterbourne Dauntsey and Winterbourne Earls
+E63005958,Worth Abbey
+E63005959,The Platt
+E63005960,Whitehill (East Hampshire)
+E63005961,South Newton
+E63005962,Goodleigh
+E63005963,Tenterden
+E63005964,Old Alresford
+E63005965,Holbrook (Horsham)
+E63005966,Warnham
+E63005967,Old Sarum
+E63005968,Bramshott Chase
+E63005969,Compass
+E63005970,Selborne
+E63005971,Rudgwick
+E63005972,Benenden
+E63005973,Hamstreet
+E63005974,Cousley Wood
+E63005975,Firsdown
+E63005976,Gundleton
+E63005977,Butleigh
+E63005978,Kings Worthy
+E63005979,Pease Pottage
+E63005980,Itchen Abbas
+E63005981,Compton Dundon
+E63005982,Barnstaple
+E63005983,Middlezoy
+E63005984,West Hoathly
+E63005985,Haslemere
+E63005986,North Petherton
+E63005987,Westacott
+E63005988,Bramshott
+E63005989,Hindon
+E63005990,Tisman's Common
+E63005991,Moorland
+E63005992,Sharpthorne
+E63005993,Middle Winterslow
+E63005994,Broughton (Test Valley)
+E63005995,Colgate
+E63005996,Bickington
+E63005997,Durfold Wood
+E63005998,Chilmark
+E63005999,Castle Cary
+E63006000,Teffont Evias
+E63006001,Littleton (Winchester)
+E63006002,Mere (Wiltshire)
+E63006003,New Alresford
+E63006004,Westley
+E63006005,Hammer
+E63006006,Houghton (Test Valley)
+E63006007,Wadhurst
+E63006008,Easton (Winchester)
+E63006009,Bishop's Sutton
+E63006010,Barton St David
+E63006011,Fremington
+E63006012,Loxwood
+E63006013,Zeals
+E63006014,Ropley
+E63006015,East Buckland
+E63006016,Rolvenden
+E63006017,Othery
+E63006018,Dinton (Wiltshire)
+E63006019,Pitton
+E63006020,Wilton
+E63006021,Flimwell
+E63006022,Liphook
+E63006023,Sparsholt (Winchester)
+E63006024,Landkey
+E63006025,Greatham (East Hampshire)
+E63006026,Horsham
+E63006027,Slinfold
+E63006028,North Newton
+E63006029,Broadbridge Heath
+E63006030,High Ham
+E63006031,Ifold
+E63006032,Keinton Mandeville
+E63006033,Monkwood
+E63006034,King's Somborne
+E63006035,Plaistow
+E63006036,Gun Green
+E63006037,Bourton (Dorset)
+E63006038,Salisbury
+E63006039,Appledore Heath
+E63006040,Crowborough
+E63006041,East Knoyle
+E63006042,Balcombe
+E63006043,Instow
+E63006044,Town Row
+E63006045,Handcross
+E63006046,Kingsley Green
+E63006047,Rolvenden Layne
+E63006048,Ticehurst
+E63006049,Swimbridge
+E63006050,Bishop's Tawton
+E63006051,Pipsden
+E63006052,Hawkhurst
+E63006053,Appledore (Torridge)
+E63006054,Chelwood Gate
+E63006055,West Tytherley
+E63006056,Wheatsheaf Common
+E63006057,North Molton
+E63006058,Kingston St Mary
+E63006059,Ardingly
+E63006060,Rotherfield
+E63006061,Dymchurch
+E63006062,Tisbury
+E63006063,Galhampton
+E63006064,Winchester
+E63006065,Tower Hill
+E63006066,Northchapel
+E63006067,Itchingfield
+E63006068,Bishops Lydeard
+E63006069,Appledore (Ashford)
+E63006070,Charlton Mackrell
+E63006071,Fovant
+E63006072,Duddleswell
+E63006073,Northam
+E63006074,Westward Ho!
+E63006075,Mannings Heath
+E63006076,Somerton
+E63006077,Charlton Adam
+E63006078,Chelwood Common
+E63006079,Cheriton
+E63006080,Pitney
+E63006081,West Monkton
+E63006082,Argos Hill
+E63006083,Wincanton
+E63006084,Sandhurst (Tunbridge Wells)
+E63006085,Fernhurst
+E63006086,Milton on Stour
+E63006087,Horsted Keynes
+E63006088,Halse
+E63006089,Staplefield
+E63006090,Linkhill
+E63006091,Bramdean
+E63006092,Liss
+E63006093,East Grimstead
+E63006094,Wiveliscombe
+E63006095,Dulverton
+E63006096,Nutley
+E63006097,Danehill
+E63006098,Meare Green
+E63006099,Wittersham
+E63006100,Hill Brow and Rake
+E63006101,Britford
+E63006102,North Cadbury
+E63006103,St Mary's Bay
+E63006104,Cotford St Luke
+E63006105,Southwater
+E63006106,Whaddon (Wiltshire)
+E63006107,Barns Green
+E63006108,Langport
+E63006109,Hurst Green (Rother)
+E63006110,Mayfield (Wealden)
+E63006111,West Dean (Test Valley)
+E63006112,Monkton Heathfield
+E63006113,Newpound Common
+E63006114,West Grimstead
+E63006115,Bideford
+E63006116,Kirdford
+E63006117,Gillingham (Dorset)
+E63006118,Staplegrove
+E63006119,Sparkford
+E63006120,Hill
+E63006121,Wisborough Green
+E63006122,Coombe Bissett
+E63006123,High Hurstwood
+E63006124,Kingsdon
+E63006125,Norton Fitzwarren
+E63006126,Shawford
+E63006127,Warninglid
+E63006128,Etchingham
+E63006129,Hillcommon
+E63006130,Nunton
+E63006131,Bathpool
+E63006132,South Molton
+E63006133,Creech St Michael
+E63006134,Bodiam
+E63006135,Milverton
+E63006136,Long Sutton (South Somerset)
+E63006137,Horney Common
+E63006138,Brookland
+E63006139,Brushford
+E63006140,Croucheston
+E63006141,Steep
+E63006142,Five Ashes
+E63006143,Hursley
+E63006144,Brooks Green
+E63006145,Timsbury (Test Valley)
+E63006146,Broad Chalke
+E63006147,North Curry
+E63006148,Motcombe
+E63006149,Curry Rivel
+E63006150,Billingshurst
+E63006151,Braishfield
+E63006152,Henley Common
+E63006153,New Romney
+E63006154,Taunton
+E63006155,Northiam
+E63006156,Twyford (Winchester)
+E63006157,Drayton (South Somerset)
+E63006158,Compton (Winchester)
+E63006159,Cuckfield
+E63006160,Buckhorn Weston
+E63006161,West Camel
+E63006162,Burwash
+E63006163,Terwick Common
+E63006164,Queen Camel
+E63006165,Sheet (East Hampshire)
+E63006166,Hartland
+E63006167,Donhead St Mary
+E63006168,Maresfield
+E63006169,Ruishton
+E63006170,Haywards Heath
+E63006171,Hadlow Down
+E63006172,Iden
+E63006173,West Meon
+E63006174,Awbridge
+E63006175,Littlestone-on-Sea
+E63006176,Five Ash Down
+E63006177,Ilchester
+E63006178,Beckley (Rother)
+E63006179,Rogate
+E63006180,Yeovilton
+E63006181,Belbins
+E63006182,Petersfield
+E63006183,Bowerchalke
+E63006184,Whiteparish
+E63006185,Robertsbridge
+E63006186,Buxted
+E63006187,Burwash Common
+E63006188,Otterbourne
+E63006189,Littleham
+E63006190,Bolney
+E63006191,Newtown (Test Valley)
+E63006192,Charlton Horethorne
+E63006193,Buck's Cross
+E63006194,Owslebury
+E63006195,Ansty
+E63006196,Long Load
+E63006197,Scayne's Hill
+E63006198,Shaftesbury
+E63006199,Fivehead
+E63006200,Kington Magna
+E63006201,Lodsworth
+E63006202,Chithurst
+E63006203,Higher Coombe
+E63006204,Langford Budville
+E63006205,East Stour
+E63006206,West Stour
+E63006207,Easebourne
+E63006208,Bradford-on-Tone
+E63006209,Peasmarsh (Rother)
+E63006210,Broad Oak (Wealden)
+E63006211,Templecombe
+E63006212,Staplecross
+E63006213,Marston Magna
+E63006214,North Heath
+E63006215,Stoke St Mary
+E63006216,Cowfold
+E63006217,Stedham
+E63006218,Berwick St John
+E63006219,Bampton (Mid Devon)
+E63006220,East Meon
+E63006221,Shootash
+E63006222,Trull
+E63006223,Chilton Cantelo
+E63006224,Colden Common
+E63006225,Playden
+E63006226,Romsey
+E63006227,North Chailey
+E63006228,Petworth
+E63006229,Fisher's Pond
+E63006230,Chandler's Ford
+E63006231,Downton
+E63006232,Midhurst
+E63006233,Stour Row
+E63006234,Chelston
+E63006235,Kingsbury Episcopi
+E63006236,Woolfardisworthy
+E63006237,Cripp's Corner
+E63006238,Heathfield (Wealden)
+E63006239,Newick
+E63006240,Cade Street
+E63006241,Uckfield
+E63006242,Cross in Hand
+E63006243,Wellington (Somerset West and Taunton)
+E63006244,Blackboys
+E63006245,Ash (South Somerset)
+E63006246,Framfield
+E63006247,High Bickington
+E63006248,Redlynch and Woodfalls
+E63006249,Lydd
+E63006250,Meonstoke and Corhampton
+E63006251,Punnett's Town
+E63006252,Vinehall Street
+E63006253,Henstridge Marsh
+E63006254,Hatch Beauchamp
+E63006255,Littleworth
+E63006256,Rye
+E63006257,Buriton
+E63006258,Broad Oak (Rother)
+E63006259,Wivelsfield
+E63006260,Codmore Hill
+E63006261,Rockwell Green
+E63006262,North Baddesley
+E63006263,Wivelsfield Green
+E63006264,Tintinhull
+E63006265,Lover
+E63006266,Henstridge
+E63006267,East Harting
+E63006268,Martin (New Forest)
+E63006269,South Harting
+E63006270,Upham
+E63006271,Martock
+E63006272,Eastleigh
+E63006273,Plaitford
+E63006274,Little London (Wealden)
+E63006275,Burgess Hill
+E63006276,Partridge Green
+E63006277,Great Torrington
+E63006278,Marnhull
+E63006279,Fittleworth
+E63006280,West Wellow
+E63006281,Milborne Port
+E63006282,Camber
+E63006283,Netherfield
+E63006284,Chilthorne Domer
+E63006285,Pulborough
+E63006286,Holcombe Rogus
+E63006287,Landford and Nomansland
+E63006288,East Wellow
+E63006289,Cackle Street
+E63006290,Nutbourne
+E63006291,Maynard's Green
+E63006292,Trent
+E63006293,Ilton
+E63006294,Droxford
+E63006295,Shermanbury
+E63006296,Blackhill
+E63006297,Sayers Common
+E63006298,Blagdon Hill
+E63006299,Rockbourne
+E63006300,Barrington (South Somerset)
+E63006301,Sedlescombe
+E63006302,Graffham
+E63006303,Bishop's Waltham
+E63006304,Breamore
+E63006305,Stalbridge
+E63006306,Ashmore
+E63006307,Chilworth (Test Valley)
+E63006308,Cocking
+E63006309,Thakeham
+E63006310,West Chiltington
+E63006311,Woodgreen
+E63006312,Isfield
+E63006313,South Chailey
+E63006314,Stoke sub Hamdon
+E63006315,Horton Heath
+E63006316,Nether Compton
+E63006317,Sixpenny Handley
+E63006318,Shepton Beauchamp
+E63006319,Montacute
+E63006320,Westleigh
+E63006321,Winchelsea Beach
+E63006322,Horam
+E63006323,Dungeness
+E63006324,Halland
+E63006325,South Petherton
+E63006326,Abingworth
+E63006327,Fontmell Magna
+E63006328,Sherborne
+E63006329,Plumpton Green
+E63006330,Hassocks and Hurstpierpoint
+E63006331,Battle
+E63006332,Ower (Copythorne)
+E63006333,Durley
+E63006334,Albourne
+E63006335,Ashington (Horsham)
+E63006336,Coldwaltham
+E63006337,Icklesham
+E63006338,Clanfield (East Hampshire)
+E63006339,East Hoathly
+E63006340,Henfield
+E63006341,Swanmore
+E63006342,Yeovil
+E63006343,Rownhams and Nursling
+E63006344,Norton sub Hamdon
+E63006345,Westfield (Rother)
+E63006346,Barcombe Cross
+E63006347,Watersfield
+E63006348,Odcombe
+E63006349,Over Stratton
+E63006350,Soberton
+E63006351,Sutton (Chichester)
+E63006352,Waltham Chase
+E63006353,Ditchling
+E63006354,Seavington St Michael
+E63006355,Telham
+E63006356,Horton and Broadway
+E63006357,Barcombe Mills
+E63006358,Hambledon (Winchester)
+E63006359,Godshill (New Forest)
+E63006360,Stourton Caundle
+E63006361,Sandleheath
+E63006362,West End (Eastleigh)
+E63006363,Woodmancote
+E63006364,Iwerne Minster
+E63006365,Storrington
+E63006366,Sturminster Newton
+E63006367,Chulmleigh
+E63006368,Ilminster
+E63006369,Bradford Abbas
+E63006370,Fordingbridge
+E63006371,Sampford Peverell
+E63006372,Witheridge
+E63006373,Plumpton
+E63006374,Westmeston
+E63006375,Bradworthy
+E63006376,Catherington
+E63006377,Shirrell Heath
+E63006378,Soberton Heath
+E63006379,Curdridge
+E63006380,Rock (Horsham)
+E63006381,West Chinnock
+E63006382,Southampton
+E63006383,Culmstock
+E63006384,Catsfield
+E63006385,Barwick and Stoford
+E63006386,Hedge End
+E63006387,Cadnam and Bartley
+E63006388,Totton
+E63006389,Pett
+E63006390,West Coker
+E63006391,Cowbeech Hill
+E63006392,Burton (South Somerset)
+E63006393,Hemyock
+E63006394,Cranborne
+E63006395,Bury (Chichester)
+E63006396,Thornford
+E63006397,Longburton
+E63006398,Small Dole
+E63006399,Botley
+E63006400,East Chinnock
+E63006401,Broyle Side
+E63006402,Frogham
+E63006403,Bishop's Caundle
+E63006404,Amberley (Horsham)
+E63006405,Shedfield
+E63006406,Horndean
+E63006407,Child Okeford
+E63006408,Halberton
+E63006409,Singleton
+E63006410,Shroton
+E63006411,Bishopswood
+E63006412,Ninfield
+E63006413,Uffculme
+E63006414,Bachelor's Bump
+E63006415,West Dean (Chichester)
+E63006416,Tiverton
+E63006417,Hinton St George
+E63006418,Herstmonceux
+E63006419,Chawleigh
+E63006420,Alderholt
+E63006421,Ringmer
+E63006422,Crowhurst
+E63006423,Merriott
+E63006424,Windmill Hill
+E63006425,Leweston
+E63006426,Woodlands
+E63006427,Hyde (New Forest)
+E63006428,Dolton
+E63006429,Fairlight
+E63006430,Denmead
+E63006431,Minstead
+E63006432,Hellingly
+E63006433,Curbridge (Winchester)
+E63006434,Magham Down
+E63006435,Hardington Mandeville
+E63006436,Lower Dicker
+E63006437,Golden Cross
+E63006438,Fulking
+E63006439,Hastings
+E63006440,Wickham
+E63006441,Boreham Street
+E63006442,Bramber
+E63006443,Combe St Nicholas
+E63006444,Kilkhampton
+E63006445,Ashurst
+E63006446,Okeford Fitzpaine
+E63006447,Steyning
+E63006448,Holwell (Dorset)
+E63006449,Haselbury Plucknett
+E63006450,Willand
+E63006451,Shillingstone
+E63006452,Yetminster
+E63006453,Hooe Common
+E63006454,Upper Beeding
+E63006455,Lunsford's Cross
+E63006456,North Boarhunt
+E63006457,Marchwood
+E63006458,Wadeford
+E63006459,Rowlands Castle
+E63006460,Smeatharpe
+E63006461,Lewes
+E63006462,Ripe
+E63006463,Bursledon
+E63006464,Hailsham
+E63006465,Whiteley
+E63006466,Upper Dicker
+E63006467,North Perrott
+E63006468,Ash (Dorset)
+E63006469,Petrockstowe
+E63006470,Crewkerne
+E63006471,Stourpaine
+E63006472,Knowle
+E63006473,Shebbear
+E63006474,Waterlooville
+E63006475,Winkleigh
+E63006476,Hazelbury Bryan
+E63006477,Whitmore
+E63006478,Chard
+E63006479,Findon
+E63006480,Tarrant Monkton
+E63006481,Southwick (Winchester)
+E63006482,Verwood
+E63006483,Netley
+E63006484,Mid Lavant
+E63006485,Pimperne
+E63006486,Lapford
+E63006487,Leigh (Dorset)
+E63006488,Misterton (South Somerset)
+E63006489,Kingston near Lewes
+E63006490,Funtington
+E63006491,Durweston
+E63006492,Bexhill-on-Sea
+E63006493,Lyndhurst
+E63006494,Kentisbeare
+E63006495,Slindon
+E63006496,Chetnole
+E63006497,Segensworth
+E63006498,Poughill
+E63006499,Westbourne
+E63006500,Morchard Bishop
+E63006501,Dunkeswell
+E63006502,Hamble-le-Rice
+E63006503,Hambrook (Chichester)
+E63006504,Stoneyford
+E63006505,Cullompton
+E63006506,Bryanston
+E63006507,Havant
+E63006508,Hythe and Dibden Purlieu
+E63006509,Locks Heath
+E63006510,Arundel
+E63006511,Blandford Forum
+E63006512,Tangmere
+E63006513,Chilsworthy (Torridge)
+E63006514,Westhampnett
+E63006515,Stratton (Cornwall)
+E63006516,Emsworth
+E63006517,Winsham
+E63006518,Chalbury Common
+E63006519,Hangersley
+E63006520,Brighton and Hove
+E63006521,Clapham (Arun)
+E63006522,Norton (Arun)
+E63006523,Cheriton Fitzpaine
+E63006524,Walberton
+E63006525,Bude
+E63006526,Hambrook and Nutbourne
+E63006527,Fareham
+E63006528,Southbourne
+E63006529,Rodmell
+E63006530,Ringwood
+E63006531,Gaunt's Common
+E63006532,Three Legged Cross
+E63006533,Corscombe
+E63006534,Sompting
+E63006535,Southwick (Adur)
+E63006536,Shopwyke
+E63006537,Mosterton
+E63006538,Shoreham-by-Sea
+E63006539,Tatworth
+E63006540,Barnham (Arun)
+E63006541,Chichester
+E63006542,Lancing and Sompting
+E63006543,Fishbourne (Chichester)
+E63006544,Hightown (New Forest)
+E63006545,Hook Park Estate
+E63006546,Polegate
+E63006547,Bosham
+E63006548,Hatherleigh
+E63006549,Worthing
+E63006550,Stone Cross
+E63006551,Winterborne Stickland
+E63006552,Westham
+E63006553,Batcombe (Dorset)
+E63006554,Chardstock
+E63006555,Charlton Marshall
+E63006556,Burley Street
+E63006557,Holsworthy
+E63006558,Pevensey Bay
+E63006559,Holbury
+E63006560,Zeal Monachorum
+E63006561,Marhamchurch
+E63006562,Bradninch
+E63006563,Holt (Dorset)
+E63006564,Wick (Arun)
+E63006565,Tytherleigh
+E63006566,Ashley Heath
+E63006567,North Hayling
+E63006568,Rustington
+E63006569,Peel Common
+E63006570,Lower Willingdon
+E63006571,Alfriston
+E63006572,Yapton
+E63006573,Membury
+E63006574,Portsmouth
+E63006575,Silverton
+E63006576,Burley
+E63006577,West Moors
+E63006578,Broom Hill
+E63006579,Copplestone
+E63006580,Spetisbury
+E63006581,Lee-on-the-Solent
+E63006582,Runcton
+E63006583,Broadwindsor
+E63006584,West Thorney
+E63006585,Ower (Fawley)
+E63006586,Littlehampton
+E63006587,Beaulieu
+E63006588,Sandford (Mid Devon)
+E63006589,Crumbles
+E63006590,North Mundham
+E63006591,Stoke
+E63006592,Widemouth Bay
+E63006593,Brockenhurst
+E63006594,East Saltdean
+E63006595,Thorverton
+E63006596,Furzehill
+E63006597,Hunston
+E63006598,Blackfield and Langley
+E63006599,Shripney
+E63006600,North Tawton
+E63006601,Telscombe Cliffs
+E63006602,Eastbourne
+E63006603,Peacehaven
+E63006604,Beaminster
+E63006605,Bow
+E63006606,Cerne Abbas
+E63006607,Newhaven
+E63006608,Matchams
+E63006609,West Itchenor
+E63006610,Stone (Dorset)
+E63006611,Wimborne Minster
+E63006612,Ferndown
+E63006613,Gosport
+E63006614,Winterborne Whitechurch
+E63006615,Honiton
+E63006616,Cheselbourne
+E63006617,East Boldre
+E63006618,Bognor Regis
+E63006619,Crediton
+E63006620,Piddletrenthide
+E63006621,Halwill Junction
+E63006622,Birdham
+E63006623,Thorney Hill
+E63006624,South Hayling
+E63006625,Offwell
+E63006626,Seaford
+E63006627,Sandy Down
+E63006628,Sydling St Nicholas
+E63006629,Shipton Green
+E63006630,Sturminster Marshall
+E63006631,Street End
+E63006632,Netherbury
+E63006633,Feniton
+E63006634,Northlew
+E63006635,Almodington
+E63006636,Sway
+E63006637,West Parley
+E63006638,Axminster
+E63006639,West Wittering
+E63006640,Longham
+E63006641,East Dean and Friston
+E63006642,Brampford Speke
+E63006643,Pilley
+E63006644,Kilmington
+E63006645,Stoke Canon
+E63006646,Bransgore
+E63006647,Newton St Cyres
+E63006648,Wootton (New Forest)
+E63006649,Merritown
+E63006650,Merley
+E63006651,Maiden Newton
+E63006652,Winterborne Kingston
+E63006653,Highleigh
+E63006654,Milborne St Andrew
+E63006655,Tiptoe
+E63006656,Week St Mary
+E63006657,Whimple
+E63006658,Pagham
+E63006659,Piddlehinton
+E63006660,Keynor Estate
+E63006661,Bashley
+E63006662,East Wittering
+E63006663,Broadclyst
+E63006664,Mount Pleasant
+E63006665,Sopley
+E63006666,Bearwood
+E63006667,Walhampton and Portmore
+E63006668,Raymond's Hill
+E63006669,Corfe Mullen
+E63006670,Beacon Hill
+E63006671,Lymington
+E63006672,Ashley (New Forest)
+E63006673,Ottery St Mary
+E63006674,Okehampton
+E63006675,Whitchurch Canonicorum
+E63006676,Lytchett Matravers
+E63006677,West Clyst
+E63006678,New Milton
+E63006679,East Cowes
+E63006680,Hordle
+E63006681,Cowes
+E63006682,Charlton Down
+E63006683,Bere Regis
+E63006684,Musbury
+E63006685,Allercombe
+E63006686,Tolpuddle
+E63006687,Bradpole
+E63006688,Puddletown
+E63006689,Morcombelake
+E63006690,Loders
+E63006691,Cranbrook (East Devon)
+E63006692,Everton (New Forest)
+E63006693,Tedburn St Mary
+E63006694,Clyst Honiton
+E63006695,Colyton
+E63006696,"Christchurch (Bournemouth, Christchurch and Poole)"
+E63006697,Barton on Sea
+E63006698,Cheriton Bishop
+E63006699,Bournemouth
+E63006700,Selsey
+E63006701,Charmouth
+E63006702,Pathfinder Village
+E63006703,Uplyme
+E63006704,Post Green
+E63006705,South Zeal
+E63006706,West Hill (East Devon)
+E63006707,Briantspuddle
+E63006708,Great Thorness
+E63006709,Upton (Dorset)
+E63006710,Chideock
+E63006711,Charminster
+E63006712,Bridport
+E63006713,Colyford
+E63006714,Milford on Sea
+E63006715,Fishbourne (Isle of Wight)
+E63006716,Lyme Regis
+E63006717,Wootton (Isle of Wight)
+E63006718,Exeter
+E63006719,Tipton St John
+E63006720,Poole
+E63006721,Ryde
+E63006722,Sidbury
+E63006723,Keyhaven
+E63006724,Pondwell
+E63006725,"Stinsford, Lower Bockhampton and Kingston Maurward"
+E63006726,Seaview and Nettlestone
+E63006727,Farringdon
+E63006728,Axmouth
+E63006729,Holton Heath
+E63006730,Clyst St Mary
+E63006731,Boscastle
+E63006732,Seaton (East Devon)
+E63006733,Litton Cheney
+E63006734,Ide
+E63006735,Havenstreet
+E63006736,Dorchester (Dorset)
+E63006737,Sandford (Dorset)
+E63006738,Bouldnor
+E63006739,Burton Bradstock
+E63006740,Yarmouth
+E63006741,Woodbury Salterton
+E63006742,Newton Poppleford
+E63006743,Norton (Isle of Wight)
+E63006744,Newport (Isle of Wight)
+E63006745,Beer
+E63006746,Shalfleet
+E63006747,St Helens (Isle of Wight)
+E63006748,Topsham
+E63006749,Winterborne St Martin
+E63006750,Sidmouth
+E63006751,Tintagel
+E63006752,Crossways
+E63006753,Wool
+E63006754,Ebford
+E63006755,Wareham
+E63006756,Bembridge
+E63006757,Exminster
+E63006758,Chagford
+E63006759,West Knighton
+E63006760,Woodbury
+E63006761,Brading
+E63006762,Freshwater and Totland
+E63006763,Hillway
+E63006764,Colaton Raleigh
+E63006765,Broadmayne
+E63006766,Ridge
+E63006767,Moretonhampstead
+E63006768,Exton (East Devon)
+E63006769,Kennford
+E63006770,Arreton
+E63006771,Stoborough
+E63006772,Portesham
+E63006773,Yaverland
+E63006774,Alverstone Garden Village
+E63006775,Otterton
+E63006776,Newchurch (Isle of Wight)
+E63006777,Abbotsbury
+E63006778,Trewassa
+E63006779,Owermoigne
+E63006780,Christow
+E63006781,Lifton
+E63006782,Merstone
+E63006783,Winfrith Newburgh
+E63006784,East Budleigh
+E63006785,Launceston
+E63006786,Hale Common
+E63006787,Lympstone
+E63006788,Winford (Isle of Wight)
+E63006789,Rookley
+E63006790,Delabole
+E63006791,Sandown
+E63006792,Withnoe
+E63006793,Camelford
+E63006794,Kenton
+E63006795,Brighstone
+E63006796,Osmington
+E63006797,Shorwell
+E63006798,Studland
+E63006799,Budleigh Salterton
+E63006800,Godshill (Isle of Wight)
+E63006801,Exmouth
+E63006802,Starcross
+E63006803,Corfe Castle
+E63006804,Weymouth
+E63006805,Burngate
+E63006806,Shanklin
+E63006807,Lustleigh
+E63006808,Port Isaac
+E63006809,West Lulworth
+E63006810,St Teath
+E63006811,Lewannick
+E63006812,Chickerell
+E63006813,Cockwood
+E63006814,Harman's Cross
+E63006815,Wroxall
+E63006816,Mary Tavy
+E63006817,Chale Green
+E63006818,Swanage
+E63006819,Chudleigh
+E63006820,Langton Matravers
+E63006821,Dawlish Warren
+E63006822,Polzeath and Trebetherick
+E63006823,Whitwell (Isle of Wight)
+E63006824,Bovey Tracey
+E63006825,Ventnor
+E63006826,Dawlish
+E63006827,Chudleigh Knighton
+E63006828,Worth Matravers
+E63006829,Haytor Vale
+E63006830,Lamerton
+E63006831,St Breward
+E63006832,St Tudy
+E63006833,Niton
+E63006834,Heathfield (Teignbridge)
+E63006835,Rock (Cornwall)
+E63006836,Trevone
+E63006837,Padstow
+E63006838,Holcombe (Teignbridge)
+E63006839,Coldeast
+E63006840,Venterdon
+E63006841,Constantine Bay
+E63006842,Teignmouth
+E63006843,Teigngrace
+E63006844,Tavistock
+E63006845,Fortuneswell
+E63006846,Princetown
+E63006847,Bishopsteignton
+E63006848,St Merryn
+E63006849,Kingsteignton
+E63006850,St Mabyn
+E63006851,Downgate
+E63006852,Wadebridge
+E63006853,Grove (Dorset)
+E63006854,Chilsworthy (Cornwall)
+E63006855,Egloshayle
+E63006856,Shaldon
+E63006857,Weston (Dorset)
+E63006858,Kelly Bray
+E63006859,St Ervan
+E63006860,Gunnislake and St Ann's Chapel
+E63006861,Newton Abbot
+E63006862,Stokeinteignhead
+E63006863,Harrowbarrow
+E63006864,Southwell (Dorset)
+E63006865,Ashburton
+E63006866,East Ogwell
+E63006867,Horrabridge
+E63006868,Callington
+E63006869,Pensilva
+E63006870,Clampits
+E63006871,Darite
+E63006872,Denbury
+E63006873,Abbotskerswell
+E63006874,Calstock
+E63006875,St Eval
+E63006876,Dousland
+E63006877,Buckland Monachorum
+E63006878,St Cleer
+E63006879,Tremar
+E63006880,Crapstone
+E63006881,Kingskerswell
+E63006882,St Dominick
+E63006883,St Neot
+E63006884,Yelverton
+E63006885,Buckfast
+E63006886,Mawgan Porth
+E63006887,Bere Alston
+E63006888,Ipplepen
+E63006889,Bodmin
+E63006890,Torquay
+E63006891,Broadhempston
+E63006892,Buckfastleigh
+E63006893,Dobwalls
+E63006894,Doublebois
+E63006895,Liskeard
+E63006896,Carloggas
+E63006897,Lanivet
+E63006898,Marldon
+E63006899,St Columb Major
+E63006900,Menheniot
+E63006901,Cargreen
+E63006902,Bickleigh
+E63006903,Dartington
+E63006904,Victoria
+E63006905,Newquay
+E63006906,Landrake
+E63006907,Totnes
+E63006908,Carkeel
+E63006909,Crantock
+E63006910,Roche
+E63006911,Quintrell Downs
+E63006912,Collaton St Mary
+E63006913,South Brent
+E63006914,White Cross
+E63006915,Lostwithiel
+E63006916,Paignton
+E63006917,Bugle
+E63006918,Saltash
+E63006919,"Indian Queens, Fraddon and St Columb Road"
+E63006920,Luxulyan
+E63006921,Cubert
+E63006922,St Dennis
+E63006923,Whitemoor
+E63006924,Stoke Gabriel
+E63006925,St Germans
+E63006926,Plymouth
+E63006927,Lerryn
+E63006928,Stenalees
+E63006929,Bittaford
+E63006930,Penwithick
+E63006931,St Newlyn East
+E63006932,Ivybridge
+E63006933,Summercourt
+E63006934,Lee Mill
+E63006935,Nanpean
+E63006936,Brixham
+E63006937,Torpoint
+E63006938,Pelynt
+E63006939,Tywardreath Highway
+E63006940,Dittisham
+E63006941,Tregrehan Mills
+E63006942,Foxhole
+E63006943,Trethosa
+E63006944,Downderry
+E63006945,Perranporth
+E63006946,Tywardreath
+E63006947,Sherford
+E63006948,St Blazey
+E63006949,Goonhavern
+E63006950,Looe
+E63006951,St Stephen
+E63006952,Bolingey
+E63006953,Polkerris
+E63006954,Lanjeth
+E63006955,Ermington
+E63006956,St Austell
+E63006957,Par
+E63006958,Trewoon
+E63006959,Millbrook
+E63006960,Trevellas
+E63006961,Brixton
+E63006962,Carlyon Bay
+E63006963,Blackawton
+E63006964,Modbury
+E63006965,Fowey
+E63006966,Yealmpton
+E63006967,Carey Park
+E63006968,Polperro
+E63006969,Kingswear
+E63006970,Dartmouth
+E63006971,Duporth
+E63006972,Polruan
+E63006973,Polgooth
+E63006974,Grampound Road
+E63006975,Cawsand and Kingsand
+E63006976,St Agnes
+E63006977,St Erme and Trispen
+E63006978,Sticker
+E63006979,Wembury
+E63006980,Heybrook Bay
+E63006981,Stoke Fleming
+E63006982,Loddiswell
+E63006983,Newton Ferrers
+E63006984,Grampound
+E63006985,Porthtowan
+E63006986,Probus
+E63006987,Shortlanesend
+E63006988,Aveton Gifford
+E63006989,Noss Mayo
+E63006990,Mount Hawke
+E63006991,Strete
+E63006992,Tresillian
+E63006993,Blackwater (Cornwall)
+E63006994,Cambrose
+E63006995,Portreath
+E63006996,Slapton (South Hams)
+E63006997,Tregony
+E63006998,Truro
+E63006999,Mevagissey
+E63007000,Threemilestone
+E63007001,Wheal Rose
+E63007002,Bigbury-on-Sea
+E63007003,Chacewater
+E63007004,Kingsbridge
+E63007005,Stokenham
+E63007006,Thurlestone
+E63007007,South Milton
+E63007008,Chillington
+E63007009,Pool and Illogan
+E63007010,Illogan
+E63007011,West Charleton
+E63007012,St Day
+E63007013,Tolvaddon
+E63007014,Bissoe
+E63007015,Redruth
+E63007016,Gorran Haven
+E63007017,Carharrack
+E63007018,Playing Place
+E63007019,Penelewey
+E63007020,Frogpool
+E63007021,St Ives (Cornwall)
+E63007022,Camborne
+E63007023,Carnon Downs and Devoran
+E63007024,Lanner
+E63007025,Perranwell Station
+E63007026,Inner Hope
+E63007027,Malborough
+E63007028,Connor Downs
+E63007029,Perranarworthal
+E63007030,Salcombe
+E63007031,Penpol
+E63007032,Four Lanes
+E63007033,Feock
+E63007034,Barripper and Penponds
+E63007035,Carbis Bay
+E63007036,The Towans
+E63007037,Troon (Cornwall)
+E63007038,Hayle
+E63007039,Ponsanooth
+E63007040,Harcourt
+E63007041,Lelant
+E63007042,Stithians
+E63007043,Reawla
+E63007044,Mylor Bridge
+E63007045,Rose-an-Grouse
+E63007046,Praze-an-Beeble
+E63007047,Canon's Town
+E63007048,Portscatho
+E63007049,St Erth
+E63007050,Leedstown
+E63007051,Penryn
+E63007052,Pendeen
+E63007053,Mabe Burnthouse
+E63007054,Flushing
+E63007055,Crowlas
+E63007056,St Mawes
+E63007057,Falmouth
+E63007058,Budock Water
+E63007059,Madron
+E63007060,Longrock
+E63007061,Godolphin Cross
+E63007062,St Just
+E63007063,Marazion
+E63007064,Goldsithney
+E63007065,Penzance
+E63007066,Perran Downs
+E63007067,Rosudgeon
+E63007068,Constantine
+E63007069,Kelynack
+E63007070,Praa Sands
+E63007071,Ashton (Cornwall)
+E63007072,Newlyn
+E63007073,Mawnan Smith
+E63007074,Breage
+E63007075,Porth Navas
+E63007076,Helford Passage
+E63007077,Helston
+E63007078,Gweek
+E63007079,Mousehole
+E63007080,Porthleven
+E63007081,St Buryan
+E63007082,Rose-in-the-bush
+E63007083,Mawgan
+E63007084,St Keverne
+E63007085,Mullion
+E63007086,Coverack
+E63007087,Mullion Cove
+E63007088,Ruan Minor
+E63007089,Lizard
+E63007090,Hugh Town
+E63007091,Old Town
+K08000001,Chester
+K08000002,Holt (Wrexham)
+K08000003,Threapwood
+K08000004,Tallarn Green
+K08000005,Llanymynech
+K08000006,Churchstoke
+K08000007,Knighton
+K08000008,Presteigne
+K08000009,Hay-on-Wye
+K08000010,Lower Redbrook
+W45000001,Bull Bay
+W45000002,Tregele
+W45000003,Cemaes
+W45000004,Amlwch
+W45000005,Llanfechell
+W45000006,Penysarn
+W45000007,Rhos-y-bol
+W45000008,Moelfre
+W45000009,Talacre
+W45000010,Llanerchymedd
+W45000011,Gwespyr
+W45000012,Gronant
+W45000013,Benllech
+W45000014,Brynteg (Isle of Anglesey)
+W45000015,Prestatyn
+W45000016,Holyhead
+W45000017,Ffynnongroyw
+W45000018,Penrhyn-side
+W45000019,Pen-y-ffordd
+W45000020,Llandudno
+W45000021,Penrhyn Bay
+W45000022,Rhyl
+W45000023,Meliden
+W45000024,Bodedern
+W45000025,Trelogan
+W45000026,Mostyn
+W45000027,Llanddona
+W45000028,Llangoed
+W45000029,Kinmel Bay
+W45000030,Valley
+W45000031,Colwyn Bay
+W45000032,Trearddur
+W45000033,Bryn Pydew
+W45000034,Dyserth
+W45000035,Conwy
+W45000036,Pensarn
+W45000037,Pentraeth
+W45000038,Caergeiliog
+W45000039,Llanddulas
+W45000040,Rhuddlan
+W45000041,Greenfield (Flintshire)
+W45000042,Bryngwran
+W45000043,Abergele
+W45000044,Bagillt
+W45000045,Mynydd Marian
+W45000046,Dwygyfylchi
+W45000047,Gorsedd
+W45000048,Gwalchmai
+W45000049,Llansanffraid Glan Conwy
+W45000050,Penmaenmawr
+W45000051,Mona
+W45000052,Holywell (Flintshire)
+W45000053,Beaumaris
+W45000054,Llangefni
+W45000055,Bodelwyddan
+W45000056,Llanfairyneubwll
+W45000057,Rhoscolyn
+W45000058,Henryd
+W45000059,Rhostrehwfa
+W45000060,Llanfairfechan
+W45000061,St Asaph
+W45000062,Llandegfan
+W45000063,Betws-yn-Rhos
+W45000064,Llangristiolus
+W45000065,Rhosneigr
+W45000066,Bryn Du
+W45000067,Caerwys
+W45000068,Flint
+W45000069,Pentre Berw
+W45000070,Pentre Halkyn
+W45000071,Menai Bridge
+W45000072,Llanfair Pwllgwyngyll
+W45000073,Gaerwen
+W45000074,Nant-y-Patrick
+W45000075,Bangor
+W45000076,Lixwm
+W45000077,Llandygai
+W45000078,Trefnant
+W45000079,Llanddaniel Fab
+W45000080,Flint Mountain
+W45000081,Connah's Quay
+W45000082,Garden City
+W45000083,Malltraeth
+W45000084,Northop
+W45000085,Rhosesmor
+W45000086,Shotton
+W45000087,Henllan
+W45000088,Rachub
+W45000089,Tregarth
+W45000090,Y Felinheli
+W45000091,Northop Hall
+W45000092,Llangernyw
+W45000093,Dolgarrog
+W45000094,Aston (Flintshire)
+W45000095,Hawarden
+W45000096,Brynsiencyn
+W45000097,Rhydymwyn
+W45000098,Denbigh
+W45000099,Bethesda
+W45000100,Soughton
+W45000101,Newborough (Isle of Anglesey)
+W45000102,Dwyran
+W45000103,Llansannan
+W45000104,Bethel
+W45000105,New Brighton
+W45000106,Cilcain
+W45000107,Pantymwyn
+W45000108,Broughton (Flintshire)
+W45000109,Gwernaffield-y-Waun
+W45000110,Buckley
+W45000111,Mynydd Isa
+W45000112,Penisa'r Waun
+W45000113,Mold
+W45000114,Llanrug
+W45000115,Trefriw
+W45000116,Clwt-y-bont
+W45000117,Caernarfon
+W45000118,Gwernymynydd
+W45000119,Padeswood
+W45000120,Llanrwst
+W45000121,Caeathro
+W45000122,Higher Kinnerton
+W45000123,Penyffordd
+W45000124,Bontnewydd
+W45000125,Leeswood
+W45000126,Llanberis
+W45000127,Waunfawr
+W45000128,Dinas Dinlle
+W45000129,Ruthin
+W45000130,Treuddyn
+W45000131,Rossett
+W45000132,Rhostryfan
+W45000133,Hope (Flintshire)
+W45000134,Betws-y-Coed
+W45000135,Llay
+W45000136,Groeslon
+W45000137,Llandwrog
+W45000138,Gresford
+W45000139,Carmel
+W45000140,Bradley (Wrexham)
+W45000141,Brynteg (Wrexham)
+W45000142,Bwlchgwyn
+W45000143,Penygroes
+W45000144,Gwersyllt
+W45000145,Talysarn
+W45000146,Gwynfryn
+W45000147,Tanyfron
+W45000148,Llanllyfni
+W45000149,Minera
+W45000150,Coedpoeth
+W45000151,Wrexham
+W45000152,Pentre Maelor
+W45000153,Rhostyllen
+W45000154,Marchwiel
+W45000155,Tal-y-waenydd
+W45000156,Trefor
+W45000157,Rhosllannerchrugog
+W45000158,Blaenau Ffestiniog
+W45000159,Bangor-on-Dee
+W45000160,Clawdd Poncen
+W45000161,Ruabon
+W45000162,Corwen
+W45000163,Acrefair and Cefn-mawr
+W45000164,Trevor
+W45000165,Llan Ffestiniog
+W45000166,Llangollen
+W45000167,Overton (Wrexham)
+W45000168,Froncysyllte
+W45000169,Cynwyd
+W45000170,Nefyn
+W45000171,Morfa Nefyn
+W45000172,Tremadog
+W45000173,Penley
+W45000174,Penrhyndeudraeth
+W45000175,Porthmadog
+W45000176,Chirk
+W45000177,Criccieth
+W45000178,Gellilydan
+W45000179,Glyn Ceiriog
+W45000180,Morfa Bychan
+W45000181,Hafan y Mor
+W45000182,Y Bala
+W45000183,Trawsfynydd
+W45000184,Pwllheli
+W45000185,Llanbedrog
+W45000186,Harlech
+W45000187,Abersoch
+W45000188,Llanbedr
+W45000189,Llanrhaeadr-ym-Mochnant
+W45000190,Dyffryn Ardudwy
+W45000191,Tal-y-bont (Gwynedd)
+W45000192,Llansantffraid-ym-Mechain
+W45000193,Llanfechain
+W45000194,Llanfyllin
+W45000195,Four Crosses (Powys)
+W45000196,Dolgellau
+W45000197,Barmouth
+W45000198,Arddleen
+W45000199,Meifod
+W45000200,Fairbourne
+W45000201,Friog
+W45000202,Guilsfield
+W45000203,Llwyngwril
+W45000204,Gungrog
+W45000205,Welshpool
+W45000206,Llanfair Caereinion
+W45000207,Pantperthog
+W45000208,Bryncrug
+W45000209,Forden
+W45000210,Machynlleth
+W45000211,Berriew
+W45000212,Tywyn
+W45000213,Tregynon
+W45000214,Montgomery
+W45000215,Aberdovey
+W45000216,Abermule
+W45000217,Caersws
+W45000218,Newtown (Powys)
+W45000219,Kerry
+W45000220,Tal-y-bont (Ceredigion)
+W45000221,Borth
+W45000222,Llandinam
+W45000223,Llandre
+W45000224,Bow Street
+W45000225,Llanidloes
+W45000226,Penrhyn-coch
+W45000227,Llangorwen
+W45000228,Aberystwyth
+W45000229,Llanbadarn Fawr
+W45000230,Capel Bangor
+W45000231,Llanilar
+W45000232,Llanrhystud
+W45000233,Rhayader
+W45000234,Norton (Powys)
+W45000235,Llanon
+W45000236,Pontrhydfendigaid
+W45000237,Crossgates (Powys)
+W45000238,Llanyre
+W45000239,Aberaeron
+W45000240,Llandrindod Wells
+W45000241,Henfynyw
+W45000242,Tregaron
+W45000243,New Quay
+W45000244,Newbridge-on-Wye
+W45000245,Llanarth (Ceredigion)
+W45000246,Cross Inn
+W45000247,Ystrad Aeron
+W45000248,Llanelwedd
+W45000249,Parcllyn
+W45000250,Cribyn
+W45000251,Aberporth
+W45000252,Tresaith
+W45000253,Builth Wells
+W45000254,Blaenannerch
+W45000255,Lampeter
+W45000256,Penparc
+W45000257,Cwmann
+W45000258,Llanwrtyd Wells
+W45000259,Cardigan
+W45000260,St Dogmaels
+W45000261,Dre-fach
+W45000262,Llangoedmor
+W45000263,Llechryd
+W45000264,Llanybydder
+W45000265,Clyro
+W45000266,Cilgerran
+W45000267,Cenarth
+W45000268,Penrhiw-llan
+W45000269,Llandysul
+W45000270,Newcastle Emlyn
+W45000271,Abercych
+W45000272,Llanigon
+W45000273,Newport (Pembrokeshire)
+W45000274,Dinas Cross
+W45000275,Waungilwen
+W45000276,Pentre-cwrt
+W45000277,Boncath
+W45000278,Goodwick
+W45000279,Saron (Llangeler)
+W45000280,Three Cocks
+W45000281,Fishguard
+W45000282,Pencader
+W45000283,Bronllys
+W45000284,Llandovery
+W45000285,Talgarth
+W45000286,Crymych
+W45000287,Letterston
+W45000288,Brecon
+W45000289,Sennybridge
+W45000290,Llangors
+W45000291,Maenclochog
+W45000292,Whitchurch (Pembrokeshire)
+W45000293,St Davids
+W45000294,Brawdy
+W45000295,Solva
+W45000296,Peniel
+W45000297,Bronwydd
+W45000298,Rhosmaen
+W45000299,Spittal (Pembrokeshire)
+W45000300,Llandeilo
+W45000301,Bwlch
+W45000302,Ffairfach
+W45000303,Roch
+W45000304,Abergwili
+W45000305,Llandissilio
+W45000306,Nantgaredig
+W45000307,Meidrim
+W45000308,Carmarthen
+W45000309,Llangynidr
+W45000310,Simpson Cross
+W45000311,Keeston
+W45000312,Clunderwen
+W45000313,Crickhowell
+W45000314,Crundale
+W45000315,Llangattock
+W45000316,Whitland
+W45000317,Pwll-trap
+W45000318,Haverfordwest
+W45000319,St Clears
+W45000320,Gilwern
+W45000321,Narberth
+W45000322,Llandybie
+W45000323,Foelgastell
+W45000324,Abergavenny
+W45000325,Brynamman
+W45000326,Merlin's Bridge
+W45000327,Broad Haven
+W45000328,Govilon
+W45000329,Blaenau and Cae'r-bryn
+W45000330,Garnant
+W45000331,Glanaman
+W45000332,Cross Hands
+W45000333,Cross Hands and Pen-y-groes
+W45000334,Llanfoist
+W45000335,Clydach (Monmouthshire)
+W45000336,Monmouth
+W45000337,Abercrave
+W45000338,Cwmllynfell and Ystradowen
+W45000339,Tavernspite
+W45000340,Saron (Llandybie)
+W45000341,Ammanford
+W45000342,Waunllapria
+W45000343,Tumble
+W45000344,Bancffosfelen
+W45000345,Penybanc
+W45000346,Gwaun-Cae-Gurwen
+W45000347,Brynmawr
+W45000348,Coelbren
+W45000349,Templeton
+W45000350,Hook (Pembrokeshire)
+W45000351,Capel Hendre
+W45000352,Ebbw Vale
+W45000353,Ystradgynlais
+W45000354,Pontyberem
+W45000355,Cwm-twrch Uchaf
+W45000356,Laugharne
+W45000357,Llansteffan
+W45000358,Ludchurch
+W45000359,Tycroes
+W45000360,Nantyglo
+W45000361,Johnston
+W45000362,Onllwyn
+W45000363,Ferryside
+W45000364,Llanarth (Monmouthshire)
+W45000365,Dyffryn Cellwen
+W45000366,Tredegar
+W45000367,Cwmgwili
+W45000368,Pont Henri
+W45000369,Llangwm
+W45000370,Ystalyfera
+W45000371,Blaenavon
+W45000372,Robeston West
+W45000373,Seven Sisters
+W45000374,Broom (Pembrokeshire)
+W45000375,Pontyates
+W45000376,Rosemarket
+W45000377,Llannon (Carmarthenshire)
+W45000378,Blaina
+W45000379,Hill Mountain
+W45000380,Pendine
+W45000381,Mynyddygarreg
+W45000382,Rhymney
+W45000383,Pontneddfechan
+W45000384,Raglan
+W45000385,St Ishmael's
+W45000386,Kilgetty
+W45000387,Begelly
+W45000388,Merthyr Tydfil
+W45000389,Dale
+W45000390,Kidwelly
+W45000391,Pleasant Valley
+W45000392,The Narth
+W45000393,Twyn Bryn-hîr
+W45000394,Carway
+W45000395,Glyn-neath
+W45000396,Pontlottyn
+W45000397,Broadmoor
+W45000398,Wooden
+W45000399,Abertysswg
+W45000400,Cwm
+W45000401,Neyland
+W45000402,Five Roads
+W45000403,Fochriw
+W45000404,Milford Haven
+W45000405,Cwmgwrach
+W45000406,Creunant
+W45000407,Whitehill (Pembrokeshire)
+W45000408,Waterston
+W45000409,Abertillery
+W45000410,Penperlleni
+W45000411,Saundersfoot
+W45000412,Pontardawe
+W45000413,Trimsaran
+W45000414,Abersychan
+W45000415,Llandogo
+W45000416,Hendy and Fforest
+W45000417,Pontarddulais
+W45000418,Cosheston
+W45000419,Rhos
+W45000420,New Tredegar
+W45000421,Alltwen
+W45000422,Llanishen
+W45000423,Pembroke Dock
+W45000424,Sageston
+W45000425,Catbrook
+W45000426,New Hedges and Twy Cross
+W45000427,Craig-cefn-parc
+W45000428,Resolven
+W45000429,Mamhilad
+W45000430,Troedyrhiw and Pentrebach
+W45000431,Aberdare
+W45000432,Llangennech
+W45000433,Deri
+W45000434,Clydach (Swansea)
+W45000435,Pembroke
+W45000436,Markham
+W45000437,Pembrey
+W45000438,Bedlinog
+W45000439,St Florence
+W45000440,Pwll
+W45000441,Llanhilleth
+W45000442,Usk
+W45000443,Burry Port
+W45000444,Tenby
+W45000445,Grovesend
+W45000446,Tintern
+W45000447,Hundleton
+W45000448,Llanelli
+W45000449,Glais
+W45000450,Bryn (Carmarthenshire)
+W45000451,Trinant
+W45000452,Pontlliw
+W45000453,Lamphey
+W45000454,Aberfan
+W45000455,Aberbargoed
+W45000456,Tircoed
+W45000457,Argoed
+W45000458,Cilfrew
+W45000459,Penally
+W45000460,Pontypool
+W45000461,Bargod
+W45000462,Mountain Ash
+W45000463,Treherbert
+W45000464,Glyncorrwg
+W45000465,Jameston
+W45000466,Tonna
+W45000467,Swffryd
+W45000468,Penllergaer
+W45000469,Oakdale
+W45000470,Gorseinon
+W45000471,Maerdy
+W45000472,Freshwater East
+W45000473,Loughor
+W45000474,Manorbier
+W45000475,Newbridge
+W45000476,Neath
+W45000477,Trelewis
+W45000478,Pen-pedair-heol
+W45000479,Ferndale
+W45000480,Blackwood
+W45000481,Tir-y-berth and Glan-y-nant
+W45000482,Gelligaer
+W45000483,St Arvans
+W45000484,Treharris
+W45000485,Llangibby
+W45000486,Fleur-de-lis and Pengam
+W45000487,Treorchy
+W45000488,Abergwynfi
+W45000489,Cymmer
+W45000490,Gowerton
+W45000491,Swansea
+W45000492,Pontllanfraith
+W45000493,Pen-clawdd
+W45000494,Croeserw
+W45000495,Pontrhydyfen
+W45000496,Nelson (Caerphilly)
+W45000497,Llandarcy
+W45000498,Abercynon
+W45000499,Tylorstown and Pontygwaith
+W45000500,Crofty
+W45000501,Ystrad Mynach
+W45000502,Cwmbrân
+W45000503,Abercarn
+W45000504,Rhondda
+W45000505,Maesycwmmer
+W45000506,Wernffrwd
+W45000507,Three Crosses
+W45000508,Baglan
+W45000509,Wattstown
+W45000510,Ynysybwl
+W45000511,Dunvant
+W45000512,Shirenewton
+W45000513,Chepstow
+W45000514,Ponthir
+W45000515,Blaengarw
+W45000516,Nant-y-moel
+W45000517,Ynysddu
+W45000518,Tonypandy
+W45000519,Upper Killay
+W45000520,Cwmavon
+W45000521,Bryn (Neath Port Talbot)
+W45000522,Parc-Seymour
+W45000523,Risca
+W45000524,Cwmfelinfach
+W45000525,Llanbradach
+W45000526,Pontycymer
+W45000527,Maesteg
+W45000528,Porth
+W45000529,Canisland
+W45000530,Caerleon
+W45000531,Caer-went
+W45000532,Langstone
+W45000533,Llandevaud
+W45000534,Pontypridd
+W45000535,Ogmore Vale
+W45000536,Reynoldston
+W45000537,Port Talbot
+W45000538,Abertridwr and Senghenydd
+W45000539,Gilfach Goch
+W45000540,Machen
+W45000541,Underwood
+W45000542,Pont Rhyd-y-cyff
+W45000543,Trethomas
+W45000544,Rogerstone
+W45000545,Bishopston
+W45000546,Bedwas
+W45000547,Caldicot
+W45000548,Portskewett
+W45000549,Hendreforgan
+W45000550,Llanwern
+W45000551,Southgate
+W45000552,Rhossili
+W45000553,Rogiet
+W45000554,Pant-yr-Awel and Lewistown
+W45000555,Tonyrefail
+W45000556,Llangeinor
+W45000557,Newport (Newport)
+W45000558,Sudbrook
+W45000559,Llandevenny
+W45000560,Caerphilly
+W45000561,Undy and Magor
+W45000562,Bettws
+W45000563,Blackmill
+W45000564,Nantgarw
+W45000565,Church Village
+W45000566,Port-Eynon
+W45000567,Beddau
+W45000568,Coedhirwaun
+W45000569,Efail Isaf
+W45000570,Heol-y-Cyw
+W45000571,Sarn
+W45000572,Llantrisant
+W45000573,Taff's Well
+W45000574,Eglwys Nunydd
+W45000575,Castleton (Newport)
+W45000576,Talbot Green
+W45000577,Llanharan and Brynna
+W45000578,Pen-y-cae
+W45000579,Cefn Cribwr
+W45000580,Pyle
+W45000581,Marshfield (Newport)
+W45000582,Tongwynlais
+W45000583,Pen-y-fai
+W45000584,Pentyrch
+W45000585,Mwyndy
+W45000586,Pontyclun
+W45000587,Pencoed
+W45000588,Creigiau
+W45000589,Groes-faen
+W45000590,Brynsadler
+W45000591,Llanharry
+W45000592,Bridgend
+W45000593,South Cornelly
+W45000594,Trelales
+W45000595,Broadstreet Common
+W45000596,Cardiff
+W45000597,Ystradowen
+W45000598,Porthcawl
+W45000599,Merthyr Mawr
+W45000600,St Fagans
+W45000601,Corntown
+W45000602,Colwinston
+W45000603,Ogmore-by-Sea
+W45000604,St Brides Major
+W45000605,Cowbridge
+W45000606,St Nicholas
+W45000607,Bonvilston
+W45000608,Wenvoe
+W45000609,Penarth
+W45000610,Wick (Vale of Glamorgan)
+W45000611,Sigingstone
+W45000612,Dinas Powis
+W45000613,Llanmaes
+W45000614,Llantwit Major
+W45000615,Eglwys-Brewis
+W45000616,Boverton
+W45000617,Barry (Vale of Glamorgan)
+W45000618,St Donat's
+W45000619,St Athan
+W45000620,East Aberthaw
+W45000621,Rhoose
+W45000622,West Aberthaw
