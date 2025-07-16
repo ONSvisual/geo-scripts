@@ -43,6 +43,12 @@ function getChildren(lookup, lookup_data, code) {
     .sort((a, b) => a.areacd.localeCompare(b.areacd));
 }
 
+function getSuperseded(lookup_data, code) {
+  let superseded = lookup_data.filter(d => d.successorcd === code);
+  return superseded.map(sup => propsToNames(sup))
+    .sort((a, b) => a.areacd.localeCompare(b.areacd));
+}
+
 function makeGeo(geo, year, lookup_data, lookup, census_lookup) {
   return new Promise((resolve) => {
     const yr = String(year).slice(-2);
@@ -76,8 +82,13 @@ function makeGeo(geo, year, lookup_data, lookup, census_lookup) {
         props.typenm = types[props.typecd] || geo.label;
 
         // Add successor for terminated geographies
-        if (lkp.successor) {
-          props.successor = propsToNames(lookup[lkp.successor]);
+        if (lkp.successorcd) {
+          props.successor = propsToNames(lookup[lkp.successorcd]);
+        }
+
+        // Add superseded geographies for new geographies
+        if (lkp.start) {
+          props.replaces = getSuperseded(lookup_data, areacd);
         }
 
         // Add parents and children
@@ -88,8 +99,10 @@ function makeGeo(geo, year, lookup_data, lookup, census_lookup) {
         props.parents = getParents(lookup, areacd);
 
         // Add census best-fit lookups
-        for (const key of ["oa", "lsoa", "msoa"]) {
-          if (census_lookup?.[key]?.[areacd]?.[0]) props[`${key}21cds`] = census_lookup[key][areacd];
+        const keys = ["oa", "lsoa", "msoa"];
+        for (const key of keys) {
+          if (keys.includes(geo.key) && keys.indexOf(geo.key) >= keys.indexOf(key)) props[`${key}21cds`] = [areacd];
+          else if (census_lookup?.[key]?.[areacd]?.[0]) props[`${key}21cds`] = census_lookup[key][areacd];
         }
 
         feature.properties = props;
