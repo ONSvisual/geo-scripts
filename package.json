@@ -18,7 +18,8 @@
     "make-oa-vtiles": "node ./scripts/make-oa-vtiles.js",
     "make-postcodes": "node ./scripts/make-postcodes.js",
     "make-search-tiles": "node ./scripts/make-search-tiles.js",
-    "zip-vtiles": "node ./scripts/zip-vtiles.js"
+    "zip-vtiles": "node ./scripts/zip-vtiles.js",
+    "check-centroids": "node ./scripts/check-centroids.js"
   },
   "author": "Ahmad Barclay",
   "license": "MIT",
@@ -27,8 +28,7 @@
     "d3-dsv": "^3.0.1",
     "line-by-line": "^0.1.6",
     "mapshaper": "^0.6.29",
-    "polylabel": "^1.1.0",
-    "xlsx": "^0.18.5"
+    "polylabel": "^2.0.1"
   },
   "type": "module"
 }
