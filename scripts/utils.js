@@ -1,10 +1,11 @@
 import https from "https";
 import fs from "fs";
 import zlib from "zlib";
-import { area } from "@turf/turf";
+import { area, booleanPointInPolygon } from "@turf/turf";
 import polylabel from "polylabel";
 import { exec } from "child_process";
 import * as d3 from "d3-dsv";
+import geo_config from "../config/geo-config.js";
 
 export function csvParse(str, row = d3.autoType) {
   return d3.csvParse(str.replace(/\uFEFF/, ''), row);
@@ -88,10 +89,34 @@ export function roundAll(arr, decimals = 6) {
   return newarr;
 }
 
+const codePrecision = (() => {
+  const getPrecision = (detail) => detail?.startsWith("bf") ? 6 : detail === "buc" ? 4 : 5;
+  const lookup = {};
+  for (const geo of geo_config) {
+    for (const code of geo.codes) lookup[code] = Math.pow(10, -getPrecision(geo.detail));
+  }
+  return lookup;
+})();
+
+function getPolyPrecision(code) {
+  return codePrecision[code.slice(0, 3)];
+}
+
+function checkPolylabel(centroid, polygon) {
+  if (!booleanPointInPolygon(
+    {type: "Point", coordinates: centroid},
+    {type: "Polygon", coordinates: polygon},
+  )) throw new Error("Generated centroid is not in polygon!");
+}
+
 export function findPolylabel(feature) {
+  const precision = getPolyPrecision(feature.properties.areacd) || 0.00001;
+
   let output = [];
   if (feature.geometry.type === "Polygon"){
-    output = polylabel(feature.geometry.coordinates);
+    const coords = feature.geometry.coordinates;
+    output = polylabel(coords, precision);
+    checkPolylabel(output, coords);
   }
   else {
     let maxArea = 0, maxPolygon = [];
@@ -103,7 +128,8 @@ export function findPolylabel(feature) {
         maxArea = _area;
       }
     }
-    output = polylabel(maxPolygon);
+    output = polylabel(maxPolygon, precision);
+    checkPolylabel(output, maxPolygon);
   }
   return output;
 }

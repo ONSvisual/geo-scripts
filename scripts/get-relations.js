@@ -31,10 +31,10 @@ function isParent(parent, child) {
 function isMatchingYear(parent, child) {
   return (!parent.start && !parent.end) ||
     (!child.end && !parent.end) ||
-    (
-      (child.end && parent.start && child.end >= parent.start) &&
-      (!parent.end || parent.end >= child.end)
-    );
+    (child.end && (
+      (!parent.end || parent.end >= child.end) &&
+      (!parent.start || parent.start <= child.end)
+    ));
 }
 
 function isNextYear(newer, older) {
