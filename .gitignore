@@ -17,3 +17,4 @@ node_modules/
 !/output/lists
 /config/ss/
 /scripts/ss/
+.DS_Store
